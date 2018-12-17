@@ -1,0 +1,6 @@
+Dec  5 02:41:35 COSC419-19 sshd[12282]: Accepted password for shane from 192.31.180.135 port 30871 ssh2
+Dec  5 02:41:35 COSC419-19 sshd[12282]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec  5 02:41:36 COSC419-19 sshd[12290]: Accepted password for shane from 192.31.180.135 port 44910 ssh2
+Dec  5 02:41:36 COSC419-19 sshd[12290]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec  5 02:53:28 COSC419-19 sshd[12282]: pam_unix(sshd:session): session closed for user shane
+Dec  5 02:53:29 COSC419-19 sshd[12290]: pam_unix(sshd:session): session closed for user shane

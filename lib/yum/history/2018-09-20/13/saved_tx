@@ -1,0 +1,84 @@
+386:6515283a1cb6537f96857bb88d54fcf1fc3f7e86
+0
+1
+installed:395:7c68f8047d5afaf37cf6c9d932c2ccba0664b2d1
+9
+mbr: libstdc++-devel,x86_64,0,4.8.5,28.el7_5.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: gcc,x86_64,0,4.8.5,28.el7_5.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: mpfr,x86_64,0,3.1.1,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a:dependson gcc,x86_64,0,4.8.5,28.el7_5.1@a:dependson libmpc,x86_64,0,1.0.1,3.el7@a:dependson cpp,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a gcc,x86_64,0,4.8.5,28.el7_5.1@a libmpc,x86_64,0,1.0.1,3.el7@a cpp,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: glibc-devel,x86_64,0,2.17,222.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: cpp,x86_64,0,4.8.5,28.el7_5.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: glibc-headers,x86_64,0,2.17,222.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc-devel,x86_64,0,2.17,222.el7@a:dependson
+  depends_on: glibc-devel,x86_64,0,2.17,222.el7@a
+mbr: libmpc,x86_64,0,1.0.1,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a:dependson gcc,x86_64,0,4.8.5,28.el7_5.1@a:dependson cpp,x86_64,0,4.8.5,28.el7_5.1@a:dependson
+  depends_on: gcc-c++,x86_64,0,4.8.5,28.el7_5.1@a gcc,x86_64,0,4.8.5,28.el7_5.1@a cpp,x86_64,0,4.8.5,28.el7_5.1@a
+mbr: kernel-headers,x86_64,0,3.10.0,862.14.4.el7 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc-headers,x86_64,0,2.17,222.el7@a:dependson
+  depends_on: glibc-headers,x86_64,0,2.17,222.el7@a
+mbr: gcc-c++,x86_64,0,4.8.5,28.el7_5.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

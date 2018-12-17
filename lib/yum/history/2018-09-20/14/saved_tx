@@ -1,0 +1,42 @@
+395:7c68f8047d5afaf37cf6c9d932c2ccba0664b2d1
+0
+1
+installed:395:5bda1cf806fab54e64be62bcee7b80b279209eaa
+4
+mbr: passenger,x86_64,0,5.3.7,1.el7 70
+  repo: passenger
+  ts_state: u
+  output_state: 10
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: passenger,x86_64,0,5.3.5,1.el7@i:updates mod_passenger,x86_64,0,5.3.7,1.el7@a:dependson
+  depends_on: mod_passenger,x86_64,0,5.3.7,1.el7@a
+  updates: passenger,x86_64,0,5.3.5,1.el7@i
+mbr: mod_passenger,x86_64,0,5.3.7,1.el7 70
+  repo: passenger
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: mod_passenger,x86_64,0,5.3.5,1.el7@i:updates
+  updates: mod_passenger,x86_64,0,5.3.5,1.el7@i
+mbr: passenger,x86_64,0,5.3.5,1.el7 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: dep
+  reinstall: False
+  relatedto: passenger,x86_64,0,5.3.7,1.el7@a:updatedby
+  updated_by: passenger,x86_64,0,5.3.7,1.el7@a
+mbr: mod_passenger,x86_64,0,5.3.5,1.el7 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: mod_passenger,x86_64,0,5.3.7,1.el7@a:updatedby
+  updated_by: mod_passenger,x86_64,0,5.3.7,1.el7@a

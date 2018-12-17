@@ -1,0 +1,10 @@
+http://mirror.netaddicted.ca/CentOS/7.5.1804/extras/x86_64/
+http://mirror.layeronline.com/centos/7.5.1804/extras/x86_64/
+http://centos.mirror.rafal.ca/7.5.1804/extras/x86_64/
+http://mirror.netflash.net/centos/7.5.1804/extras/x86_64/
+http://mirror.csclub.uwaterloo.ca/centos/7.5.1804/extras/x86_64/
+http://mirror.esecuredata.com/centos/7.5.1804/extras/x86_64/
+http://centos.mirror.vexxhost.com/7.5.1804/extras/x86_64/
+http://rep-centos-ca.upress.io/7.5.1804/extras/x86_64/
+http://centos.mirror.colo-serv.net/7.5.1804/extras/x86_64/
+http://muug.ca/mirror/centos/7.5.1804/extras/x86_64/

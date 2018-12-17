@@ -1,0 +1,9 @@
+{% extends "template.html" %}
+{% block title %}STC - Page1{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}">
+{% endblock %}
+
+{% block heading1 %}Page1{% endblock %}
+{% block dataHeading %}Page1 Heading{% endblock %}
+{% block data %}<p>Page1 Data{% endblock %}

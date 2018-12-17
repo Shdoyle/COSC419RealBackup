@@ -1,0 +1,94 @@
+344:7345b6e6ccad0ae9953a6773e230964d9ba50614
+0
+1
+installed:355:9496f09ef659486961471d6c6004a9fba244b6c7
+11
+mbr: php-common,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: php,x86_64,0,7.2.10,1.el7.remi@a:dependson php-cli,x86_64,0,7.2.10,1.el7.remi@a:dependson php-mbstring,x86_64,0,7.2.10,1.el7.remi@a:dependson php-pdo,x86_64,0,7.2.10,1.el7.remi@a:dependson php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a:dependson php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a:dependson php-xml,x86_64,0,7.2.10,1.el7.remi@a:dependson php-json,x86_64,0,7.2.10,1.el7.remi@a:dependson
+  depends_on: php,x86_64,0,7.2.10,1.el7.remi@a php-cli,x86_64,0,7.2.10,1.el7.remi@a php-mbstring,x86_64,0,7.2.10,1.el7.remi@a php-pdo,x86_64,0,7.2.10,1.el7.remi@a php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a php-xml,x86_64,0,7.2.10,1.el7.remi@a php-json,x86_64,0,7.2.10,1.el7.remi@a
+mbr: php-json,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-common,x86_64,0,7.2.10,1.el7.remi@a:dependson
+  depends_on: php-common,x86_64,0,7.2.10,1.el7.remi@a
+mbr: php-mbstring,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-pdo,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libxslt,x86_64,0,1.1.28,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-xml,x86_64,0,7.2.10,1.el7.remi@a:dependson
+  depends_on: php-xml,x86_64,0,7.2.10,1.el7.remi@a
+mbr: php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libargon2,x86_64,0,20161029,2.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,7.2.10,1.el7.remi@a:dependson php-cli,x86_64,0,7.2.10,1.el7.remi@a:dependson
+  depends_on: php,x86_64,0,7.2.10,1.el7.remi@a php-cli,x86_64,0,7.2.10,1.el7.remi@a
+mbr: libzip5,x86_64,0,1.5.1,1.el7.remi 70
+  repo: remi-safe
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a:dependson
+  depends_on: php-pecl-zip,x86_64,0,1.15.3,1.el7.remi.7.2@a
+mbr: php-xml,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-cli,x86_64,0,7.2.10,1.el7.remi 70
+  repo: remi-php72
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: php,x86_64,0,7.2.10,1.el7.remi@a:dependson
+  depends_on: php,x86_64,0,7.2.10,1.el7.remi@a

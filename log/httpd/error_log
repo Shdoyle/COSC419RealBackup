@@ -1,0 +1,1367 @@
+[Sun Dec 16 03:17:02.581832 2018] [auth_digest:notice] [pid 9355] AH01757: generating secret for digest authentication ...
+[Sun Dec 16 03:17:02.583189 2018] [lbmethod_heartbeat:notice] [pid 9355] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-16 03:17:02.6377 29385/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 03:17:02.6847 29391/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 03:17:02.6849 29391/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 03:17:02.6936 29391/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 29391
+[Sun Dec 16 03:17:02.734214 2018] [mpm_prefork:notice] [pid 9355] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Sun Dec 16 03:17:02.734235 2018] [core:notice] [pid 9355] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-16 03:17:05.4342 29391/T8 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Sun Dec 16 04:26:58.931464 2018] [:error] [pid 29413] [client 117.34.118.109:44041] [client 117.34.118.109] ModSecurity: Warning. Match of "within %{tx.allowed_methods}" against "REQUEST_METHOD" required. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-911-METHOD-ENFORCEMENT.conf"] [line "46"] [id "911100"] [msg "Method is not allowed by policy"] [data "PROPFIND"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [tag "OWASP_CRS/POLICY/METHOD_NOT_ALLOWED"] [tag "WASCTC/WASC-15"] [tag "OWASP_TOP_10/A6"] [tag "OWASP_AppSensor/RE1"] [tag "PCI/12.1"] [hostname "localhost"] [uri "/"] [unique_id "XBXUEvQtWdHBHmBeqQhVCgAAABg"]
+[Sun Dec 16 04:26:58.932554 2018] [:error] [pid 29413] [client 117.34.118.109:44041] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "localhost"] [uri "/"] [unique_id "XBXUEvQtWdHBHmBeqQhVCgAAABg"]
+[Sun Dec 16 04:26:58.933333 2018] [:error] [pid 29413] [client 117.34.118.109:44041] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): Method is not allowed by policy; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "localhost"] [uri "/.noindex.html"] [unique_id "XBXUEvQtWdHBHmBeqQhVCgAAABg"]
+App 30306 output: [ pid=30306, time=2018-12-16 04:26:59,405 ]: Exception on /webdav/ [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+[Sun Dec 16 04:26:59.876096 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/help.php' not found or unable to stat
+[Sun Dec 16 04:27:00.111166 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/java.php' not found or unable to stat
+[Sun Dec 16 04:27:00.348235 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/_query.php' not found or unable to stat
+[Sun Dec 16 04:27:00.583174 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/test.php' not found or unable to stat
+[Sun Dec 16 04:27:00.819298 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/db_cts.php' not found or unable to stat
+[Sun Dec 16 04:27:01.055073 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/db_pma.php' not found or unable to stat
+[Sun Dec 16 04:27:01.290104 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/logon.php' not found or unable to stat
+[Sun Dec 16 04:27:01.525699 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/help-e.php' not found or unable to stat
+[Sun Dec 16 04:27:01.762015 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/license.php' not found or unable to stat
+[Sun Dec 16 04:27:01.997197 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/log.php' not found or unable to stat
+[Sun Dec 16 04:27:02.232029 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/hell.php' not found or unable to stat
+[Sun Dec 16 04:27:02.467053 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/pmd_online.php' not found or unable to stat
+[Sun Dec 16 04:27:02.702330 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/x.php' not found or unable to stat
+[Sun Dec 16 04:27:02.937181 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/shell.php' not found or unable to stat
+[Sun Dec 16 04:27:03.173211 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/htdocs.php' not found or unable to stat
+[Sun Dec 16 04:27:03.409595 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/desktop.ini.php' not found or unable to stat
+[Sun Dec 16 04:27:03.644618 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/z.php' not found or unable to stat
+[Sun Dec 16 04:27:03.879577 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/lala.php' not found or unable to stat
+[Sun Dec 16 04:27:04.115232 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/lala-dpr.php' not found or unable to stat
+[Sun Dec 16 04:27:04.354181 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/wpc.php' not found or unable to stat
+[Sun Dec 16 04:27:04.590154 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/wpo.php' not found or unable to stat
+[Sun Dec 16 04:27:04.830241 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/text.php' not found or unable to stat
+[Sun Dec 16 04:27:05.071195 2018] [:error] [pid 29409] [client 117.34.118.109:44328] [client 117.34.118.109] ModSecurity: Warning. Matched phrase "wp-config.php" at REQUEST_FILENAME. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-930-APPLICATION-ATTACK-LFI.conf"] [line "128"] [id "930130"] [msg "Restricted File Access Attempt"] [data "Matched Data: wp-config.php found within REQUEST_FILENAME: /wp-config.php"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-lfi"] [tag "OWASP_CRS/WEB_ATTACK/FILE_INJECTION"] [tag "WASCTC/WASC-33"] [tag "OWASP_TOP_10/A4"] [tag "PCI/6.5.4"] [hostname "159.89.121.5"] [uri "/wp-config.php"] [unique_id "XBXUGfbuV9GXobtvcb1YbgAAAAE"]
+[Sun Dec 16 04:27:05.071547 2018] [:error] [pid 29409] [client 117.34.118.109:44328] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/wp-config.php"] [unique_id "XBXUGfbuV9GXobtvcb1YbgAAAAE"]
+[Sun Dec 16 04:27:05.071753 2018] [:error] [pid 29409] [client 117.34.118.109:44328] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=5,RCE=0,PHPI=0,HTTP=0,SESS=0): Restricted File Access Attempt; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/wp-config.php"] [unique_id "XBXUGfbuV9GXobtvcb1YbgAAAAE"]
+[Sun Dec 16 04:27:05.306954 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/muhstik.php' not found or unable to stat
+[Sun Dec 16 04:27:05.543281 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/muhstik2.php' not found or unable to stat
+[Sun Dec 16 04:27:05.778449 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/muhstiks.php' not found or unable to stat
+[Sun Dec 16 04:27:06.013773 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/muhstik-dpr.php' not found or unable to stat
+[Sun Dec 16 04:27:06.249951 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/lol.php' not found or unable to stat
+[Sun Dec 16 04:27:06.485056 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/uploader.php' not found or unable to stat
+[Sun Dec 16 04:27:06.720067 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/cmd.php' not found or unable to stat
+[Sun Dec 16 04:27:06.957124 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/cmx.php' not found or unable to stat
+[Sun Dec 16 04:27:07.192209 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/cmv.php' not found or unable to stat
+[Sun Dec 16 04:27:07.429329 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/cmdd.php' not found or unable to stat
+[Sun Dec 16 04:27:07.665203 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/knal.php' not found or unable to stat
+[Sun Dec 16 04:27:07.900489 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/cmd.php' not found or unable to stat
+[Sun Dec 16 04:27:08.136436 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/shell.php' not found or unable to stat
+[Sun Dec 16 04:27:08.376837 2018] [php7:error] [pid 29409] [client 117.34.118.109:44328] script '/var/www/lab8/appserv.php' not found or unable to stat
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:08,613 ]: Exception on /scripts/setup.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:09,086 ]: Exception on /phpmyadmin/scripts/setup.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:09,556 ]: Exception on /phpMyAdmin/scripts/setup.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:10,073 ]: Exception on /phpmyadmin/scripts/db___.init.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:10,547 ]: Exception on /phpMyAdmin/scripts/db___.init.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:11,018 ]: Exception on /plugins/weathermap/editor.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:27:11,490 ]: Exception on /cacti/plugins/weathermap/editor.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+[Sun Dec 16 04:27:12.015693 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wuwu11.php' not found or unable to stat
+[Sun Dec 16 04:27:12.273323 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xw.php' not found or unable to stat
+[Sun Dec 16 04:27:12.530978 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xw1.php' not found or unable to stat
+[Sun Dec 16 04:27:12.788473 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/9678.php' not found or unable to stat
+[Sun Dec 16 04:27:13.045939 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wc.php' not found or unable to stat
+[Sun Dec 16 04:27:13.304439 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xx.php' not found or unable to stat
+[Sun Dec 16 04:27:13.561688 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/s.php' not found or unable to stat
+[Sun Dec 16 04:27:13.827782 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/w.php' not found or unable to stat
+[Sun Dec 16 04:27:14.086146 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/sheep.php' not found or unable to stat
+[Sun Dec 16 04:27:14.343415 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qaq.php' not found or unable to stat
+[Sun Dec 16 04:27:14.604853 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/db.init.php' not found or unable to stat
+[Sun Dec 16 04:27:14.862164 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/db_session.init.php' not found or unable to stat
+[Sun Dec 16 04:27:15.119346 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/db__.init.php' not found or unable to stat
+[Sun Dec 16 04:27:15.377855 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wp-admins.php' not found or unable to stat
+[Sun Dec 16 04:27:15.649764 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/m.php' not found or unable to stat
+[Sun Dec 16 04:27:15.947034 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/db_dataml.php' not found or unable to stat
+[Sun Dec 16 04:27:16.241023 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/db_desql.php' not found or unable to stat
+[Sun Dec 16 04:27:16.539346 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/mx.php' not found or unable to stat
+[Sun Dec 16 04:27:16.828185 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wshell.php' not found or unable to stat
+[Sun Dec 16 04:27:17.093058 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xshell.php' not found or unable to stat
+[Sun Dec 16 04:27:17.374331 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qq.php' not found or unable to stat
+[Sun Dec 16 04:27:17.669185 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/conflg.php' not found or unable to stat
+[Sun Dec 16 04:27:17.965672 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/lindex.php' not found or unable to stat
+[Sun Dec 16 04:27:18.261049 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/phpstudy.php' not found or unable to stat
+[Sun Dec 16 04:27:18.545289 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/phpStudy.php' not found or unable to stat
+[Sun Dec 16 04:27:18.832501 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/weixiao.php' not found or unable to stat
+[Sun Dec 16 04:27:19.129228 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/feixiang.php' not found or unable to stat
+[Sun Dec 16 04:27:19.424633 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ak47.php' not found or unable to stat
+[Sun Dec 16 04:27:19.722520 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ak48.php' not found or unable to stat
+[Sun Dec 16 04:27:20.019172 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xiao.php' not found or unable to stat
+[Sun Dec 16 04:27:20.299941 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/yao.php' not found or unable to stat
+[Sun Dec 16 04:27:20.585114 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/defect.php' not found or unable to stat
+[Sun Dec 16 04:27:20.889323 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/webslee.php' not found or unable to stat
+[Sun Dec 16 04:27:21.185285 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/q.php' not found or unable to stat
+[Sun Dec 16 04:27:21.466408 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/pe.php' not found or unable to stat
+[Sun Dec 16 04:27:21.751079 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/hm.php' not found or unable to stat
+[Sun Dec 16 04:27:22.046492 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/cainiao.php' not found or unable to stat
+[Sun Dec 16 04:27:22.343321 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuoshou.php' not found or unable to stat
+[Sun Dec 16 04:27:22.625212 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuo.php' not found or unable to stat
+[Sun Dec 16 04:27:22.899110 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/aotu.php' not found or unable to stat
+[Sun Dec 16 04:27:23.177506 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/cmd.php' not found or unable to stat
+[Sun Dec 16 04:27:23.456971 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/bak.php' not found or unable to stat
+[Sun Dec 16 04:27:23.740083 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/system.php' not found or unable to stat
+[Sun Dec 16 04:27:24.031607 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/l6.php' not found or unable to stat
+[Sun Dec 16 04:27:24.324758 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/l7.php' not found or unable to stat
+[Sun Dec 16 04:27:24.614224 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/l8.php' not found or unable to stat
+[Sun Dec 16 04:27:24.910166 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/q.php' not found or unable to stat
+[Sun Dec 16 04:27:25.206668 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/56.php' not found or unable to stat
+[Sun Dec 16 04:27:25.495594 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/mz.php' not found or unable to stat
+[Sun Dec 16 04:27:25.772643 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xx.php' not found or unable to stat
+[Sun Dec 16 04:27:26.544386 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/yumo.php' not found or unable to stat
+[Sun Dec 16 04:27:26.815393 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/min.php' not found or unable to stat
+[Sun Dec 16 04:27:27.087387 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wan.php' not found or unable to stat
+[Sun Dec 16 04:27:27.371338 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wanan.php' not found or unable to stat
+[Sun Dec 16 04:27:27.667377 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ssaa.php' not found or unable to stat
+[Sun Dec 16 04:27:27.964316 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qq.php' not found or unable to stat
+[Sun Dec 16 04:27:28.244247 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/aw.php' not found or unable to stat
+[Sun Dec 16 04:27:28.523917 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/12.php' not found or unable to stat
+[Sun Dec 16 04:27:28.807095 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/hh.php' not found or unable to stat
+[Sun Dec 16 04:27:29.114654 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ak.php' not found or unable to stat
+[Sun Dec 16 04:27:29.411607 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ip.php' not found or unable to stat
+[Sun Dec 16 04:27:29.695592 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/infoo.php' not found or unable to stat
+[Sun Dec 16 04:27:29.974179 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qq.php' not found or unable to stat
+[Sun Dec 16 04:27:30.252342 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qwe.php' not found or unable to stat
+[Sun Dec 16 04:27:30.529851 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/1213.php' not found or unable to stat
+[Sun Dec 16 04:27:30.806722 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/post.php' not found or unable to stat
+[Sun Dec 16 04:27:31.077476 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/aaaa.php' not found or unable to stat
+[Sun Dec 16 04:27:31.357158 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/h1.php' not found or unable to stat
+[Sun Dec 16 04:27:31.646705 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/test.php' not found or unable to stat
+[Sun Dec 16 04:27:31.946003 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/3.php' not found or unable to stat
+[Sun Dec 16 04:27:32.236294 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/phpinfi.php' not found or unable to stat
+[Sun Dec 16 04:27:32.534438 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/9510.php' not found or unable to stat
+[Sun Dec 16 04:27:32.830306 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/python.php' not found or unable to stat
+[Sun Dec 16 04:27:33.115623 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/default.php' not found or unable to stat
+[Sun Dec 16 04:27:33.409802 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/sean.php' not found or unable to stat
+[Sun Dec 16 04:27:33.706747 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/app.php' not found or unable to stat
+[Sun Dec 16 04:27:33.997994 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/help.php' not found or unable to stat
+[Sun Dec 16 04:27:34.285835 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/tiandi.php' not found or unable to stat
+[Sun Dec 16 04:27:34.583665 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/miao.php' not found or unable to stat
+[Sun Dec 16 04:27:34.878827 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/xz.php' not found or unable to stat
+[Sun Dec 16 04:27:35.153323 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/linuxse.php' not found or unable to stat
+[Sun Dec 16 04:27:35.433406 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuoindex.php' not found or unable to stat
+[Sun Dec 16 04:27:35.728321 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zshmindex.php' not found or unable to stat
+[Sun Dec 16 04:27:36.025143 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/tomcat.php' not found or unable to stat
+[Sun Dec 16 04:27:36.309088 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ceshi.php' not found or unable to stat
+[Sun Dec 16 04:27:36.595585 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/1hou.php' not found or unable to stat
+[Sun Dec 16 04:27:36.895255 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ou2.php' not found or unable to stat
+[Sun Dec 16 04:27:37.191982 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuos.php' not found or unable to stat
+[Sun Dec 16 04:27:37.472269 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuoss.php' not found or unable to stat
+[Sun Dec 16 04:27:37.762340 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/zuoshss.php' not found or unable to stat
+[Sun Dec 16 04:27:38.531990 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/boots.php' not found or unable to stat
+[Sun Dec 16 04:27:38.814541 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/she.php' not found or unable to stat
+[Sun Dec 16 04:27:39.105858 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/s.php' not found or unable to stat
+[Sun Dec 16 04:27:39.399407 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/qw.php' not found or unable to stat
+[Sun Dec 16 04:27:39.689581 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/test.php' not found or unable to stat
+[Sun Dec 16 04:27:39.986818 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/caonma.php' not found or unable to stat
+[Sun Dec 16 04:27:40.283477 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/ss.php' not found or unable to stat
+[Sun Dec 16 04:27:40.555472 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/wcp.php' not found or unable to stat
+[Sun Dec 16 04:27:40.830471 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/u.php' not found or unable to stat
+[Sun Dec 16 04:27:41.120023 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/uuu.php' not found or unable to stat
+[Sun Dec 16 04:27:41.411495 2018] [php7:error] [pid 29410] [client 117.34.118.109:48045] script '/var/www/lab8/sss.php' not found or unable to stat
+[Sun Dec 16 04:27:41.955685 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/1.php' not found or unable to stat
+[Sun Dec 16 04:27:42.228440 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/2.php' not found or unable to stat
+[Sun Dec 16 04:27:42.495021 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/core.php' not found or unable to stat
+[Sun Dec 16 04:27:42.764601 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/qaz.php' not found or unable to stat
+[Sun Dec 16 04:27:43.036339 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/sha.php' not found or unable to stat
+[Sun Dec 16 04:27:43.312534 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/ppx.php' not found or unable to stat
+[Sun Dec 16 04:27:43.592536 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/1.php' not found or unable to stat
+[Sun Dec 16 04:27:43.847813 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/confg.php' not found or unable to stat
+[Sun Dec 16 04:27:44.106216 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/conf1g.php' not found or unable to stat
+[Sun Dec 16 04:27:44.372793 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/confg.php' not found or unable to stat
+[Sun Dec 16 04:27:44.640562 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/confg.php' not found or unable to stat
+[Sun Dec 16 04:27:44.915316 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/confg.php' not found or unable to stat
+[Sun Dec 16 04:27:45.189066 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/ver.php' not found or unable to stat
+[Sun Dec 16 04:27:45.452246 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/hack.php' not found or unable to stat
+[Sun Dec 16 04:27:45.722389 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/qa.php' not found or unable to stat
+[Sun Dec 16 04:27:45.996837 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/Ss.php' not found or unable to stat
+[Sun Dec 16 04:27:46.290257 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xxx.php' not found or unable to stat
+[Sun Dec 16 04:27:46.531121 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/92.php' not found or unable to stat
+[Sun Dec 16 04:27:46.767199 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/z.php' not found or unable to stat
+[Sun Dec 16 04:27:47.002610 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/x.php' not found or unable to stat
+[Sun Dec 16 04:27:47.237800 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/dexgp.php' not found or unable to stat
+[Sun Dec 16 04:27:47.473513 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/nuoxi.php' not found or unable to stat
+[Sun Dec 16 04:27:47.709655 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/godkey.php' not found or unable to stat
+[Sun Dec 16 04:27:47.944613 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/okokok.php' not found or unable to stat
+[Sun Dec 16 04:27:48.179546 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/erwa.php' not found or unable to stat
+[Sun Dec 16 04:27:48.414863 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/pma.php' not found or unable to stat
+[Sun Dec 16 04:27:48.650871 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/ruyi.php' not found or unable to stat
+[Sun Dec 16 04:27:48.885808 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/51314.php' not found or unable to stat
+[Sun Dec 16 04:27:49.120818 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/5201314.php' not found or unable to stat
+[Sun Dec 16 04:27:49.356930 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/fusheng.php' not found or unable to stat
+[Sun Dec 16 04:27:49.591916 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/general.php' not found or unable to stat
+[Sun Dec 16 04:27:49.830229 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/repeat.php' not found or unable to stat
+[Sun Dec 16 04:27:50.066373 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/ldw.php' not found or unable to stat
+[Sun Dec 16 04:27:50.302816 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/api.php' not found or unable to stat
+[Sun Dec 16 04:27:50.538703 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/s1.php' not found or unable to stat
+[Sun Dec 16 04:27:50.774715 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaodai.php' not found or unable to stat
+[Sun Dec 16 04:27:51.009712 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/hello.php' not found or unable to stat
+[Sun Dec 16 04:27:51.254715 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/hello.php' not found or unable to stat
+[Sun Dec 16 04:27:51.496123 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/admn.php' not found or unable to stat
+[Sun Dec 16 04:27:51.732532 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/hell.php' not found or unable to stat
+[Sun Dec 16 04:27:51.967649 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xp.php' not found or unable to stat
+[Sun Dec 16 04:27:52.203002 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/1.php' not found or unable to stat
+[Sun Dec 16 04:27:52.438624 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/2.php' not found or unable to stat
+[Sun Dec 16 04:27:52.674235 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/p.php' not found or unable to stat
+[Sun Dec 16 04:27:52.910410 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/1.php' not found or unable to stat
+[Sun Dec 16 04:27:53.145476 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/a.php' not found or unable to stat
+[Sun Dec 16 04:27:53.380874 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/m.php' not found or unable to stat
+[Sun Dec 16 04:27:53.620036 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/conf.php' not found or unable to stat
+[Sun Dec 16 04:27:53.875999 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/123.php' not found or unable to stat
+[Sun Dec 16 04:27:54.149507 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/HX.php' not found or unable to stat
+[Sun Dec 16 04:27:54.424250 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/diy.php' not found or unable to stat
+[Sun Dec 16 04:27:54.685623 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/666.php' not found or unable to stat
+[Sun Dec 16 04:27:54.939091 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/777.php' not found or unable to stat
+[Sun Dec 16 04:27:55.204355 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/qwq.php' not found or unable to stat
+[Sun Dec 16 04:27:55.475503 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/.php' not found or unable to stat
+[Sun Dec 16 04:27:55.750344 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/infos.php' not found or unable to stat
+[Sun Dec 16 04:27:56.019262 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/x.php' not found or unable to stat
+[Sun Dec 16 04:27:56.275625 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/htfr.php' not found or unable to stat
+[Sun Dec 16 04:27:56.536036 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/zzk.php' not found or unable to stat
+[Sun Dec 16 04:27:56.811792 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/toor.php' not found or unable to stat
+[Sun Dec 16 04:27:57.088273 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/uu.php' not found or unable to stat
+[Sun Dec 16 04:27:57.352371 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/aa.php' not found or unable to stat
+[Sun Dec 16 04:27:57.600293 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/wb.php' not found or unable to stat
+[Sun Dec 16 04:27:57.860098 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/yj.php' not found or unable to stat
+[Sun Dec 16 04:27:58.126433 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/z.php' not found or unable to stat
+[Sun Dec 16 04:27:58.407647 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/7.php' not found or unable to stat
+[Sun Dec 16 04:27:58.681868 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaoma.php' not found or unable to stat
+[Sun Dec 16 04:27:58.942529 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaomae.php' not found or unable to stat
+[Sun Dec 16 04:27:59.201932 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaomar.php' not found or unable to stat
+[Sun Dec 16 04:27:59.470203 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/qq.php' not found or unable to stat
+[Sun Dec 16 04:27:59.745265 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/data.php' not found or unable to stat
+[Sun Dec 16 04:28:00.008570 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/log.php' not found or unable to stat
+[Sun Dec 16 04:28:00.260026 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/fack.php' not found or unable to stat
+[Sun Dec 16 04:28:00.511416 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/angge.php' not found or unable to stat
+[Sun Dec 16 04:28:00.772459 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/cxfm666.php' not found or unable to stat
+[Sun Dec 16 04:28:01.035169 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/db.php' not found or unable to stat
+[Sun Dec 16 04:28:01.298378 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/hacly.php' not found or unable to stat
+[Sun Dec 16 04:28:01.565793 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaomo.php' not found or unable to stat
+[Sun Dec 16 04:28:01.836957 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaoyu.php' not found or unable to stat
+[Sun Dec 16 04:28:02.109648 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/xiaohei.php' not found or unable to stat
+[Sun Dec 16 04:28:02.370663 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/j.php' not found or unable to stat
+[Sun Dec 16 04:28:02.629141 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/qq5262.php' not found or unable to stat
+[Sun Dec 16 04:28:02.878452 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/MCLi.php' not found or unable to stat
+[Sun Dec 16 04:28:03.123739 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/MCLi.php' not found or unable to stat
+[Sun Dec 16 04:28:03.372367 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/51.php' not found or unable to stat
+[Sun Dec 16 04:28:03.620191 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/cadre.php' not found or unable to stat
+[Sun Dec 16 04:28:03.876185 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/mm.php' not found or unable to stat
+[Sun Dec 16 04:28:04.153431 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/test.php' not found or unable to stat
+[Sun Dec 16 04:28:04.426168 2018] [php7:error] [pid 29411] [client 117.34.118.109:57112] script '/var/www/lab8/1q.php' not found or unable to stat
+[Sun Dec 16 04:28:04.701846 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexsw2/jexsw2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIQAAAAs"]
+[Sun Dec 16 04:28:04.702396 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexsw2/jexsw2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIQAAAAs"]
+[Sun Dec 16 04:28:04.702679 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexsw2/jexsw2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIQAAAAs"]
+[Sun Dec 16 04:28:04.970608 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexws2/jexws2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIgAAAAs"]
+[Sun Dec 16 04:28:04.971074 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexws2/jexws2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIgAAAAs"]
+[Sun Dec 16 04:28:04.971294 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexws2/jexws2.jsp"] [unique_id "XBXUVLtehoBUl0eDOrAyIgAAAAs"]
+[Sun Dec 16 04:28:05.218636 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexws3/jexws3.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyIwAAAAs"]
+[Sun Dec 16 04:28:05.219196 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexws3/jexws3.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyIwAAAAs"]
+[Sun Dec 16 04:28:05.219465 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexws3/jexws3.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyIwAAAAs"]
+[Sun Dec 16 04:28:05.481617 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexws4/jexws4.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJAAAAAs"]
+[Sun Dec 16 04:28:05.482152 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexws4/jexws4.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJAAAAAs"]
+[Sun Dec 16 04:28:05.482355 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexws4/jexws4.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJAAAAAs"]
+[Sun Dec 16 04:28:05.761048 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexinv/jexinv.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJQAAAAs"]
+[Sun Dec 16 04:28:05.761731 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexinv/jexinv.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJQAAAAs"]
+[Sun Dec 16 04:28:05.762035 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexinv/jexinv.jsp"] [unique_id "XBXUVbtehoBUl0eDOrAyJQAAAAs"]
+[Sun Dec 16 04:28:06.030012 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexinv3/jexinv3.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJgAAAAs"]
+[Sun Dec 16 04:28:06.030523 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexinv3/jexinv3.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJgAAAAs"]
+[Sun Dec 16 04:28:06.030747 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexinv3/jexinv3.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJgAAAAs"]
+[Sun Dec 16 04:28:06.278247 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jexinv4/jexinv4.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJwAAAAs"]
+[Sun Dec 16 04:28:06.278662 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jexinv4/jexinv4.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJwAAAAs"]
+[Sun Dec 16 04:28:06.278870 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jexinv4/jexinv4.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyJwAAAAs"]
+[Sun Dec 16 04:28:06.533636 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jbossass/jbossass.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKAAAAAs"]
+[Sun Dec 16 04:28:06.534091 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jbossass/jbossass.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKAAAAAs"]
+[Sun Dec 16 04:28:06.534314 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jbossass/jbossass.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKAAAAAs"]
+[Sun Dec 16 04:28:06.799860 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:cmd. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:cmd: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/console/jspzxc.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKQAAAAs"]
+[Sun Dec 16 04:28:06.800335 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/console/jspzxc.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKQAAAAs"]
+[Sun Dec 16 04:28:06.800537 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/console/jspzxc.jsp"] [unique_id "XBXUVrtehoBUl0eDOrAyKQAAAAs"]
+[Sun Dec 16 04:28:07.066971 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:bjh. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:bjh: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/demo/404.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKgAAAAs"]
+[Sun Dec 16 04:28:07.067444 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/demo/404.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKgAAAAs"]
+[Sun Dec 16 04:28:07.067679 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/demo/404.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKgAAAAs"]
+[Sun Dec 16 04:28:07.342862 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:tezaz. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:tezaz: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/dread/lock.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKwAAAAs"]
+[Sun Dec 16 04:28:07.343377 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/dread/lock.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKwAAAAs"]
+[Sun Dec 16 04:28:07.343676 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/dread/lock.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyKwAAAAs"]
+[Sun Dec 16 04:28:07.615624 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:comment. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:comment: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/HCEGH/xunfeng.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyLAAAAAs"]
+[Sun Dec 16 04:28:07.616160 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/HCEGH/xunfeng.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyLAAAAAs"]
+[Sun Dec 16 04:28:07.616383 2018] [:error] [pid 29411] [client 117.34.118.109:57112] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/HCEGH/xunfeng.jsp"] [unique_id "XBXUV7tehoBUl0eDOrAyLAAAAAs"]
+[Sun Dec 16 04:28:08.127568 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:eval. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:eval: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jbws/jbws.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgMwAAAA4"]
+[Sun Dec 16 04:28:08.128130 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jbws/jbws.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgMwAAAA4"]
+[Sun Dec 16 04:28:08.128346 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jbws/jbws.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgMwAAAA4"]
+[Sun Dec 16 04:28:08.400475 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:cmd. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:cmd: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/jvrx/cmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNAAAAA4"]
+[Sun Dec 16 04:28:08.401058 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/jvrx/cmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNAAAAA4"]
+[Sun Dec 16 04:28:08.401257 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/jvrx/cmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNAAAAA4"]
+[Sun Dec 16 04:28:08.672774 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:ppp. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:ppp: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/shellinvoker/shellinvoker.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNQAAAA4"]
+[Sun Dec 16 04:28:08.673259 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/shellinvoker/shellinvoker.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNQAAAA4"]
+[Sun Dec 16 04:28:08.673455 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/shellinvoker/shellinvoker.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNQAAAA4"]
+[Sun Dec 16 04:28:08.934022 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:comment. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:comment: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/zecmd/zecmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNgAAAA4"]
+[Sun Dec 16 04:28:08.934504 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/zecmd/zecmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNgAAAA4"]
+[Sun Dec 16 04:28:08.934715 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/zecmd/zecmd.jsp"] [unique_id "XBXUWNJHbi5xF9cqC5DgNgAAAA4"]
+[Sun Dec 16 04:28:09.196936 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:comment. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:comment: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/iesvc/iesvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgNwAAAA4"]
+[Sun Dec 16 04:28:09.197600 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/iesvc/iesvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgNwAAAA4"]
+[Sun Dec 16 04:28:09.197916 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/iesvc/iesvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgNwAAAA4"]
+[Sun Dec 16 04:28:09.463588 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:comment. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:comment: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/idssvc/idssvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOAAAAA4"]
+[Sun Dec 16 04:28:09.464078 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/idssvc/idssvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOAAAAA4"]
+[Sun Dec 16 04:28:09.464270 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/idssvc/idssvc.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOAAAAA4"]
+[Sun Dec 16 04:28:09.726348 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:comment. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:comment: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/wstats/wstats.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOQAAAA4"]
+[Sun Dec 16 04:28:09.726765 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/wstats/wstats.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOQAAAA4"]
+[Sun Dec 16 04:28:09.727003 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/wstats/wstats.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOQAAAA4"]
+[Sun Dec 16 04:28:09.985267 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Pattern match "(?:^|=)\\\\s*(?:{|\\\\s*\\\\(\\\\s*|\\\\w+=(?:[^\\\\s]*|\\\\$.*|\\\\$.*|<.*|>.*|\\\\'.*\\\\'|\\".*\\")\\\\s+|!\\\\s*|\\\\$)*\\\\s*(?:'|\\")*(?:[\\\\?\\\\*\\\\[\\\\]\\\\(\\\\)\\\\-\\\\|+\\\\w'\\"\\\\./\\\\\\\\]+/)?[\\\\\\\\'\\"]*(?:l[\\\\\\\\'\\"]*(?:s(?:[\\\\\\\\'\\"]*(?:b[\\\\\\\\'\\"]*_[\\\\\\\\'\\"]*r[\\\\\\\\'\\"]*e[\\\\\\\\'\\"]*l[\\\\\\\\' ..." at ARGS:cmd. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "470"] [id "932150"] [msg "Remote Command Execution: Direct Unix Command Execution"] [data "Matched Data: echo  found within ARGS:cmd: echo Hello D3c3mb3r"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "OWASP_CRS/WEB_ATTACK/COMMAND_INJECTION"] [tag "WASCTC/WASC-31"] [tag "OWASP_TOP_10/A1"] [tag "PCI/6.5.2"] [hostname "159.89.121.5"] [uri "/a/pwn.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOgAAAA4"]
+[Sun Dec 16 04:28:09.985680 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/a/pwn.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOgAAAA4"]
+[Sun Dec 16 04:28:09.985871 2018] [:error] [pid 29412] [client 117.34.118.109:65015] [client 117.34.118.109] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=5,PHPI=0,HTTP=0,SESS=0): Remote Command Execution: Direct Unix Command Execution; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/a/pwn.jsp"] [unique_id "XBXUWdJHbi5xF9cqC5DgOgAAAA4"]
+[Sun Dec 16 04:28:10.239631 2018] [php7:error] [pid 29412] [client 117.34.118.109:65015] script '/var/www/lab8/index.php' not found or unable to stat
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:10,490 ]: Exception on /phpmyadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:11,034 ]: Exception on /phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:11,601 ]: Exception on /pmd/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:12,177 ]: Exception on /pma/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:12,725 ]: Exception on /PMA/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:13,318 ]: Exception on /PMA2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:13,859 ]: Exception on /pmamy/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:14,398 ]: Exception on /pmamy2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:14,970 ]: Exception on /mysql/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:15,506 ]: Exception on /admin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:16,017 ]: Exception on /db/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:16,509 ]: Exception on /dbadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:17,017 ]: Exception on /web/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:17,591 ]: Exception on /admin/pma/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:18,138 ]: Exception on /admin/PMA/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:18,691 ]: Exception on /admin/mysql/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:19,255 ]: Exception on /admin/mysql2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:19,852 ]: Exception on /admin/phpmyadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:20,392 ]: Exception on /admin/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:20,933 ]: Exception on /admin/phpmyadmin2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:21,461 ]: Exception on /mysqladmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:22,010 ]: Exception on /mysql-admin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:22,528 ]: Exception on /mysql_admin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:23,100 ]: Exception on /phpadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:23,591 ]: Exception on /phpAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:24,113 ]: Exception on /phpmyadmin0/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:24,584 ]: Exception on /phpmyadmin1/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:26,057 ]: Exception on /phpmyadmin2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:26,572 ]: Exception on /phpMyAdmin-4.4.0/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:27,106 ]: Exception on /myadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:27,576 ]: Exception on /myadmin2/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:28,097 ]: Exception on /xampp/phpmyadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:28,569 ]: Exception on /phpMyadmin_bak/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:29,040 ]: Exception on /www/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:29,581 ]: Exception on /tools/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:30,170 ]: Exception on /phpmyadmin-old/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:30,699 ]: Exception on /phpMyAdminold/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:31,277 ]: Exception on /phpMyAdmin.old/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:31,809 ]: Exception on /pma-old/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:32,372 ]: Exception on /claroline/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:32,912 ]: Exception on /typo3/phpmyadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:33,438 ]: Exception on /phpma/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:33,969 ]: Exception on /phpmyadmin/phpmyadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:34,551 ]: Exception on /phpMyAdmin/phpMyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:35,136 ]: Exception on /phpMyAbmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:35,666 ]: Exception on /phpMyAdmin__/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:36,225 ]: Exception on /phpMyAdmin+++---/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:36,759 ]: Exception on /v/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:37,262 ]: Exception on /phpmyadm1n/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:37,815 ]: Exception on /phpMyAdm1n/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:38,339 ]: Exception on /shaAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:38,838 ]: Exception on /phpMyadmi/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:39,338 ]: Exception on /phpMyAdmion/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:39,809 ]: Exception on /MyAdmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:40,338 ]: Exception on /phpMyAdmin1/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:40,884 ]: Exception on /phpMyAdmin123/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:41,417 ]: Exception on /pwd/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:41,932 ]: Exception on /phpMyAdmina/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:42,494 ]: Exception on /program/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:42,972 ]: Exception on /shopdb/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:43,471 ]: Exception on /phppma/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:44,015 ]: Exception on /phpmy/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:44,560 ]: Exception on /mysql/admin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:45,058 ]: Exception on /mysql/dbadmin/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:45,560 ]: Exception on /mysql/sqlmanager/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:46,104 ]: Exception on /mysql/mysqlmanager/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:46,598 ]: Exception on /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:47,097 ]: Exception on /ws/v1/cluster/apps/new-application [POST]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+App 30306 output: [ pid=30306, time=2018-12-16 04:28:47,577 ]: Exception on /manager/html [GET]
+App 30306 output: Traceback (most recent call last):
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+App 30306 output:     response = self.full_dispatch_request()
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+App 30306 output:     rv = self.handle_user_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1713, in handle_user_exception
+App 30306 output:     return self.handle_http_exception(e)
+App 30306 output:   File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1644, in handle_http_exception
+App 30306 output:     return handler(e)
+App 30306 output: TypeError: forbiddenerror() takes no arguments (1 given)
+[Sun Dec 16 10:53:09.598468 2018] [mpm_prefork:notice] [pid 9355] AH00170: caught SIGWINCH, shutting down gracefully
+
+[ N 2018-12-16 10:53:10.6422 29391/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:53:10.6422 29391/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:53:10.6423 29391/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 30306, application /var/www/lab8/ (production)
+[ N 2018-12-16 10:53:10.6423 29391/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:53:10.6423 29391/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:53:10.6424 29391/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:53:10.6424 29391/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:53:10.6425 29391/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 30306, application /var/www/lab8/ (production)
+[ N 2018-12-16 10:53:10.7698 29391/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[Sun Dec 16 10:54:29.077750 2018] [core:notice] [pid 942] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Dec 16 10:54:29.101632 2018] [suexec:notice] [pid 942] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[ N 2018-12-16 10:54:29.3426 1028/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:54:29.5594 1040/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:54:29.5597 1040/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:54:29.5940 1040/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1040
+[Sun Dec 16 10:54:29.600152 2018] [:notice] [pid 942] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Sun Dec 16 10:54:29.600187 2018] [:notice] [pid 942] ModSecurity: APR compiled version="1.4.8"; loaded version="1.4.8"
+[Sun Dec 16 10:54:29.600193 2018] [:notice] [pid 942] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Sun Dec 16 10:54:29.600196 2018] [:notice] [pid 942] ModSecurity: LUA compiled version="Lua 5.1"
+[Sun Dec 16 10:54:29.600199 2018] [:notice] [pid 942] ModSecurity: LIBXML compiled version="2.9.1"
+[Sun Dec 16 10:54:29.600201 2018] [:notice] [pid 942] ModSecurity: Original server signature: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7
+[Sun Dec 16 10:54:29.600204 2018] [:notice] [pid 942] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+
+[ N 2018-12-16 10:54:29.6637 1040/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:54:29.6638 1040/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:54:29.6638 1040/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:54:29.6638 1040/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:54:29.6639 1040/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:54:29.6639 1040/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:54:29.6917 1040/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 16 10:54:30.136420 2018] [auth_digest:notice] [pid 942] AH01757: generating secret for digest authentication ...
+[Sun Dec 16 10:54:30.157431 2018] [lbmethod_heartbeat:notice] [pid 942] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-16 10:54:30.2678 1089/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:54:30.3779 1115/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:54:30.3782 1115/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:54:30.4158 1115/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1115
+[Sun Dec 16 10:54:30.765270 2018] [mpm_prefork:notice] [pid 942] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Sun Dec 16 10:54:30.765356 2018] [core:notice] [pid 942] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-16 10:54:33.2696 1115/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Sun Dec 16 10:57:21.310626 2018] [mpm_prefork:notice] [pid 942] AH00170: caught SIGWINCH, shutting down gracefully
+
+[ N 2018-12-16 10:57:22.3582 1115/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:57:22.3592 1115/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:57:22.3593 1115/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:57:22.3593 1115/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:57:22.3594 1115/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:57:22.3594 1115/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:57:22.3829 1115/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[Sun Dec 16 10:57:22.576935 2018] [core:notice] [pid 1421] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Dec 16 10:57:22.578216 2018] [suexec:notice] [pid 1421] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[ N 2018-12-16 10:57:22.6215 1423/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:57:22.6591 1426/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:57:22.6593 1426/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:57:22.6661 1426/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1426
+[Sun Dec 16 10:57:22.668761 2018] [:notice] [pid 1421] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Sun Dec 16 10:57:22.668789 2018] [:notice] [pid 1421] ModSecurity: APR compiled version="1.4.8"; loaded version="1.4.8"
+[Sun Dec 16 10:57:22.668794 2018] [:notice] [pid 1421] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Sun Dec 16 10:57:22.668798 2018] [:notice] [pid 1421] ModSecurity: LUA compiled version="Lua 5.1"
+[Sun Dec 16 10:57:22.668801 2018] [:notice] [pid 1421] ModSecurity: LIBXML compiled version="2.9.1"
+[Sun Dec 16 10:57:22.668803 2018] [:notice] [pid 1421] ModSecurity: Original server signature: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7
+[Sun Dec 16 10:57:22.668806 2018] [:notice] [pid 1421] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+
+[ N 2018-12-16 10:57:22.7018 1426/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:57:22.7018 1426/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:57:22.7019 1426/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:57:22.7019 1426/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:57:22.7019 1426/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:57:22.7019 1426/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:57:22.7307 1426/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 16 10:57:22.791020 2018] [auth_digest:notice] [pid 1421] AH01757: generating secret for digest authentication ...
+[Sun Dec 16 10:57:22.792286 2018] [lbmethod_heartbeat:notice] [pid 1421] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-16 10:57:22.8278 1445/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:57:22.8625 1448/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:57:22.8627 1448/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:57:22.8693 1448/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1448
+[Sun Dec 16 10:57:22.916846 2018] [mpm_prefork:notice] [pid 1421] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Sun Dec 16 10:57:22.916911 2018] [core:notice] [pid 1421] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-16 10:57:25.6133 1448/T6 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Sun Dec 16 10:58:21.018923 2018] [mpm_prefork:notice] [pid 1421] AH00170: caught SIGWINCH, shutting down gracefully
+
+[ N 2018-12-16 10:58:22.0540 1448/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:58:22.0541 1448/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:58:22.0542 1448/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:58:22.0542 1448/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:58:22.0542 1448/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:58:22.0542 1448/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:58:22.0758 1448/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[Sun Dec 16 10:58:22.244553 2018] [core:notice] [pid 1494] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Dec 16 10:58:22.245881 2018] [suexec:notice] [pid 1494] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[ N 2018-12-16 10:58:22.2832 1497/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:58:22.3165 1500/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:58:22.3167 1500/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:58:22.3230 1500/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1500
+[Sun Dec 16 10:58:22.325655 2018] [:notice] [pid 1494] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Sun Dec 16 10:58:22.325686 2018] [:notice] [pid 1494] ModSecurity: APR compiled version="1.4.8"; loaded version="1.4.8"
+[Sun Dec 16 10:58:22.325693 2018] [:notice] [pid 1494] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Sun Dec 16 10:58:22.325697 2018] [:notice] [pid 1494] ModSecurity: LUA compiled version="Lua 5.1"
+[Sun Dec 16 10:58:22.325701 2018] [:notice] [pid 1494] ModSecurity: LIBXML compiled version="2.9.1"
+[Sun Dec 16 10:58:22.325705 2018] [:notice] [pid 1494] ModSecurity: Original server signature: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7
+[Sun Dec 16 10:58:22.325709 2018] [:notice] [pid 1494] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+
+[ N 2018-12-16 10:58:22.3449 1500/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-16 10:58:22.3450 1500/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-16 10:58:22.3450 1500/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-16 10:58:22.3450 1500/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-16 10:58:22.3450 1500/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-16 10:58:22.3450 1500/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-16 10:58:22.3727 1500/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 16 10:58:22.442428 2018] [auth_digest:notice] [pid 1494] AH01757: generating secret for digest authentication ...
+[Sun Dec 16 10:58:22.443759 2018] [lbmethod_heartbeat:notice] [pid 1494] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-16 10:58:22.4762 1519/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-16 10:58:22.5088 1522/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-16 10:58:22.5090 1522/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-16 10:58:22.5162 1522/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1522
+[Sun Dec 16 10:58:22.552226 2018] [mpm_prefork:notice] [pid 1494] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Sun Dec 16 10:58:22.552279 2018] [core:notice] [pid 1494] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-16 10:58:25.1760 1522/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2018-12-16 23:58:25.8066 1522/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Mon Dec 17 00:30:50.864430 2018] [core:notice] [pid 949] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Dec 17 00:30:50.875301 2018] [suexec:notice] [pid 949] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[ N 2018-12-17 00:30:51.0967 991/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-17 00:30:51.2362 1005/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-17 00:30:51.2407 1005/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-17 00:30:51.2994 1005/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1005
+[Mon Dec 17 00:30:51.316853 2018] [:notice] [pid 949] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Mon Dec 17 00:30:51.316899 2018] [:notice] [pid 949] ModSecurity: APR compiled version="1.4.8"; loaded version="1.4.8"
+[Mon Dec 17 00:30:51.316905 2018] [:notice] [pid 949] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Mon Dec 17 00:30:51.316908 2018] [:notice] [pid 949] ModSecurity: LUA compiled version="Lua 5.1"
+[Mon Dec 17 00:30:51.316911 2018] [:notice] [pid 949] ModSecurity: LIBXML compiled version="2.9.1"
+[Mon Dec 17 00:30:51.316913 2018] [:notice] [pid 949] ModSecurity: Original server signature: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7
+[Mon Dec 17 00:30:51.316916 2018] [:notice] [pid 949] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+
+[ N 2018-12-17 00:30:51.3839 1005/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-17 00:30:51.4021 1005/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-17 00:30:51.4022 1005/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-17 00:30:51.4022 1005/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-17 00:30:51.4023 1005/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-17 00:30:51.4023 1005/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-17 00:30:51.4562 1005/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 17 00:30:51.843610 2018] [auth_digest:notice] [pid 949] AH01757: generating secret for digest authentication ...
+[Mon Dec 17 00:30:51.844988 2018] [lbmethod_heartbeat:notice] [pid 949] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-17 00:30:52.1168 1059/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-17 00:30:52.3263 1065/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-17 00:30:52.3266 1065/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-17 00:30:52.3642 1065/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1065
+[Mon Dec 17 00:30:52.863769 2018] [mpm_prefork:notice] [pid 949] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Mon Dec 17 00:30:52.863847 2018] [core:notice] [pid 949] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-17 00:30:55.4311 1065/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Mon Dec 17 00:55:42.908137 2018] [mpm_prefork:notice] [pid 949] AH00170: caught SIGWINCH, shutting down gracefully
+
+[ N 2018-12-17 00:55:43.9658 1065/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-17 00:55:43.9667 1065/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-17 00:55:43.9668 1065/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-17 00:55:43.9668 1065/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-17 00:55:43.9668 1065/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-17 00:55:43.9668 1065/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-17 00:55:43.9901 1065/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[Mon Dec 17 00:56:41.689627 2018] [core:notice] [pid 948] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Dec 17 00:56:41.699588 2018] [suexec:notice] [pid 948] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[ N 2018-12-17 00:56:42.6797 983/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-17 00:56:42.8868 1030/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-17 00:56:42.8874 1030/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-17 00:56:42.9193 1030/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1030
+[Mon Dec 17 00:56:42.934604 2018] [:notice] [pid 948] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Mon Dec 17 00:56:42.934647 2018] [:notice] [pid 948] ModSecurity: APR compiled version="1.4.8"; loaded version="1.4.8"
+[Mon Dec 17 00:56:42.934653 2018] [:notice] [pid 948] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Mon Dec 17 00:56:42.934657 2018] [:notice] [pid 948] ModSecurity: LUA compiled version="Lua 5.1"
+[Mon Dec 17 00:56:42.934659 2018] [:notice] [pid 948] ModSecurity: LIBXML compiled version="2.9.1"
+[Mon Dec 17 00:56:42.934662 2018] [:notice] [pid 948] ModSecurity: Original server signature: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7
+[Mon Dec 17 00:56:42.934664 2018] [:notice] [pid 948] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+
+[ N 2018-12-17 00:56:42.9825 1030/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-12-17 00:56:42.9825 1030/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-12-17 00:56:42.9826 1030/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-12-17 00:56:42.9826 1030/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2018-12-17 00:56:42.9826 1030/T9 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-12-17 00:56:42.9826 1030/T9 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2018-12-17 00:56:43.0234 1030/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 17 00:56:43.494396 2018] [auth_digest:notice] [pid 948] AH01757: generating secret for digest authentication ...
+[Mon Dec 17 00:56:43.496310 2018] [lbmethod_heartbeat:notice] [pid 948] AH02282: No slotmem from mod_heartmonitor
+[ N 2018-12-17 00:56:43.6727 1066/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2018-12-17 00:56:43.8052 1077/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-12-17 00:56:43.8055 1077/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-12-17 00:56:43.8376 1077/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 1077
+[Mon Dec 17 00:56:44.233320 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.6 (CentOS) Phusion_Passenger/5.3.7 Microsoft-IIS/6.0 configured -- resuming normal operations
+[Mon Dec 17 00:56:44.233464 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[ N 2018-12-17 00:56:46.7386 1077/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[Mon Dec 17 03:19:40.695619 2018] [:error] [pid 1750] [client 5.8.54.27:54086] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/index.php"] [unique_id "XBcVzEuzdyjZ8PCMbH888AAAAAU"]
+[Mon Dec 17 03:19:40.696794 2018] [:error] [pid 1750] [client 5.8.54.27:54086] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/index.php"] [unique_id "XBcVzEuzdyjZ8PCMbH888AAAAAU"]
+[Mon Dec 17 03:19:40.697122 2018] [:error] [pid 1750] [client 5.8.54.27:54086] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/index.php"] [unique_id "XBcVzEuzdyjZ8PCMbH888AAAAAU"]
+[Mon Dec 17 03:19:40.973018 2018] [:error] [pid 1156] [client 5.8.54.27:56601] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/public/index.php"] [unique_id "XBcVzFihyggX4ra38DAA9QAAAAI"]
+[Mon Dec 17 03:19:40.973805 2018] [:error] [pid 1156] [client 5.8.54.27:56601] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/public/index.php"] [unique_id "XBcVzFihyggX4ra38DAA9QAAAAI"]
+[Mon Dec 17 03:19:40.974053 2018] [:error] [pid 1156] [client 5.8.54.27:56601] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/public/index.php"] [unique_id "XBcVzFihyggX4ra38DAA9QAAAAI"]
+[Mon Dec 17 03:19:41.246011 2018] [:error] [pid 1155] [client 5.8.54.27:58954] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/html/public/index.php"] [unique_id "XBcVzTI3ADZ0qO2jJhvF1QAAAAE"]
+[Mon Dec 17 03:19:41.246936 2018] [:error] [pid 1155] [client 5.8.54.27:58954] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/html/public/index.php"] [unique_id "XBcVzTI3ADZ0qO2jJhvF1QAAAAE"]
+[Mon Dec 17 03:19:41.247187 2018] [:error] [pid 1155] [client 5.8.54.27:58954] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/html/public/index.php"] [unique_id "XBcVzTI3ADZ0qO2jJhvF1QAAAAE"]
+[Mon Dec 17 03:19:41.575891 2018] [:error] [pid 1157] [client 5.8.54.27:32868] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/thinkphp/public/index.php"] [unique_id "XBcVzZcKViy5w5HK6x7QsgAAAAM"]
+[Mon Dec 17 03:19:41.576750 2018] [:error] [pid 1157] [client 5.8.54.27:32868] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/thinkphp/public/index.php"] [unique_id "XBcVzZcKViy5w5HK6x7QsgAAAAM"]
+[Mon Dec 17 03:19:41.576966 2018] [:error] [pid 1157] [client 5.8.54.27:32868] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/thinkphp/public/index.php"] [unique_id "XBcVzZcKViy5w5HK6x7QsgAAAAM"]
+[Mon Dec 17 03:19:41.847423 2018] [:error] [pid 1158] [client 5.8.54.27:35312] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/thinkphp/html/public/index.php"] [unique_id "XBcVzZqJqLKxfNFsxm2RxAAAAAQ"]
+[Mon Dec 17 03:19:41.848265 2018] [:error] [pid 1158] [client 5.8.54.27:35312] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/thinkphp/html/public/index.php"] [unique_id "XBcVzZqJqLKxfNFsxm2RxAAAAAQ"]
+[Mon Dec 17 03:19:41.848504 2018] [:error] [pid 1158] [client 5.8.54.27:35312] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/thinkphp/html/public/index.php"] [unique_id "XBcVzZqJqLKxfNFsxm2RxAAAAAQ"]
+[Mon Dec 17 03:19:42.120677 2018] [:error] [pid 1154] [client 5.8.54.27:37511] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/TP/index.php"] [unique_id "XBcVzvif1gSUmzqWIKq@gAAAAAA"]
+[Mon Dec 17 03:19:42.121969 2018] [:error] [pid 1154] [client 5.8.54.27:37511] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/TP/index.php"] [unique_id "XBcVzvif1gSUmzqWIKq@gAAAAAA"]
+[Mon Dec 17 03:19:42.122300 2018] [:error] [pid 1154] [client 5.8.54.27:37511] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/TP/index.php"] [unique_id "XBcVzvif1gSUmzqWIKq@gAAAAAA"]
+[Mon Dec 17 03:19:42.394458 2018] [:error] [pid 1750] [client 5.8.54.27:39850] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/TP/public/index.php"] [unique_id "XBcVzkuzdyjZ8PCMbH888QAAAAU"]
+[Mon Dec 17 03:19:42.395670 2018] [:error] [pid 1750] [client 5.8.54.27:39850] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/TP/public/index.php"] [unique_id "XBcVzkuzdyjZ8PCMbH888QAAAAU"]
+[Mon Dec 17 03:19:42.395932 2018] [:error] [pid 1750] [client 5.8.54.27:39850] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/TP/public/index.php"] [unique_id "XBcVzkuzdyjZ8PCMbH888QAAAAU"]
+[Mon Dec 17 03:19:42.723614 2018] [:error] [pid 1156] [client 5.8.54.27:42194] [client 5.8.54.27] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "271"] [id "933150"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "159.89.121.5"] [uri "/TP/html/public/index.php"] [unique_id "XBcVzlihyggX4ra38DAA9gAAAAI"]
+[Mon Dec 17 03:19:42.724383 2018] [:error] [pid 1156] [client 5.8.54.27:42194] [client 5.8.54.27] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "159.89.121.5"] [uri "/TP/html/public/index.php"] [unique_id "XBcVzlihyggX4ra38DAA9gAAAAI"]
+[Mon Dec 17 03:19:42.724643 2018] [:error] [pid 1156] [client 5.8.54.27:42194] [client 5.8.54.27] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/httpd/modsecurity.d/owasp-modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found; individual paranoia level scores: 5, 0, 0, 0"] [tag "event-correlation"] [hostname "159.89.121.5"] [uri "/TP/html/public/index.php"] [unique_id "XBcVzlihyggX4ra38DAA9gAAAAI"]

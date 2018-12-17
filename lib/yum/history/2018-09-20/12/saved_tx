@@ -1,0 +1,12 @@
+385:e3287fa1c1dae8d71560676921148632f0e2fd1a
+0
+1
+installed:386:6515283a1cb6537f96857bb88d54fcf1fc3f7e86
+1
+mbr: nodejs,x86_64,2,10.12.0,1nodesource 70
+  repo: nodesource
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

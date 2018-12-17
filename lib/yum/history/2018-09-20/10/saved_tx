@@ -1,0 +1,12 @@
+370:b399c8fec2e742bcc597285c5c22918f93408174
+0
+1
+installed:371:ea8641336fc043cef77e8f1724a73be15d7511c6
+1
+mbr: python2-pip,noarch,0,8.1.2,6.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

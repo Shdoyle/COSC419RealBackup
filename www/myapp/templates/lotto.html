@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+      #shadowbox {        
+          -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px               21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 16px 19px 10px 8px rgba(0,0,0,0); 
+          box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px             0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 16px 19px 10px 8px rgba(0,0,0,0);
+          font-size=500%;
+          box-sizing: border-box;
+          width: 50%;
+          border: 5px solid white;
+          float: left;
+      }
+      #error {
+        color: red;
+        background-color: yellow; 
+      }
+    </style>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Lotto Center</title>
+  </head>
+  <body>
+	<div class="jumbotron text-center">
+    		<h1>Lotto Center</h1>
+           {% if outMessage %}
+              <h1>{{ outMessage }}!</h1>
+           {% else %} 
+              <p id="error">Error : No Out Message received</p>
+           {% endif %}
+	</div>
+
+	</div class="container">
+		<div class="row">
+  		<div class="col-sm-2">
+	    </div>
+			<div class="col-sm-1">
+				<h3>Ticket 1</h3>
+				<p>Your Number:</p>
+      </div>   
+			<div class="col-sm-1">
+        <br><br>
+        {% if randomNumber %}
+          <p id="shadowbox">{{ randomNumber }}</p>
+        {% else %}
+          <p id="error">Error : No random received</p>
+        {% endif %}
+      </div>
+      <div class="col-sm-1">
+      </div>
+			<div class="col-sm-2">
+				<h3>Winning Numbers</h3>
+				<P>Winning Number</p>
+      </div>
+      <div class="col-sm-1">
+        {% if winningNumber %}
+        <br><br>
+           <p id="shadowbox">{{ winningNumber }}</p>
+        {% else %}
+           <p id="error">Error : No winning received</p>
+        {% endif %}
+      </div>
+		</div>
+	</div>	 
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+mirror.esecuredata.com 0.168552875519
+muug.ca 0.0222570896149
+mirror2.evolution-host.com 0.0162539482117
+centos.mirror.netelligent.ca 0.0186910629272
+centos.mirror.rafal.ca 0.00573205947876
+mirror.layeronline.com 0.00158596038818
+centos.mirror.colo-serv.net 0.00878596305847
+mirror.netflash.net 0.0061628818512
+mirror.netaddicted.ca 0.0355889797211
+rep-centos-ca.upress.io 0.0141789913177
+centos.ca-west.mirror.fullhost.io 0.047648191452
+centos.mirror.vexxhost.com 0.0142130851746
+mirror.its.sfu.ca 0.0478050708771
+centos.westmancom.com 0.073438167572
+mirror.csclub.uwaterloo.ca 0.00666809082031

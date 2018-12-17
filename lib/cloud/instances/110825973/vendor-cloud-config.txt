@@ -1,0 +1,66 @@
+#cloud-config
+
+# from 1 files
+# cloud-config
+
+---
+cloud_config_modules:
+- emit_upstart
+- disk_setup
+- mounts
+- ssh-import-id
+- locale
+- set-passwords
+- package-update-upgrade-install
+- landscape
+- timezone
+- puppet
+- chef
+- salt-minion
+- mcollective
+- disable-ec2-metadata
+- runcmd
+- resolv-conf
+cloud_final_modules:
+- rightscale_userdata
+- scripts-vendor
+- scripts-per-once
+- scripts-per-boot
+- scripts-per-instance
+- scripts-user
+- ssh-authkey-fingerprints
+- keys-to-console
+- phone-home
+- final-message
+- power-state-change
+cloud_init_modules:
+- migrator
+- seed_random
+- bootcmd
+- write-files
+-   - growpart
+    - always
+-   - resizefs
+    - always
+- set_hostname
+-   - update_hostname
+    - once-per-instance
+-   - update_etc_hosts
+    - once-per-instance
+- ca-certs
+- rsyslog
+- users-groups
+- ssh
+disable_root: false
+locale_configfile: /etc/sysconfig/i18n
+manage_etc_hosts: true
+network:
+    config: disabled
+ssh_pwauth: true
+system_info:
+    distro: rhel
+    paths:
+        cloud_dir: /var/lib/cloud
+        templates_dir: /etc/cloud/templates
+    ssh_svcname: sshd
+...

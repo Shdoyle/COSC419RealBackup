@@ -1,0 +1,67 @@
+2018-09-19 21:47:01,276 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2018-09-19 21:47:01,303 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2018-09-19 21:47:01,305 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2018-09-19 21:47:01,327 INFO     tuned.daemon.controller: starting controller
+2018-09-19 21:47:01,330 INFO     tuned.daemon.daemon: starting tuning
+2018-09-19 21:47:01,352 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2018-09-19 21:47:01,369 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2018-09-19 21:47:01,370 INFO     tuned.plugins.base: instance disk: assigning devices vda, vdb
+2018-09-19 21:47:01,588 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2018-09-19 21:47:01,606 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2018-09-19 21:47:02,355 INFO     tuned.plugins.hotplug: device 'vda' added
+2018-09-19 21:47:02,383 INFO     tuned.plugins.hotplug: device 'vdb' added
+2018-09-20 01:40:09,591 INFO     tuned.daemon.controller: terminating controller
+2018-09-20 01:40:09,593 INFO     tuned.daemon.daemon: stopping tuning
+2018-09-20 01:40:10,619 INFO     tuned.daemon.daemon: terminating Tuned, rolling back all changes
+2018-09-20 01:40:10,928 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2018-09-20 01:40:10,937 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2018-09-20 01:40:10,939 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2018-09-20 01:40:10,948 INFO     tuned.daemon.controller: starting controller
+2018-09-20 01:40:10,948 INFO     tuned.daemon.daemon: starting tuning
+2018-09-20 01:40:10,953 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2018-09-20 01:40:10,959 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2018-09-20 01:40:10,959 INFO     tuned.plugins.base: instance disk: assigning devices vda, vdb
+2018-09-20 01:40:11,015 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2018-09-20 01:40:11,024 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2018-12-16 10:53:09,484 INFO     tuned.daemon.controller: terminating controller
+2018-12-16 10:53:09,554 INFO     tuned.daemon.daemon: stopping tuning
+2018-12-16 10:53:10,328 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2018-12-16 10:54:28,070 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2018-12-16 10:54:28,326 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2018-12-16 10:54:28,333 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2018-12-16 10:54:28,365 INFO     tuned.daemon.controller: starting controller
+2018-12-16 10:54:28,365 INFO     tuned.daemon.daemon: starting tuning
+2018-12-16 10:54:28,394 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2018-12-16 10:54:28,421 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2018-12-16 10:54:28,424 INFO     tuned.plugins.base: instance disk: assigning devices vda, vdb
+2018-12-16 10:54:28,800 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2018-12-16 10:54:28,851 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2018-12-16 10:54:30,498 INFO     tuned.plugins.hotplug: device 'vda' added
+2018-12-16 10:54:30,527 INFO     tuned.plugins.hotplug: device 'vdb' added
+2018-12-17 00:30:50,777 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2018-12-17 00:30:50,828 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2018-12-17 00:30:50,836 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2018-12-17 00:30:50,871 INFO     tuned.daemon.controller: starting controller
+2018-12-17 00:30:50,871 INFO     tuned.daemon.daemon: starting tuning
+2018-12-17 00:30:50,902 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2018-12-17 00:30:50,944 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2018-12-17 00:30:50,945 INFO     tuned.plugins.base: instance disk: assigning devices vda, vdb
+2018-12-17 00:30:51,334 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2018-12-17 00:30:51,378 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2018-12-17 00:30:53,003 INFO     tuned.plugins.hotplug: device 'vda' added
+2018-12-17 00:30:53,019 INFO     tuned.plugins.hotplug: device 'vdb' added
+2018-12-17 00:55:42,857 INFO     tuned.daemon.controller: terminating controller
+2018-12-17 00:55:42,858 INFO     tuned.daemon.daemon: stopping tuning
+2018-12-17 00:55:43,250 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2018-12-17 00:56:41,512 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2018-12-17 00:56:41,582 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2018-12-17 00:56:41,593 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2018-12-17 00:56:41,637 INFO     tuned.daemon.controller: starting controller
+2018-12-17 00:56:41,637 INFO     tuned.daemon.daemon: starting tuning
+2018-12-17 00:56:41,675 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2018-12-17 00:56:41,706 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2018-12-17 00:56:41,710 INFO     tuned.plugins.base: instance disk: assigning devices vda, vdb
+2018-12-17 00:56:42,248 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2018-12-17 00:56:42,284 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2018-12-17 00:56:44,022 INFO     tuned.plugins.hotplug: device 'vda' added
+2018-12-17 00:56:44,056 INFO     tuned.plugins.hotplug: device 'vdb' added

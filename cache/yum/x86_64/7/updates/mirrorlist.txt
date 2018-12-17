@@ -1,0 +1,10 @@
+http://mirror.netaddicted.ca/CentOS/7.6.1810/updates/x86_64/
+http://mirror.netflash.net/centos/7.6.1810/updates/x86_64/
+http://mirror.layeronline.com/centos/7.6.1810/updates/x86_64/
+http://mirror.csclub.uwaterloo.ca/centos/7.6.1810/updates/x86_64/
+http://centos.mirror.rafal.ca/7.6.1810/updates/x86_64/
+http://mirror.calgah.com/centos/7.6.1810/updates/x86_64/
+http://rep-centos-ca.upress.io/7.6.1810/updates/x86_64/
+http://mirror.its.sfu.ca/mirror/CentOS/7.6.1810/updates/x86_64/
+http://muug.ca/mirror/centos/7.6.1810/updates/x86_64/
+http://mirror.it.ubc.ca/centos/7.6.1810/updates/x86_64/

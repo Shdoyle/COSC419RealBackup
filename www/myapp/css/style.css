@@ -1,0 +1,9 @@
+#shadowbox {
+	color: green;
+  background-color: coral;
+	box-shadow: 5px 10px #000000;
+}
+#error {
+  color: red;
+  background-color: yellow; 
+}

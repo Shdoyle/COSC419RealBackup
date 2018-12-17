@@ -1,0 +1,8 @@
+auto
+/usr/bin/dockerd
+distribution_based_engine.json
+/var/lib/docker-engine/distribution_based_engine.json
+
+/usr/bin/dockerd-ce
+1
+/var/lib/docker-engine/distribution_based_engine-ce.json

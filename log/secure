@@ -1,0 +1,89 @@
+Dec 16 10:52:12 COSC419-19 unix_chkpwd[29622]: password check failed for user (root)
+Dec 16 10:52:12 COSC419-19 login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Dec 16 10:52:12 COSC419-19 login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Dec 16 10:52:14 COSC419-19 login: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Dec 16 10:52:35 COSC419-19 unix_chkpwd[29652]: password check failed for user (root)
+Dec 16 10:52:35 COSC419-19 login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Dec 16 10:52:37 COSC419-19 login: FAILED LOGIN 2 FROM tty1 FOR root, Authentication failure
+Dec 16 10:54:15 COSC419-19 polkitd[531]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 16 10:54:15 COSC419-19 polkitd[531]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 16 10:54:15 COSC419-19 polkitd[531]: Finished loading, compiling and executing 2 rules
+Dec 16 10:54:15 COSC419-19 polkitd[531]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 16 10:54:31 COSC419-19 sshd[1195]: Server listening on 0.0.0.0 port 762.
+Dec 16 10:54:31 COSC419-19 sshd[1195]: Server listening on :: port 762.
+Dec 16 10:54:50 COSC419-19 login: pam_unix(login:account): expired password for user root (root enforced)
+Dec 16 10:55:08 COSC419-19 unix_update[1368]: password changed for root
+Dec 16 10:55:08 COSC419-19 login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 16 10:55:08 COSC419-19 login: ROOT LOGIN ON tty1
+Dec 16 10:57:21 COSC419-19 polkitd[531]: Registered Authentication Agent for unix-process:1395:19146 (system bus name :1.16 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 16 10:57:22 COSC419-19 polkitd[531]: Unregistered Authentication Agent for unix-process:1395:19146 (system bus name :1.16, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 16 10:58:20 COSC419-19 polkitd[531]: Registered Authentication Agent for unix-process:1470:25116 (system bus name :1.17 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 16 10:58:22 COSC419-19 polkitd[531]: Unregistered Authentication Agent for unix-process:1470:25116 (system bus name :1.17, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 17 00:30:37 COSC419-19 polkitd[528]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 17 00:30:37 COSC419-19 polkitd[528]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 17 00:30:37 COSC419-19 polkitd[528]: Finished loading, compiling and executing 2 rules
+Dec 17 00:30:37 COSC419-19 polkitd[528]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 17 00:30:53 COSC419-19 sshd[1191]: Server listening on 0.0.0.0 port 762.
+Dec 17 00:30:53 COSC419-19 sshd[1191]: Server listening on :: port 762.
+Dec 17 00:54:48 COSC419-19 unix_chkpwd[1378]: password check failed for user (root)
+Dec 17 00:54:48 COSC419-19 login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Dec 17 00:54:48 COSC419-19 login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Dec 17 00:54:50 COSC419-19 login: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Dec 17 00:55:14 COSC419-19 unix_chkpwd[1380]: password check failed for user (root)
+Dec 17 00:55:14 COSC419-19 login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Dec 17 00:55:15 COSC419-19 login: FAILED LOGIN 2 FROM tty1 FOR root, Authentication failure
+Dec 17 00:56:29 COSC419-19 polkitd[532]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 17 00:56:29 COSC419-19 polkitd[532]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 17 00:56:29 COSC419-19 polkitd[532]: Finished loading, compiling and executing 2 rules
+Dec 17 00:56:29 COSC419-19 polkitd[532]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 17 00:56:44 COSC419-19 sshd[1205]: Server listening on 0.0.0.0 port 762.
+Dec 17 00:56:44 COSC419-19 sshd[1205]: Server listening on :: port 762.
+Dec 17 01:00:35 COSC419-19 login: pam_unix(login:account): expired password for user root (root enforced)
+Dec 17 01:00:45 COSC419-19 unix_update[1371]: password changed for root
+Dec 17 01:00:46 COSC419-19 login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 17 01:00:46 COSC419-19 login: ROOT LOGIN ON tty1
+Dec 17 01:01:26 COSC419-19 passwd: pam_unix(passwd:chauthtok): password changed for shane
+Dec 17 01:02:51 COSC419-19 polkitd[532]: Registered Authentication Agent for unix-process:1408:38865 (system bus name :1.18 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 17 01:02:51 COSC419-19 polkitd[532]: Unregistered Authentication Agent for unix-process:1408:38865 (system bus name :1.18, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 17 01:03:03 COSC419-19 polkitd[532]: Registered Authentication Agent for unix-process:1424:40087 (system bus name :1.19 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 17 01:03:03 COSC419-19 polkitd[532]: Unregistered Authentication Agent for unix-process:1424:40087 (system bus name :1.19, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 17 01:04:29 COSC419-19 polkitd[532]: Registered Authentication Agent for unix-process:1441:48666 (system bus name :1.21 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 17 01:04:29 COSC419-19 polkitd[532]: Unregistered Authentication Agent for unix-process:1441:48666 (system bus name :1.21, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 17 01:04:41 COSC419-19 polkitd[532]: Registered Authentication Agent for unix-process:1461:49852 (system bus name :1.22 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 17 01:04:43 COSC419-19 polkitd[532]: Unregistered Authentication Agent for unix-process:1461:49852 (system bus name :1.22, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 17 01:05:16 COSC419-19 sshd[1519]: Connection closed by 206.87.39.114 port 51765 [preauth]
+Dec 17 01:07:40 COSC419-19 unix_chkpwd[1524]: password check failed for user (shane)
+Dec 17 01:07:40 COSC419-19 sshd[1522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=s0106f0f24983f313.ok.shawcable.net  user=shane
+Dec 17 01:07:42 COSC419-19 sshd[1522]: Failed password for shane from 24.70.192.255 port 20192 ssh2
+Dec 17 01:07:48 COSC419-19 sshd[1522]: Accepted password for shane from 24.70.192.255 port 20192 ssh2
+Dec 17 01:07:49 COSC419-19 sshd[1522]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 01:07:50 COSC419-19 sshd[1528]: Accepted password for shane from 24.70.192.255 port 20193 ssh2
+Dec 17 01:07:50 COSC419-19 sshd[1528]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 03:19:22 COSC419-19 sshd[1522]: pam_unix(sshd:session): session closed for user shane
+Dec 17 03:19:33 COSC419-19 sshd[1528]: pam_unix(sshd:session): session closed for user shane
+Dec 17 03:44:16 COSC419-19 sshd[4897]: Accepted password for shane from 24.70.192.255 port 54166 ssh2
+Dec 17 03:44:16 COSC419-19 sshd[4897]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 03:44:17 COSC419-19 sshd[4906]: Accepted password for shane from 24.70.192.255 port 54167 ssh2
+Dec 17 03:44:18 COSC419-19 sshd[4906]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 05:44:18 COSC419-19 sshd[13433]: Accepted password for shane from 24.70.192.255 port 54463 ssh2
+Dec 17 05:44:19 COSC419-19 sshd[13433]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 06:07:05 COSC419-19 sshd[4906]: pam_unix(sshd:session): session closed for user shane
+Dec 17 06:07:05 COSC419-19 sshd[13433]: pam_unix(sshd:session): session closed for user shane
+Dec 17 06:07:05 COSC419-19 sshd[4897]: pam_unix(sshd:session): session closed for user shane
+Dec 17 06:07:15 COSC419-19 sshd[15123]: Accepted password for shane from 24.70.192.255 port 54601 ssh2
+Dec 17 06:07:16 COSC419-19 sshd[15123]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 06:07:17 COSC419-19 sshd[15131]: Accepted password for shane from 24.70.192.255 port 54602 ssh2
+Dec 17 06:07:17 COSC419-19 sshd[15131]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 06:14:39 COSC419-19 unix_chkpwd[15700]: password check failed for user (root)
+Dec 17 06:14:39 COSC419-19 su: pam_unix(su:auth): authentication failure; logname=shane uid=1001 euid=0 tty=pts/0 ruser=shane rhost=  user=root
+Dec 17 06:14:39 COSC419-19 su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Dec 17 06:14:47 COSC419-19 unix_chkpwd[15714]: password check failed for user (root)
+Dec 17 06:14:47 COSC419-19 su: pam_unix(su:auth): authentication failure; logname=shane uid=1001 euid=0 tty=pts/0 ruser=shane rhost=  user=root
+Dec 17 06:14:47 COSC419-19 su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Dec 17 06:14:55 COSC419-19 unix_chkpwd[15727]: password check failed for user (root)
+Dec 17 06:14:55 COSC419-19 su: pam_unix(su:auth): authentication failure; logname=shane uid=1001 euid=0 tty=pts/0 ruser=shane rhost=  user=root
+Dec 17 06:14:55 COSC419-19 su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Dec 17 06:15:06 COSC419-19 su: pam_unix(su:session): session opened for user root by shane(uid=1001)
+Dec 17 06:19:29 COSC419-19 sshd[16224]: Accepted password for shane from 24.70.192.255 port 54656 ssh2
+Dec 17 06:19:30 COSC419-19 sshd[16224]: pam_unix(sshd:session): session opened for user shane by (uid=0)
+Dec 17 06:57:03 COSC419-19 sshd[16224]: pam_unix(sshd:session): session closed for user shane

@@ -1,0 +1,57 @@
+395:5bda1cf806fab54e64be62bcee7b80b279209eaa
+0
+1
+installed:401:045889513d32f6b87eb1a43c4649f8cb41403e8e
+6
+mbr: device-mapper-persistent-data,x86_64,0,0.7.3,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: lvm2,x86_64,7,2.02.177,4.el7@a:dependson
+  depends_on: lvm2,x86_64,7,2.02.177,4.el7@a
+mbr: lvm2,x86_64,7,2.02.177,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: device-mapper-event,x86_64,7,1.02.146,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lvm2-libs,x86_64,7,2.02.177,4.el7@a:dependson
+  depends_on: lvm2-libs,x86_64,7,2.02.177,4.el7@a
+mbr: device-mapper-event-libs,x86_64,7,1.02.146,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lvm2,x86_64,7,2.02.177,4.el7@a:dependson lvm2-libs,x86_64,7,2.02.177,4.el7@a:dependson lvm2-libs,x86_64,7,2.02.177,4.el7@a:dependson device-mapper-event,x86_64,7,1.02.146,4.el7@a:dependson device-mapper-event,x86_64,7,1.02.146,4.el7@a:dependson device-mapper-event,x86_64,7,1.02.146,4.el7@a:dependson
+  depends_on: lvm2,x86_64,7,2.02.177,4.el7@a lvm2-libs,x86_64,7,2.02.177,4.el7@a lvm2-libs,x86_64,7,2.02.177,4.el7@a device-mapper-event,x86_64,7,1.02.146,4.el7@a device-mapper-event,x86_64,7,1.02.146,4.el7@a device-mapper-event,x86_64,7,1.02.146,4.el7@a
+mbr: lvm2-libs,x86_64,7,2.02.177,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lvm2,x86_64,7,2.02.177,4.el7@a:dependson
+  depends_on: lvm2,x86_64,7,2.02.177,4.el7@a
+mbr: libaio,x86_64,0,0.3.109,13.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: device-mapper-persistent-data,x86_64,0,0.7.3,3.el7@a:dependson
+  depends_on: device-mapper-persistent-data,x86_64,0,0.7.3,3.el7@a

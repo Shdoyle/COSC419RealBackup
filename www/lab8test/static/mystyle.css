@@ -1,0 +1,70 @@
+#Lab8 CSS
+html,
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), "{{url_for('static', filename='templateBackgroundImage.jpg')}}";
+  background-size: cover;
+  min-height: 100%;
+
+}
+h1{
+  padding-top: 6px;
+}
+.panel{
+  background-color: #ccddff;
+  width: 70%;
+  border: 5px solid white;
+  box-shadow: 5px 10px 3px #004d99;
+  padding: 2px;  
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #cce0ff;
+  color: blue;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.jumbotron{
+  background: "{{url_for('static', filename='img/stars.png')}}";
+  background-color: black;
+  color: white;
+  margin-top: 2px;
+  text-shadow: 5px 3px 5px yellow;
+  text-align: center;
+  box-shadow: 10px 25px 25px black;
+}
+.li{
+  font-weight: 500;
+  color: yellow;
+  background-color: transparent;
+}
+a{
+  color: red;
+  background-color: transparent;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.navbar-brand{
+  color: blue;
+}
+.navbar-header{
+  padding-left: 10%;
+}
+.nav-link:hover,
+.nav-link:focus{
+  color: red;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.nav-link:active{
+  color: rgba(255, 255, 255, 1);
+}

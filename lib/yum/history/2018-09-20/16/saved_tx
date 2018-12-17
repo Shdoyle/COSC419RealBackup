@@ -1,0 +1,48 @@
+401:045889513d32f6b87eb1a43c4649f8cb41403e8e
+0
+1
+installed:406:b504314d76094959d3b95c7ae017ecbe5b9a22c5
+5
+mbr: docker-ce-cli,x86_64,1,18.09.0,3.el7 70
+  repo: docker-ce-stable
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: docker-ce,x86_64,3,18.09.0,3.el7@a:dependson
+  depends_on: docker-ce,x86_64,3,18.09.0,3.el7@a
+mbr: libtool-ltdl,x86_64,0,2.4.2,22.el7_3 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: docker-ce-cli,x86_64,1,18.09.0,3.el7@a:dependson
+  depends_on: docker-ce-cli,x86_64,1,18.09.0,3.el7@a
+mbr: docker-ce,x86_64,3,18.09.0,3.el7 70
+  repo: docker-ce-stable
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: containerd.io,x86_64,0,1.2.0,3.el7 70
+  repo: docker-ce-stable
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: docker-ce,x86_64,3,18.09.0,3.el7@a:dependson docker-ce-cli,x86_64,1,18.09.0,3.el7@a:dependson
+  depends_on: docker-ce,x86_64,3,18.09.0,3.el7@a docker-ce-cli,x86_64,1,18.09.0,3.el7@a
+mbr: container-selinux,noarch,2,2.68,1.el7 70
+  repo: extras
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: docker-ce,x86_64,3,18.09.0,3.el7@a:dependson
+  depends_on: docker-ce,x86_64,3,18.09.0,3.el7@a

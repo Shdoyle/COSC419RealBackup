@@ -1,0 +1,2322 @@
+Nov 18 03:16:01 COSC419-19 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0" x-pid="11970" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Nov 18 03:56:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 03:56:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 04:01:01 COSC419-19 systemd: Started Session 2508 of user root.
+Nov 18 04:01:01 COSC419-19 systemd: Starting Session 2508 of user root.
+Nov 18 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 05:01:01 COSC419-19 systemd: Started Session 2509 of user root.
+Nov 18 05:01:01 COSC419-19 systemd: Starting Session 2509 of user root.
+Nov 18 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 06:01:01 COSC419-19 systemd: Started Session 2510 of user root.
+Nov 18 06:01:01 COSC419-19 systemd: Starting Session 2510 of user root.
+Nov 18 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 07:01:01 COSC419-19 systemd: Started Session 2511 of user root.
+Nov 18 07:01:01 COSC419-19 systemd: Starting Session 2511 of user root.
+Nov 18 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 08:01:01 COSC419-19 systemd: Started Session 2512 of user root.
+Nov 18 08:01:01 COSC419-19 systemd: Starting Session 2512 of user root.
+Nov 18 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 09:01:01 COSC419-19 systemd: Started Session 2513 of user root.
+Nov 18 09:01:01 COSC419-19 systemd: Starting Session 2513 of user root.
+Nov 18 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 10:01:01 COSC419-19 systemd: Started Session 2514 of user root.
+Nov 18 10:01:01 COSC419-19 systemd: Starting Session 2514 of user root.
+Nov 18 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 11:01:01 COSC419-19 systemd: Started Session 2515 of user root.
+Nov 18 11:01:01 COSC419-19 systemd: Starting Session 2515 of user root.
+Nov 18 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 12:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 12:01:02 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 12:01:02 COSC419-19 systemd: Started Session 2516 of user root.
+Nov 18 12:01:02 COSC419-19 systemd: Starting Session 2516 of user root.
+Nov 18 12:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 12:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 13:01:01 COSC419-19 systemd: Started Session 2517 of user root.
+Nov 18 13:01:01 COSC419-19 systemd: Starting Session 2517 of user root.
+Nov 18 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 14:01:01 COSC419-19 systemd: Started Session 2518 of user root.
+Nov 18 14:01:01 COSC419-19 systemd: Starting Session 2518 of user root.
+Nov 18 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 15:01:01 COSC419-19 systemd: Started Session 2519 of user root.
+Nov 18 15:01:01 COSC419-19 systemd: Starting Session 2519 of user root.
+Nov 18 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 16:01:01 COSC419-19 systemd: Started Session 2520 of user root.
+Nov 18 16:01:01 COSC419-19 systemd: Starting Session 2520 of user root.
+Nov 18 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 17:01:01 COSC419-19 systemd: Started Session 2521 of user root.
+Nov 18 17:01:01 COSC419-19 systemd: Starting Session 2521 of user root.
+Nov 18 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 18:01:01 COSC419-19 systemd: Started Session 2522 of user root.
+Nov 18 18:01:01 COSC419-19 systemd: Starting Session 2522 of user root.
+Nov 18 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 19:01:01 COSC419-19 systemd: Started Session 2523 of user root.
+Nov 18 19:01:01 COSC419-19 systemd: Starting Session 2523 of user root.
+Nov 18 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 20:01:01 COSC419-19 systemd: Started Session 2524 of user root.
+Nov 18 20:01:01 COSC419-19 systemd: Starting Session 2524 of user root.
+Nov 18 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 21:01:01 COSC419-19 systemd: Started Session 2525 of user root.
+Nov 18 21:01:01 COSC419-19 systemd: Starting Session 2525 of user root.
+Nov 18 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 22:01:01 COSC419-19 systemd: Started Session 2526 of user root.
+Nov 18 22:01:01 COSC419-19 systemd: Starting Session 2526 of user root.
+Nov 18 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 18 22:07:12 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 18 22:07:12 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 18 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 18 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 18 23:01:01 COSC419-19 systemd: Started Session 2527 of user root.
+Nov 18 23:01:01 COSC419-19 systemd: Starting Session 2527 of user root.
+Nov 18 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 18 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 00:01:01 COSC419-19 systemd: Started Session 2528 of user root.
+Nov 19 00:01:01 COSC419-19 systemd: Starting Session 2528 of user root.
+Nov 19 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 01:01:01 COSC419-19 systemd: Started Session 2529 of user root.
+Nov 19 01:01:01 COSC419-19 systemd: Starting Session 2529 of user root.
+Nov 19 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 02:01:01 COSC419-19 systemd: Started Session 2530 of user root.
+Nov 19 02:01:01 COSC419-19 systemd: Starting Session 2530 of user root.
+Nov 19 02:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 02:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 02:02:43 COSC419-19 systemd: Created slice User Slice of shane.
+Nov 19 02:02:43 COSC419-19 systemd: Starting User Slice of shane.
+Nov 19 02:02:43 COSC419-19 systemd: Started Session 2531 of user shane.
+Nov 19 02:02:43 COSC419-19 systemd-logind: New session 2531 of user shane.
+Nov 19 02:02:43 COSC419-19 systemd: Starting Session 2531 of user shane.
+Nov 19 02:02:43 COSC419-19 rsyslogd: imjournal: journal reloaded... [v8.24.0 try http://www.rsyslog.com/e/0 ]
+Nov 19 02:02:44 COSC419-19 systemd: Started Session 2532 of user shane.
+Nov 19 02:02:44 COSC419-19 systemd-logind: New session 2532 of user shane.
+Nov 19 02:02:44 COSC419-19 systemd: Starting Session 2532 of user shane.
+Nov 19 02:02:51 COSC419-19 su: (to root) shane on pts/0
+Nov 19 02:03:29 COSC419-19 systemd: Started Session 2533 of user shane.
+Nov 19 02:03:29 COSC419-19 systemd-logind: New session 2533 of user shane.
+Nov 19 02:03:29 COSC419-19 systemd: Starting Session 2533 of user shane.
+Nov 19 02:03:31 COSC419-19 systemd-logind: Removed session 2533.
+Nov 19 02:07:15 COSC419-19 systemd: Started Session 2534 of user shane.
+Nov 19 02:07:15 COSC419-19 systemd-logind: New session 2534 of user shane.
+Nov 19 02:07:15 COSC419-19 systemd: Starting Session 2534 of user shane.
+Nov 19 02:07:16 COSC419-19 systemd-logind: Removed session 2534.
+Nov 19 02:08:06 COSC419-19 systemd: Started Session 2535 of user shane.
+Nov 19 02:08:06 COSC419-19 systemd-logind: New session 2535 of user shane.
+Nov 19 02:08:06 COSC419-19 systemd: Starting Session 2535 of user shane.
+Nov 19 02:08:07 COSC419-19 systemd-logind: Removed session 2535.
+Nov 19 02:08:13 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:08:14 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:08:14 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:08:14 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:08:42 COSC419-19 systemd: Started Session 2536 of user shane.
+Nov 19 02:08:42 COSC419-19 systemd-logind: New session 2536 of user shane.
+Nov 19 02:08:42 COSC419-19 systemd: Starting Session 2536 of user shane.
+Nov 19 02:08:43 COSC419-19 systemd-logind: Removed session 2536.
+Nov 19 02:08:44 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:08:46 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:08:46 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:08:46 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:13:07 COSC419-19 systemd: Started Session 2537 of user shane.
+Nov 19 02:13:07 COSC419-19 systemd-logind: New session 2537 of user shane.
+Nov 19 02:13:07 COSC419-19 systemd: Starting Session 2537 of user shane.
+Nov 19 02:13:08 COSC419-19 systemd-logind: Removed session 2537.
+Nov 19 02:13:10 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:13:11 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:13:12 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:13:12 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:20:48 COSC419-19 systemd: Started Session 2538 of user shane.
+Nov 19 02:20:48 COSC419-19 systemd-logind: New session 2538 of user shane.
+Nov 19 02:20:48 COSC419-19 systemd: Starting Session 2538 of user shane.
+Nov 19 02:20:49 COSC419-19 systemd-logind: Removed session 2538.
+Nov 19 02:20:52 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:20:53 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:20:53 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:20:53 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:23:05 COSC419-19 systemd: Started Session 2539 of user shane.
+Nov 19 02:23:05 COSC419-19 systemd-logind: New session 2539 of user shane.
+Nov 19 02:23:05 COSC419-19 systemd: Starting Session 2539 of user shane.
+Nov 19 02:23:07 COSC419-19 systemd-logind: Removed session 2539.
+Nov 19 02:23:09 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:23:10 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:23:10 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:23:10 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:24:15 COSC419-19 systemd: Started Session 2540 of user shane.
+Nov 19 02:24:15 COSC419-19 systemd-logind: New session 2540 of user shane.
+Nov 19 02:24:15 COSC419-19 systemd: Starting Session 2540 of user shane.
+Nov 19 02:24:15 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:24:16 COSC419-19 systemd-logind: Removed session 2540.
+Nov 19 02:24:17 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:24:17 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:24:17 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:26:11 COSC419-19 systemd: Started Session 2541 of user shane.
+Nov 19 02:26:11 COSC419-19 systemd-logind: New session 2541 of user shane.
+Nov 19 02:26:11 COSC419-19 systemd: Starting Session 2541 of user shane.
+Nov 19 02:26:12 COSC419-19 systemd-logind: Removed session 2541.
+Nov 19 02:26:12 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:26:13 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:26:13 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:26:13 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:30:59 COSC419-19 systemd: Started Session 2542 of user shane.
+Nov 19 02:30:59 COSC419-19 systemd-logind: New session 2542 of user shane.
+Nov 19 02:30:59 COSC419-19 systemd: Starting Session 2542 of user shane.
+Nov 19 02:31:00 COSC419-19 systemd-logind: Removed session 2542.
+Nov 19 02:31:01 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:31:02 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:31:02 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:31:03 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:32:43 COSC419-19 systemd: Started Session 2543 of user shane.
+Nov 19 02:32:43 COSC419-19 systemd-logind: New session 2543 of user shane.
+Nov 19 02:32:43 COSC419-19 systemd: Starting Session 2543 of user shane.
+Nov 19 02:32:44 COSC419-19 systemd-logind: Removed session 2543.
+Nov 19 02:32:45 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:32:46 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:32:47 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:32:47 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:33:14 COSC419-19 systemd: Started Session 2544 of user shane.
+Nov 19 02:33:14 COSC419-19 systemd-logind: New session 2544 of user shane.
+Nov 19 02:33:14 COSC419-19 systemd: Starting Session 2544 of user shane.
+Nov 19 02:33:15 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:33:15 COSC419-19 systemd-logind: Removed session 2544.
+Nov 19 02:33:17 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:33:17 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:33:17 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:38:16 COSC419-19 systemd: Started Session 2545 of user shane.
+Nov 19 02:38:16 COSC419-19 systemd-logind: New session 2545 of user shane.
+Nov 19 02:38:16 COSC419-19 systemd: Starting Session 2545 of user shane.
+Nov 19 02:38:17 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:38:18 COSC419-19 systemd-logind: Removed session 2545.
+Nov 19 02:38:19 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:38:19 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:38:19 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:38:47 COSC419-19 systemd: Started Session 2546 of user shane.
+Nov 19 02:38:47 COSC419-19 systemd-logind: New session 2546 of user shane.
+Nov 19 02:38:47 COSC419-19 systemd: Starting Session 2546 of user shane.
+Nov 19 02:38:49 COSC419-19 systemd-logind: Removed session 2546.
+Nov 19 02:38:50 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:38:51 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:38:51 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:38:52 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:41:06 COSC419-19 systemd: Started Session 2547 of user shane.
+Nov 19 02:41:06 COSC419-19 systemd-logind: New session 2547 of user shane.
+Nov 19 02:41:06 COSC419-19 systemd: Starting Session 2547 of user shane.
+Nov 19 02:41:07 COSC419-19 systemd-logind: Removed session 2547.
+Nov 19 02:41:07 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:41:08 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:41:08 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:41:09 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:42:05 COSC419-19 systemd: Started Session 2548 of user shane.
+Nov 19 02:42:06 COSC419-19 systemd-logind: New session 2548 of user shane.
+Nov 19 02:42:06 COSC419-19 systemd: Starting Session 2548 of user shane.
+Nov 19 02:42:07 COSC419-19 systemd-logind: Removed session 2548.
+Nov 19 02:43:25 COSC419-19 systemd: Started Session 2549 of user shane.
+Nov 19 02:43:25 COSC419-19 systemd-logind: New session 2549 of user shane.
+Nov 19 02:43:25 COSC419-19 systemd: Starting Session 2549 of user shane.
+Nov 19 02:43:26 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:43:27 COSC419-19 systemd-logind: Removed session 2549.
+Nov 19 02:43:28 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:43:28 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:43:28 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:44:08 COSC419-19 systemd: Started Session 2550 of user shane.
+Nov 19 02:44:08 COSC419-19 systemd-logind: New session 2550 of user shane.
+Nov 19 02:44:08 COSC419-19 systemd: Starting Session 2550 of user shane.
+Nov 19 02:44:09 COSC419-19 systemd-logind: Removed session 2550.
+Nov 19 02:44:12 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:44:13 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:44:13 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:44:13 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:45:49 COSC419-19 systemd: Started Session 2551 of user shane.
+Nov 19 02:45:49 COSC419-19 systemd-logind: New session 2551 of user shane.
+Nov 19 02:45:49 COSC419-19 systemd: Starting Session 2551 of user shane.
+Nov 19 02:45:50 COSC419-19 systemd-logind: Removed session 2551.
+Nov 19 02:45:50 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:45:51 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:45:51 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:45:52 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:47:15 COSC419-19 systemd: Started Session 2552 of user shane.
+Nov 19 02:47:15 COSC419-19 systemd-logind: New session 2552 of user shane.
+Nov 19 02:47:15 COSC419-19 systemd: Starting Session 2552 of user shane.
+Nov 19 02:47:16 COSC419-19 systemd-logind: Removed session 2552.
+Nov 19 02:47:17 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:47:18 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:47:18 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:47:18 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:48:39 COSC419-19 systemd: Started Session 2553 of user shane.
+Nov 19 02:48:39 COSC419-19 systemd-logind: New session 2553 of user shane.
+Nov 19 02:48:39 COSC419-19 systemd: Starting Session 2553 of user shane.
+Nov 19 02:48:39 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:48:40 COSC419-19 systemd-logind: Removed session 2553.
+Nov 19 02:48:41 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:48:41 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:48:41 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:49:09 COSC419-19 systemd: Started Session 2554 of user shane.
+Nov 19 02:49:09 COSC419-19 systemd-logind: New session 2554 of user shane.
+Nov 19 02:49:09 COSC419-19 systemd: Starting Session 2554 of user shane.
+Nov 19 02:49:10 COSC419-19 systemd-logind: Removed session 2554.
+Nov 19 02:49:10 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:49:11 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:49:11 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:49:11 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:49:33 COSC419-19 systemd: Started Session 2555 of user shane.
+Nov 19 02:49:33 COSC419-19 systemd-logind: New session 2555 of user shane.
+Nov 19 02:49:33 COSC419-19 systemd: Starting Session 2555 of user shane.
+Nov 19 02:49:34 COSC419-19 systemd-logind: Removed session 2555.
+Nov 19 02:49:35 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:49:36 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:49:36 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:49:37 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:50:31 COSC419-19 systemd: Started Session 2556 of user shane.
+Nov 19 02:50:31 COSC419-19 systemd-logind: New session 2556 of user shane.
+Nov 19 02:50:31 COSC419-19 systemd: Starting Session 2556 of user shane.
+Nov 19 02:50:32 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:50:32 COSC419-19 systemd-logind: Removed session 2556.
+Nov 19 02:50:33 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:50:33 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:50:33 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 02:54:37 COSC419-19 su: (to root) shane on pts/0
+Nov 19 02:57:15 COSC419-19 systemd: Started Session 2557 of user shane.
+Nov 19 02:57:15 COSC419-19 systemd-logind: New session 2557 of user shane.
+Nov 19 02:57:15 COSC419-19 systemd: Starting Session 2557 of user shane.
+Nov 19 02:57:16 COSC419-19 systemd-logind: Removed session 2557.
+Nov 19 02:58:43 COSC419-19 systemd: Started Session 2558 of user shane.
+Nov 19 02:58:43 COSC419-19 systemd-logind: New session 2558 of user shane.
+Nov 19 02:58:43 COSC419-19 systemd: Starting Session 2558 of user shane.
+Nov 19 02:58:44 COSC419-19 systemd-logind: Removed session 2558.
+Nov 19 02:59:05 COSC419-19 systemd: Started Session 2559 of user shane.
+Nov 19 02:59:05 COSC419-19 systemd-logind: New session 2559 of user shane.
+Nov 19 02:59:05 COSC419-19 systemd: Starting Session 2559 of user shane.
+Nov 19 02:59:06 COSC419-19 systemd-logind: Removed session 2559.
+Nov 19 02:59:25 COSC419-19 systemd: Started Session 2560 of user shane.
+Nov 19 02:59:25 COSC419-19 systemd-logind: New session 2560 of user shane.
+Nov 19 02:59:25 COSC419-19 systemd: Starting Session 2560 of user shane.
+Nov 19 02:59:26 COSC419-19 systemd-logind: Removed session 2560.
+Nov 19 02:59:27 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 02:59:28 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 02:59:28 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 02:59:29 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 03:01:01 COSC419-19 systemd: Started Session 2561 of user root.
+Nov 19 03:01:01 COSC419-19 systemd: Starting Session 2561 of user root.
+Nov 19 03:01:48 COSC419-19 systemd: Started Session 2562 of user shane.
+Nov 19 03:01:48 COSC419-19 systemd-logind: New session 2562 of user shane.
+Nov 19 03:01:48 COSC419-19 systemd: Starting Session 2562 of user shane.
+Nov 19 03:01:49 COSC419-19 systemd-logind: Removed session 2562.
+Nov 19 03:01:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:01:50 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:01:50 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:01:50 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:02:26 COSC419-19 systemd: Started Session 2563 of user shane.
+Nov 19 03:02:26 COSC419-19 systemd-logind: New session 2563 of user shane.
+Nov 19 03:02:26 COSC419-19 systemd: Starting Session 2563 of user shane.
+Nov 19 03:02:27 COSC419-19 systemd-logind: Removed session 2563.
+Nov 19 03:02:27 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:02:28 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:02:29 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:02:29 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:03:34 COSC419-19 systemd: Started Session 2564 of user shane.
+Nov 19 03:03:34 COSC419-19 systemd-logind: New session 2564 of user shane.
+Nov 19 03:03:34 COSC419-19 systemd: Starting Session 2564 of user shane.
+Nov 19 03:03:35 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:03:35 COSC419-19 systemd-logind: Removed session 2564.
+Nov 19 03:03:37 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:03:37 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:03:37 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:04:14 COSC419-19 systemd: Started Session 2565 of user shane.
+Nov 19 03:04:14 COSC419-19 systemd-logind: New session 2565 of user shane.
+Nov 19 03:04:14 COSC419-19 systemd: Starting Session 2565 of user shane.
+Nov 19 03:04:15 COSC419-19 systemd-logind: Removed session 2565.
+Nov 19 03:04:16 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:04:17 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:04:17 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:04:17 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:04:36 COSC419-19 systemd: Started Session 2566 of user shane.
+Nov 19 03:04:36 COSC419-19 systemd-logind: New session 2566 of user shane.
+Nov 19 03:04:36 COSC419-19 systemd: Starting Session 2566 of user shane.
+Nov 19 03:04:38 COSC419-19 systemd-logind: Removed session 2566.
+Nov 19 03:04:38 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:04:39 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:04:39 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:04:39 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:05:04 COSC419-19 systemd: Started Session 2567 of user shane.
+Nov 19 03:05:04 COSC419-19 systemd-logind: New session 2567 of user shane.
+Nov 19 03:05:04 COSC419-19 systemd: Starting Session 2567 of user shane.
+Nov 19 03:05:05 COSC419-19 systemd-logind: Removed session 2567.
+Nov 19 03:05:05 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:05:06 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:05:06 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:05:07 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:06:39 COSC419-19 systemd: Started Session 2568 of user shane.
+Nov 19 03:06:39 COSC419-19 systemd-logind: New session 2568 of user shane.
+Nov 19 03:06:39 COSC419-19 systemd: Starting Session 2568 of user shane.
+Nov 19 03:06:40 COSC419-19 systemd-logind: Removed session 2568.
+Nov 19 03:06:41 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:06:43 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:06:43 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:06:43 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:07:14 COSC419-19 systemd: Started Session 2569 of user shane.
+Nov 19 03:07:14 COSC419-19 systemd-logind: New session 2569 of user shane.
+Nov 19 03:07:14 COSC419-19 systemd: Starting Session 2569 of user shane.
+Nov 19 03:07:15 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:07:16 COSC419-19 systemd-logind: Removed session 2569.
+Nov 19 03:07:17 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:07:17 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:07:17 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:07:36 COSC419-19 systemd: Started Session 2570 of user shane.
+Nov 19 03:07:36 COSC419-19 systemd-logind: New session 2570 of user shane.
+Nov 19 03:07:36 COSC419-19 systemd: Starting Session 2570 of user shane.
+Nov 19 03:07:36 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:07:37 COSC419-19 systemd-logind: Removed session 2570.
+Nov 19 03:07:38 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:07:38 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:07:38 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:08:46 COSC419-19 systemd: Started Session 2571 of user shane.
+Nov 19 03:08:46 COSC419-19 systemd-logind: New session 2571 of user shane.
+Nov 19 03:08:46 COSC419-19 systemd: Starting Session 2571 of user shane.
+Nov 19 03:08:47 COSC419-19 systemd-logind: Removed session 2571.
+Nov 19 03:08:48 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:08:49 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:08:49 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:08:49 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:09:32 COSC419-19 systemd: Started Session 2572 of user shane.
+Nov 19 03:09:32 COSC419-19 systemd-logind: New session 2572 of user shane.
+Nov 19 03:09:32 COSC419-19 systemd: Starting Session 2572 of user shane.
+Nov 19 03:09:33 COSC419-19 systemd-logind: Removed session 2572.
+Nov 19 03:09:33 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:09:34 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:09:34 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:09:34 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:19:34 COSC419-19 systemd: Started Session 2573 of user shane.
+Nov 19 03:19:34 COSC419-19 systemd-logind: New session 2573 of user shane.
+Nov 19 03:19:34 COSC419-19 systemd: Starting Session 2573 of user shane.
+Nov 19 03:19:35 COSC419-19 systemd-logind: Removed session 2573.
+Nov 19 03:20:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 03:20:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 03:20:51 COSC419-19 systemd: Started Session 2574 of user shane.
+Nov 19 03:20:51 COSC419-19 systemd-logind: New session 2574 of user shane.
+Nov 19 03:20:51 COSC419-19 systemd: Starting Session 2574 of user shane.
+Nov 19 03:20:54 COSC419-19 systemd-logind: Removed session 2574.
+Nov 19 03:21:32 COSC419-19 systemd: Started Session 2575 of user shane.
+Nov 19 03:21:32 COSC419-19 systemd-logind: New session 2575 of user shane.
+Nov 19 03:21:32 COSC419-19 systemd: Starting Session 2575 of user shane.
+Nov 19 03:21:33 COSC419-19 systemd-logind: Removed session 2575.
+Nov 19 03:21:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:21:50 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:21:51 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:21:51 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:25:06 COSC419-19 systemd: Started Session 2576 of user shane.
+Nov 19 03:25:06 COSC419-19 systemd-logind: New session 2576 of user shane.
+Nov 19 03:25:06 COSC419-19 systemd: Starting Session 2576 of user shane.
+Nov 19 03:25:06 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:25:07 COSC419-19 systemd-logind: Removed session 2576.
+Nov 19 03:25:07 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:25:07 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:25:08 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:27:19 COSC419-19 systemd: Started Session 2577 of user shane.
+Nov 19 03:27:19 COSC419-19 systemd-logind: New session 2577 of user shane.
+Nov 19 03:27:19 COSC419-19 systemd: Starting Session 2577 of user shane.
+Nov 19 03:27:20 COSC419-19 systemd-logind: Removed session 2577.
+Nov 19 03:27:21 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:27:22 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:27:22 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:27:22 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:28:32 COSC419-19 systemd: Started Session 2578 of user shane.
+Nov 19 03:28:32 COSC419-19 systemd-logind: New session 2578 of user shane.
+Nov 19 03:28:32 COSC419-19 systemd: Starting Session 2578 of user shane.
+Nov 19 03:28:33 COSC419-19 systemd-logind: Removed session 2578.
+Nov 19 03:30:52 COSC419-19 systemd: Started Session 2579 of user shane.
+Nov 19 03:30:52 COSC419-19 systemd-logind: New session 2579 of user shane.
+Nov 19 03:30:52 COSC419-19 systemd: Starting Session 2579 of user shane.
+Nov 19 03:30:55 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:30:56 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:30:56 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:30:57 COSC419-19 systemd-logind: Removed session 2579.
+Nov 19 03:30:57 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:32:27 COSC419-19 systemd: Started Session 2580 of user shane.
+Nov 19 03:32:27 COSC419-19 systemd-logind: New session 2580 of user shane.
+Nov 19 03:32:27 COSC419-19 systemd: Starting Session 2580 of user shane.
+Nov 19 03:32:32 COSC419-19 systemd-logind: Removed session 2580.
+Nov 19 03:32:37 COSC419-19 systemd: Started Session 2581 of user shane.
+Nov 19 03:32:37 COSC419-19 systemd-logind: New session 2581 of user shane.
+Nov 19 03:32:37 COSC419-19 systemd: Starting Session 2581 of user shane.
+Nov 19 03:32:46 COSC419-19 systemd-logind: Removed session 2581.
+Nov 19 03:33:10 COSC419-19 su: (to root) shane on pts/0
+Nov 19 03:33:22 COSC419-19 systemd-logind: Removed session 2531.
+Nov 19 03:33:22 COSC419-19 systemd-logind: Removed session 2532.
+Nov 19 03:33:22 COSC419-19 systemd: Removed slice User Slice of shane.
+Nov 19 03:33:22 COSC419-19 systemd: Stopping User Slice of shane.
+Nov 19 03:33:27 COSC419-19 systemd: Created slice User Slice of shane.
+Nov 19 03:33:27 COSC419-19 systemd: Starting User Slice of shane.
+Nov 19 03:33:27 COSC419-19 systemd: Started Session 2582 of user shane.
+Nov 19 03:33:27 COSC419-19 systemd-logind: New session 2582 of user shane.
+Nov 19 03:33:27 COSC419-19 systemd: Starting Session 2582 of user shane.
+Nov 19 03:33:28 COSC419-19 systemd: Started Session 2583 of user shane.
+Nov 19 03:33:28 COSC419-19 systemd-logind: New session 2583 of user shane.
+Nov 19 03:33:28 COSC419-19 systemd: Starting Session 2583 of user shane.
+Nov 19 03:33:36 COSC419-19 su: (to root) shane on pts/0
+Nov 19 03:34:47 COSC419-19 systemd: Started Session 2584 of user shane.
+Nov 19 03:34:47 COSC419-19 systemd-logind: New session 2584 of user shane.
+Nov 19 03:34:47 COSC419-19 systemd: Starting Session 2584 of user shane.
+Nov 19 03:34:48 COSC419-19 systemd-logind: Removed session 2584.
+Nov 19 03:34:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:34:50 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:34:50 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:34:50 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:35:53 COSC419-19 systemd: Started Session 2585 of user shane.
+Nov 19 03:35:53 COSC419-19 systemd-logind: New session 2585 of user shane.
+Nov 19 03:35:53 COSC419-19 systemd: Starting Session 2585 of user shane.
+Nov 19 03:35:55 COSC419-19 systemd-logind: Removed session 2585.
+Nov 19 03:36:01 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:36:02 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:36:02 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:36:02 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:37:23 COSC419-19 systemd: Started Session 2586 of user shane.
+Nov 19 03:37:23 COSC419-19 systemd-logind: New session 2586 of user shane.
+Nov 19 03:37:23 COSC419-19 systemd: Starting Session 2586 of user shane.
+Nov 19 03:37:24 COSC419-19 systemd-logind: Removed session 2586.
+Nov 19 03:37:55 COSC419-19 systemd: Started Session 2587 of user shane.
+Nov 19 03:37:55 COSC419-19 systemd-logind: New session 2587 of user shane.
+Nov 19 03:37:55 COSC419-19 systemd: Starting Session 2587 of user shane.
+Nov 19 03:37:56 COSC419-19 systemd-logind: Removed session 2587.
+Nov 19 03:38:39 COSC419-19 systemd: Started Session 2588 of user shane.
+Nov 19 03:38:39 COSC419-19 systemd-logind: New session 2588 of user shane.
+Nov 19 03:38:39 COSC419-19 systemd: Starting Session 2588 of user shane.
+Nov 19 03:38:40 COSC419-19 systemd-logind: Removed session 2588.
+Nov 19 03:39:08 COSC419-19 systemd: Started Session 2589 of user shane.
+Nov 19 03:39:08 COSC419-19 systemd-logind: New session 2589 of user shane.
+Nov 19 03:39:08 COSC419-19 systemd: Starting Session 2589 of user shane.
+Nov 19 03:39:09 COSC419-19 systemd-logind: Removed session 2589.
+Nov 19 03:39:43 COSC419-19 systemd: Started Session 2590 of user shane.
+Nov 19 03:39:43 COSC419-19 systemd-logind: New session 2590 of user shane.
+Nov 19 03:39:43 COSC419-19 systemd: Starting Session 2590 of user shane.
+Nov 19 03:39:45 COSC419-19 systemd-logind: Removed session 2590.
+Nov 19 03:40:03 COSC419-19 systemd: Started Session 2591 of user shane.
+Nov 19 03:40:03 COSC419-19 systemd-logind: New session 2591 of user shane.
+Nov 19 03:40:03 COSC419-19 systemd: Starting Session 2591 of user shane.
+Nov 19 03:40:04 COSC419-19 systemd-logind: Removed session 2591.
+Nov 19 03:40:30 COSC419-19 systemd: Started Session 2592 of user shane.
+Nov 19 03:40:30 COSC419-19 systemd-logind: New session 2592 of user shane.
+Nov 19 03:40:30 COSC419-19 systemd: Starting Session 2592 of user shane.
+Nov 19 03:40:31 COSC419-19 systemd-logind: Removed session 2592.
+Nov 19 03:40:52 COSC419-19 systemd: Started Session 2593 of user shane.
+Nov 19 03:40:52 COSC419-19 systemd-logind: New session 2593 of user shane.
+Nov 19 03:40:52 COSC419-19 systemd: Starting Session 2593 of user shane.
+Nov 19 03:40:53 COSC419-19 systemd-logind: Removed session 2593.
+Nov 19 03:41:02 COSC419-19 systemd: Started Session 2594 of user shane.
+Nov 19 03:41:02 COSC419-19 systemd-logind: New session 2594 of user shane.
+Nov 19 03:41:02 COSC419-19 systemd: Starting Session 2594 of user shane.
+Nov 19 03:41:03 COSC419-19 systemd-logind: Removed session 2594.
+Nov 19 03:43:59 COSC419-19 systemd: Started Session 2595 of user shane.
+Nov 19 03:43:59 COSC419-19 systemd-logind: New session 2595 of user shane.
+Nov 19 03:43:59 COSC419-19 systemd: Starting Session 2595 of user shane.
+Nov 19 03:44:00 COSC419-19 systemd-logind: Removed session 2595.
+Nov 19 03:55:44 COSC419-19 systemd: Started Session 2596 of user shane.
+Nov 19 03:55:44 COSC419-19 systemd-logind: New session 2596 of user shane.
+Nov 19 03:55:44 COSC419-19 systemd: Starting Session 2596 of user shane.
+Nov 19 03:55:44 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:55:45 COSC419-19 systemd-logind: Removed session 2596.
+Nov 19 03:55:45 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:55:45 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:55:46 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:56:07 COSC419-19 systemd: Started Session 2597 of user shane.
+Nov 19 03:56:07 COSC419-19 systemd-logind: New session 2597 of user shane.
+Nov 19 03:56:07 COSC419-19 systemd: Starting Session 2597 of user shane.
+Nov 19 03:56:08 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:56:09 COSC419-19 systemd-logind: Removed session 2597.
+Nov 19 03:56:09 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:56:09 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:56:09 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:56:32 COSC419-19 systemd: Started Session 2598 of user shane.
+Nov 19 03:56:32 COSC419-19 systemd-logind: New session 2598 of user shane.
+Nov 19 03:56:32 COSC419-19 systemd: Starting Session 2598 of user shane.
+Nov 19 03:56:33 COSC419-19 systemd-logind: Removed session 2598.
+Nov 19 03:56:33 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:56:34 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:56:35 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:56:35 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 03:59:33 COSC419-19 systemd: Started Session 2599 of user shane.
+Nov 19 03:59:33 COSC419-19 systemd-logind: New session 2599 of user shane.
+Nov 19 03:59:33 COSC419-19 systemd: Starting Session 2599 of user shane.
+Nov 19 03:59:34 COSC419-19 systemd-logind: Removed session 2599.
+Nov 19 03:59:35 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 03:59:36 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 03:59:36 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 03:59:37 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:00:26 COSC419-19 systemd: Started Session 2600 of user shane.
+Nov 19 04:00:26 COSC419-19 systemd-logind: New session 2600 of user shane.
+Nov 19 04:00:26 COSC419-19 systemd: Starting Session 2600 of user shane.
+Nov 19 04:00:27 COSC419-19 systemd-logind: Removed session 2600.
+Nov 19 04:00:28 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:00:29 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:00:29 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:00:30 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 04:01:01 COSC419-19 systemd: Started Session 2601 of user root.
+Nov 19 04:01:01 COSC419-19 systemd: Starting Session 2601 of user root.
+Nov 19 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 04:03:10 COSC419-19 systemd: Started Session 2602 of user shane.
+Nov 19 04:03:10 COSC419-19 systemd-logind: New session 2602 of user shane.
+Nov 19 04:03:10 COSC419-19 systemd: Starting Session 2602 of user shane.
+Nov 19 04:03:10 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:03:11 COSC419-19 systemd-logind: Removed session 2602.
+Nov 19 04:03:12 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:03:12 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:03:12 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:03:33 COSC419-19 systemd: Started Session 2603 of user shane.
+Nov 19 04:03:33 COSC419-19 systemd-logind: New session 2603 of user shane.
+Nov 19 04:03:33 COSC419-19 systemd: Starting Session 2603 of user shane.
+Nov 19 04:03:34 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:03:35 COSC419-19 systemd-logind: Removed session 2603.
+Nov 19 04:03:35 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:03:36 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:03:36 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:05:23 COSC419-19 systemd: Started Session 2604 of user shane.
+Nov 19 04:05:23 COSC419-19 systemd-logind: New session 2604 of user shane.
+Nov 19 04:05:23 COSC419-19 systemd: Starting Session 2604 of user shane.
+Nov 19 04:05:24 COSC419-19 systemd-logind: Removed session 2604.
+Nov 19 04:05:25 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:05:26 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:05:26 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:05:27 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:05:44 COSC419-19 systemd: Started Session 2605 of user shane.
+Nov 19 04:05:44 COSC419-19 systemd-logind: New session 2605 of user shane.
+Nov 19 04:05:44 COSC419-19 systemd: Starting Session 2605 of user shane.
+Nov 19 04:05:45 COSC419-19 systemd-logind: Removed session 2605.
+Nov 19 04:05:46 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:05:47 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:05:47 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:05:47 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:06:37 COSC419-19 systemd: Started Session 2606 of user shane.
+Nov 19 04:06:37 COSC419-19 systemd-logind: New session 2606 of user shane.
+Nov 19 04:06:37 COSC419-19 systemd: Starting Session 2606 of user shane.
+Nov 19 04:06:38 COSC419-19 systemd-logind: Removed session 2606.
+Nov 19 04:06:40 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:06:41 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:06:41 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:06:41 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:15:37 COSC419-19 systemd: Started Session 2607 of user shane.
+Nov 19 04:15:37 COSC419-19 systemd-logind: New session 2607 of user shane.
+Nov 19 04:15:37 COSC419-19 systemd: Starting Session 2607 of user shane.
+Nov 19 04:15:37 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:15:38 COSC419-19 systemd-logind: Removed session 2607.
+Nov 19 04:15:38 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:15:38 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:15:39 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:16:39 COSC419-19 systemd: Started Session 2608 of user shane.
+Nov 19 04:16:39 COSC419-19 systemd-logind: New session 2608 of user shane.
+Nov 19 04:16:39 COSC419-19 systemd: Starting Session 2608 of user shane.
+Nov 19 04:16:40 COSC419-19 systemd-logind: Removed session 2608.
+Nov 19 04:18:53 COSC419-19 systemd: Started Session 2609 of user shane.
+Nov 19 04:18:53 COSC419-19 systemd-logind: New session 2609 of user shane.
+Nov 19 04:18:53 COSC419-19 systemd: Starting Session 2609 of user shane.
+Nov 19 04:18:54 COSC419-19 systemd-logind: Removed session 2609.
+Nov 19 04:20:13 COSC419-19 systemd: Started Session 2610 of user shane.
+Nov 19 04:20:13 COSC419-19 systemd-logind: New session 2610 of user shane.
+Nov 19 04:20:13 COSC419-19 systemd: Starting Session 2610 of user shane.
+Nov 19 04:20:15 COSC419-19 systemd-logind: Removed session 2610.
+Nov 19 04:20:18 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:20:19 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:20:19 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:20:19 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:20:21 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:20:22 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:20:22 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:20:22 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:21:30 COSC419-19 systemd: Started Session 2611 of user shane.
+Nov 19 04:21:30 COSC419-19 systemd-logind: New session 2611 of user shane.
+Nov 19 04:21:30 COSC419-19 systemd: Starting Session 2611 of user shane.
+Nov 19 04:21:31 COSC419-19 systemd-logind: Removed session 2611.
+Nov 19 04:21:31 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:21:33 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:21:33 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:21:33 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:22:57 COSC419-19 systemd: Started Session 2612 of user shane.
+Nov 19 04:22:57 COSC419-19 systemd-logind: New session 2612 of user shane.
+Nov 19 04:22:57 COSC419-19 systemd: Starting Session 2612 of user shane.
+Nov 19 04:22:58 COSC419-19 systemd-logind: Removed session 2612.
+Nov 19 04:22:59 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:23:00 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:23:00 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:23:00 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:23:36 COSC419-19 systemd: Started Session 2613 of user shane.
+Nov 19 04:23:36 COSC419-19 systemd-logind: New session 2613 of user shane.
+Nov 19 04:23:36 COSC419-19 systemd: Starting Session 2613 of user shane.
+Nov 19 04:23:36 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:23:37 COSC419-19 systemd-logind: Removed session 2613.
+Nov 19 04:23:37 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:23:37 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:23:38 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:24:36 COSC419-19 systemd: Started Session 2614 of user shane.
+Nov 19 04:24:36 COSC419-19 systemd-logind: New session 2614 of user shane.
+Nov 19 04:24:36 COSC419-19 systemd: Starting Session 2614 of user shane.
+Nov 19 04:24:37 COSC419-19 systemd-logind: Removed session 2614.
+Nov 19 04:24:38 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:24:40 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:24:40 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:24:40 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:25:39 COSC419-19 systemd: Started Session 2615 of user shane.
+Nov 19 04:25:39 COSC419-19 systemd-logind: New session 2615 of user shane.
+Nov 19 04:25:39 COSC419-19 systemd: Starting Session 2615 of user shane.
+Nov 19 04:25:41 COSC419-19 systemd-logind: Removed session 2615.
+Nov 19 04:28:22 COSC419-19 systemd: Started Session 2616 of user shane.
+Nov 19 04:28:22 COSC419-19 systemd-logind: New session 2616 of user shane.
+Nov 19 04:28:22 COSC419-19 systemd: Starting Session 2616 of user shane.
+Nov 19 04:28:23 COSC419-19 systemd-logind: Removed session 2616.
+Nov 19 04:29:02 COSC419-19 systemd: Started Session 2617 of user shane.
+Nov 19 04:29:02 COSC419-19 systemd-logind: New session 2617 of user shane.
+Nov 19 04:29:02 COSC419-19 systemd: Starting Session 2617 of user shane.
+Nov 19 04:29:03 COSC419-19 systemd-logind: Removed session 2617.
+Nov 19 04:29:04 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:29:05 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:29:05 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:29:05 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:30:48 COSC419-19 systemd: Started Session 2618 of user shane.
+Nov 19 04:30:48 COSC419-19 systemd-logind: New session 2618 of user shane.
+Nov 19 04:30:48 COSC419-19 systemd: Starting Session 2618 of user shane.
+Nov 19 04:30:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:30:49 COSC419-19 systemd-logind: Removed session 2618.
+Nov 19 04:30:50 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:30:50 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:30:51 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 04:59:12 COSC419-19 systemd: Started Session 2619 of user shane.
+Nov 19 04:59:12 COSC419-19 systemd-logind: New session 2619 of user shane.
+Nov 19 04:59:12 COSC419-19 systemd: Starting Session 2619 of user shane.
+Nov 19 04:59:13 COSC419-19 systemd-logind: Removed session 2619.
+Nov 19 04:59:43 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 04:59:44 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 04:59:44 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 04:59:44 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 05:01:01 COSC419-19 systemd: Started Session 2620 of user root.
+Nov 19 05:01:01 COSC419-19 systemd: Starting Session 2620 of user root.
+Nov 19 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 05:05:01 COSC419-19 systemd: Started Session 2621 of user shane.
+Nov 19 05:05:01 COSC419-19 systemd-logind: New session 2621 of user shane.
+Nov 19 05:05:01 COSC419-19 systemd: Starting Session 2621 of user shane.
+Nov 19 05:05:02 COSC419-19 systemd-logind: Removed session 2621.
+Nov 19 05:08:23 COSC419-19 systemd: Started Session 2622 of user shane.
+Nov 19 05:08:23 COSC419-19 systemd-logind: New session 2622 of user shane.
+Nov 19 05:08:23 COSC419-19 systemd: Starting Session 2622 of user shane.
+Nov 19 05:08:24 COSC419-19 systemd-logind: Removed session 2622.
+Nov 19 05:08:52 COSC419-19 systemd: Started Session 2623 of user shane.
+Nov 19 05:08:52 COSC419-19 systemd-logind: New session 2623 of user shane.
+Nov 19 05:08:52 COSC419-19 systemd: Starting Session 2623 of user shane.
+Nov 19 05:08:53 COSC419-19 systemd-logind: Removed session 2623.
+Nov 19 05:09:26 COSC419-19 systemd: Started Session 2624 of user shane.
+Nov 19 05:09:26 COSC419-19 systemd-logind: New session 2624 of user shane.
+Nov 19 05:09:26 COSC419-19 systemd: Starting Session 2624 of user shane.
+Nov 19 05:09:28 COSC419-19 systemd-logind: Removed session 2624.
+Nov 19 05:09:43 COSC419-19 systemd: Started Session 2625 of user shane.
+Nov 19 05:09:43 COSC419-19 systemd-logind: New session 2625 of user shane.
+Nov 19 05:09:43 COSC419-19 systemd: Starting Session 2625 of user shane.
+Nov 19 05:09:45 COSC419-19 systemd-logind: Removed session 2625.
+Nov 19 05:11:39 COSC419-19 systemd: Started Session 2626 of user shane.
+Nov 19 05:11:39 COSC419-19 systemd-logind: New session 2626 of user shane.
+Nov 19 05:11:39 COSC419-19 systemd: Starting Session 2626 of user shane.
+Nov 19 05:11:40 COSC419-19 systemd-logind: Removed session 2626.
+Nov 19 05:13:18 COSC419-19 systemd: Started Session 2627 of user shane.
+Nov 19 05:13:18 COSC419-19 systemd-logind: New session 2627 of user shane.
+Nov 19 05:13:18 COSC419-19 systemd: Starting Session 2627 of user shane.
+Nov 19 05:13:19 COSC419-19 systemd-logind: Removed session 2627.
+Nov 19 05:14:06 COSC419-19 systemd: Started Session 2628 of user shane.
+Nov 19 05:14:06 COSC419-19 systemd-logind: New session 2628 of user shane.
+Nov 19 05:14:06 COSC419-19 systemd: Starting Session 2628 of user shane.
+Nov 19 05:14:07 COSC419-19 systemd-logind: Removed session 2628.
+Nov 19 05:26:04 COSC419-19 systemd: Started Session 2629 of user shane.
+Nov 19 05:26:04 COSC419-19 systemd-logind: New session 2629 of user shane.
+Nov 19 05:26:04 COSC419-19 systemd: Starting Session 2629 of user shane.
+Nov 19 05:26:05 COSC419-19 systemd-logind: Removed session 2629.
+Nov 19 05:26:11 COSC419-19 systemd: Started Session 2630 of user shane.
+Nov 19 05:26:11 COSC419-19 systemd-logind: New session 2630 of user shane.
+Nov 19 05:26:11 COSC419-19 systemd: Starting Session 2630 of user shane.
+Nov 19 05:26:12 COSC419-19 systemd-logind: Removed session 2630.
+Nov 19 05:26:54 COSC419-19 dbus[477]: [system] Reloaded configuration
+Nov 19 05:27:32 COSC419-19 dbus[477]: [system] Reloaded configuration
+Nov 19 05:27:46 COSC419-19 yum[29962]: Updated: passenger-5.3.7-1.el7.x86_64
+Nov 19 05:27:46 COSC419-19 yum[29962]: Updated: mod_passenger-5.3.7-1.el7.x86_64
+Nov 19 05:32:46 COSC419-19 systemd: Started Session 2631 of user shane.
+Nov 19 05:32:46 COSC419-19 systemd-logind: New session 2631 of user shane.
+Nov 19 05:32:46 COSC419-19 systemd: Starting Session 2631 of user shane.
+Nov 19 05:32:47 COSC419-19 systemd-logind: Removed session 2631.
+Nov 19 05:36:53 COSC419-19 systemd: Started Session 2632 of user shane.
+Nov 19 05:36:53 COSC419-19 systemd-logind: New session 2632 of user shane.
+Nov 19 05:36:53 COSC419-19 systemd: Starting Session 2632 of user shane.
+Nov 19 05:36:54 COSC419-19 systemd-logind: Removed session 2632.
+Nov 19 05:37:50 COSC419-19 systemd: Started Session 2633 of user shane.
+Nov 19 05:37:50 COSC419-19 systemd-logind: New session 2633 of user shane.
+Nov 19 05:37:50 COSC419-19 systemd: Starting Session 2633 of user shane.
+Nov 19 05:37:51 COSC419-19 systemd-logind: Removed session 2633.
+Nov 19 05:38:01 COSC419-19 systemd: Started Session 2634 of user shane.
+Nov 19 05:38:01 COSC419-19 systemd-logind: New session 2634 of user shane.
+Nov 19 05:38:01 COSC419-19 systemd: Starting Session 2634 of user shane.
+Nov 19 05:38:02 COSC419-19 systemd-logind: Removed session 2634.
+Nov 19 05:38:13 COSC419-19 systemd: Started Session 2635 of user shane.
+Nov 19 05:38:13 COSC419-19 systemd-logind: New session 2635 of user shane.
+Nov 19 05:38:13 COSC419-19 systemd: Starting Session 2635 of user shane.
+Nov 19 05:38:14 COSC419-19 systemd-logind: Removed session 2635.
+Nov 19 05:38:37 COSC419-19 systemd: Started Session 2636 of user shane.
+Nov 19 05:38:37 COSC419-19 systemd-logind: New session 2636 of user shane.
+Nov 19 05:38:37 COSC419-19 systemd: Starting Session 2636 of user shane.
+Nov 19 05:38:38 COSC419-19 systemd-logind: Removed session 2636.
+Nov 19 05:40:22 COSC419-19 systemd: Started Session 2637 of user shane.
+Nov 19 05:40:22 COSC419-19 systemd-logind: New session 2637 of user shane.
+Nov 19 05:40:22 COSC419-19 systemd: Starting Session 2637 of user shane.
+Nov 19 05:40:23 COSC419-19 systemd-logind: Removed session 2637.
+Nov 19 05:41:20 COSC419-19 systemd: Started Session 2638 of user shane.
+Nov 19 05:41:20 COSC419-19 systemd-logind: New session 2638 of user shane.
+Nov 19 05:41:20 COSC419-19 systemd: Starting Session 2638 of user shane.
+Nov 19 05:41:21 COSC419-19 systemd-logind: Removed session 2638.
+Nov 19 05:41:21 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 05:41:22 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 05:41:23 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 05:41:23 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 05:43:06 COSC419-19 systemd: Started Session 2639 of user shane.
+Nov 19 05:43:06 COSC419-19 systemd-logind: New session 2639 of user shane.
+Nov 19 05:43:06 COSC419-19 systemd: Starting Session 2639 of user shane.
+Nov 19 05:43:08 COSC419-19 systemd-logind: Removed session 2639.
+Nov 19 05:43:48 COSC419-19 systemd: Started Session 2640 of user shane.
+Nov 19 05:43:48 COSC419-19 systemd-logind: New session 2640 of user shane.
+Nov 19 05:43:48 COSC419-19 systemd: Starting Session 2640 of user shane.
+Nov 19 05:43:50 COSC419-19 systemd-logind: Removed session 2640.
+Nov 19 05:44:25 COSC419-19 systemd: Started Session 2641 of user shane.
+Nov 19 05:44:25 COSC419-19 systemd-logind: New session 2641 of user shane.
+Nov 19 05:44:25 COSC419-19 systemd: Starting Session 2641 of user shane.
+Nov 19 05:44:26 COSC419-19 systemd-logind: Removed session 2641.
+Nov 19 05:47:20 COSC419-19 systemd: Started Session 2642 of user shane.
+Nov 19 05:47:20 COSC419-19 systemd-logind: New session 2642 of user shane.
+Nov 19 05:47:20 COSC419-19 systemd: Starting Session 2642 of user shane.
+Nov 19 05:47:21 COSC419-19 systemd-logind: Removed session 2642.
+Nov 19 05:47:52 COSC419-19 systemd: Started Session 2643 of user shane.
+Nov 19 05:47:52 COSC419-19 systemd-logind: New session 2643 of user shane.
+Nov 19 05:47:52 COSC419-19 systemd: Starting Session 2643 of user shane.
+Nov 19 05:47:53 COSC419-19 systemd-logind: Removed session 2643.
+Nov 19 05:53:48 COSC419-19 systemd: Started Session 2644 of user shane.
+Nov 19 05:53:48 COSC419-19 systemd-logind: New session 2644 of user shane.
+Nov 19 05:53:48 COSC419-19 systemd: Starting Session 2644 of user shane.
+Nov 19 05:53:49 COSC419-19 systemd-logind: Removed session 2644.
+Nov 19 06:00:19 COSC419-19 systemd: Started Session 2645 of user shane.
+Nov 19 06:00:19 COSC419-19 systemd-logind: New session 2645 of user shane.
+Nov 19 06:00:19 COSC419-19 systemd: Starting Session 2645 of user shane.
+Nov 19 06:00:21 COSC419-19 systemd-logind: Removed session 2645.
+Nov 19 06:00:56 COSC419-19 systemd: Started Session 2646 of user shane.
+Nov 19 06:00:56 COSC419-19 systemd-logind: New session 2646 of user shane.
+Nov 19 06:00:56 COSC419-19 systemd: Starting Session 2646 of user shane.
+Nov 19 06:00:58 COSC419-19 systemd-logind: Removed session 2646.
+Nov 19 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 06:01:01 COSC419-19 systemd: Started Session 2647 of user root.
+Nov 19 06:01:01 COSC419-19 systemd: Starting Session 2647 of user root.
+Nov 19 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 06:07:29 COSC419-19 systemd: Started Session 2648 of user shane.
+Nov 19 06:07:30 COSC419-19 systemd-logind: New session 2648 of user shane.
+Nov 19 06:07:30 COSC419-19 systemd: Starting Session 2648 of user shane.
+Nov 19 06:07:31 COSC419-19 systemd-logind: Removed session 2648.
+Nov 19 06:09:59 COSC419-19 systemd: Started Session 2649 of user shane.
+Nov 19 06:09:59 COSC419-19 systemd-logind: New session 2649 of user shane.
+Nov 19 06:09:59 COSC419-19 systemd: Starting Session 2649 of user shane.
+Nov 19 06:10:00 COSC419-19 systemd-logind: Removed session 2649.
+Nov 19 06:10:23 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 06:10:24 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 06:10:24 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 06:10:24 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 06:10:24 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 06:10:25 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 06:10:26 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 06:10:26 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 06:12:17 COSC419-19 systemd: Started Session 2650 of user shane.
+Nov 19 06:12:17 COSC419-19 systemd-logind: New session 2650 of user shane.
+Nov 19 06:12:17 COSC419-19 systemd: Starting Session 2650 of user shane.
+Nov 19 06:12:18 COSC419-19 systemd-logind: Removed session 2650.
+Nov 19 06:12:46 COSC419-19 systemd: Started Session 2651 of user shane.
+Nov 19 06:12:46 COSC419-19 systemd-logind: New session 2651 of user shane.
+Nov 19 06:12:46 COSC419-19 systemd: Starting Session 2651 of user shane.
+Nov 19 06:12:47 COSC419-19 systemd-logind: Removed session 2651.
+Nov 19 06:13:10 COSC419-19 systemd: Started Session 2652 of user shane.
+Nov 19 06:13:10 COSC419-19 systemd-logind: New session 2652 of user shane.
+Nov 19 06:13:10 COSC419-19 systemd: Starting Session 2652 of user shane.
+Nov 19 06:13:11 COSC419-19 systemd-logind: Removed session 2652.
+Nov 19 06:16:05 COSC419-19 systemd: Started Session 2653 of user shane.
+Nov 19 06:16:05 COSC419-19 systemd-logind: New session 2653 of user shane.
+Nov 19 06:16:05 COSC419-19 systemd: Starting Session 2653 of user shane.
+Nov 19 06:16:06 COSC419-19 systemd-logind: Removed session 2653.
+Nov 19 06:16:12 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 06:16:13 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 06:16:13 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 06:16:13 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 06:16:14 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 19 06:16:15 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 19 06:16:15 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 19 06:16:15 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 19 06:21:37 COSC419-19 systemd: Started Session 2654 of user shane.
+Nov 19 06:21:37 COSC419-19 systemd-logind: New session 2654 of user shane.
+Nov 19 06:21:37 COSC419-19 systemd: Starting Session 2654 of user shane.
+Nov 19 06:21:38 COSC419-19 systemd-logind: Removed session 2654.
+Nov 19 06:28:24 COSC419-19 systemd: Started Session 2655 of user shane.
+Nov 19 06:28:24 COSC419-19 systemd-logind: New session 2655 of user shane.
+Nov 19 06:28:24 COSC419-19 systemd: Starting Session 2655 of user shane.
+Nov 19 06:28:25 COSC419-19 systemd-logind: Removed session 2655.
+Nov 19 06:30:07 COSC419-19 systemd: Started Session 2656 of user shane.
+Nov 19 06:30:07 COSC419-19 systemd-logind: New session 2656 of user shane.
+Nov 19 06:30:07 COSC419-19 systemd: Starting Session 2656 of user shane.
+Nov 19 06:30:08 COSC419-19 systemd-logind: Removed session 2656.
+Nov 19 06:32:29 COSC419-19 systemd: Started Session 2657 of user shane.
+Nov 19 06:32:29 COSC419-19 systemd-logind: New session 2657 of user shane.
+Nov 19 06:32:29 COSC419-19 systemd: Starting Session 2657 of user shane.
+Nov 19 06:32:30 COSC419-19 systemd-logind: Removed session 2657.
+Nov 19 06:33:22 COSC419-19 systemd: Started Session 2658 of user shane.
+Nov 19 06:33:22 COSC419-19 systemd-logind: New session 2658 of user shane.
+Nov 19 06:33:22 COSC419-19 systemd: Starting Session 2658 of user shane.
+Nov 19 06:33:23 COSC419-19 systemd-logind: Removed session 2658.
+Nov 19 06:34:57 COSC419-19 yum[849]: Installed: 7:device-mapper-event-libs-1.02.146-4.el7.x86_64
+Nov 19 06:34:57 COSC419-19 systemd: Reloading.
+Nov 19 06:34:57 COSC419-19 systemd: Reloading.
+Nov 19 06:34:57 COSC419-19 systemd: Listening on Device-mapper event daemon FIFOs.
+Nov 19 06:34:57 COSC419-19 systemd: Starting Device-mapper event daemon FIFOs.
+Nov 19 06:34:57 COSC419-19 yum[849]: Installed: 7:device-mapper-event-1.02.146-4.el7.x86_64
+Nov 19 06:34:58 COSC419-19 yum[849]: Installed: 7:lvm2-libs-2.02.177-4.el7.x86_64
+Nov 19 06:34:58 COSC419-19 yum[849]: Installed: libaio-0.3.109-13.el7.x86_64
+Nov 19 06:34:58 COSC419-19 yum[849]: Installed: device-mapper-persistent-data-0.7.3-3.el7.x86_64
+Nov 19 06:34:58 COSC419-19 systemd: Reloading.
+Nov 19 06:34:58 COSC419-19 systemd: Reloading.
+Nov 19 06:34:58 COSC419-19 systemd: Listening on LVM2 metadata daemon socket.
+Nov 19 06:34:58 COSC419-19 systemd: Starting LVM2 metadata daemon socket.
+Nov 19 06:34:58 COSC419-19 systemd: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Nov 19 06:34:58 COSC419-19 systemd: Started LVM2 metadata daemon.
+Nov 19 06:34:58 COSC419-19 systemd: Starting LVM2 metadata daemon...
+Nov 19 06:34:58 COSC419-19 systemd: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Nov 19 06:34:58 COSC419-19 systemd: Reloading.
+Nov 19 06:34:58 COSC419-19 systemd: Reloading.
+Nov 19 06:34:59 COSC419-19 systemd: Reloading.
+Nov 19 06:34:59 COSC419-19 systemd: Reloading.
+Nov 19 06:34:59 COSC419-19 systemd: Listening on LVM2 poll daemon socket.
+Nov 19 06:34:59 COSC419-19 systemd: Starting LVM2 poll daemon socket.
+Nov 19 06:34:59 COSC419-19 yum[849]: Installed: 7:lvm2-2.02.177-4.el7.x86_64
+Nov 19 06:35:56 COSC419-19 systemd: Reloading.
+Nov 19 06:35:56 COSC419-19 yum[1005]: Installed: containerd.io-1.2.0-3.el7.x86_64
+Nov 19 06:35:57 COSC419-19 dbus[477]: [system] Reloaded configuration
+Nov 19 06:35:57 COSC419-19 setsebool: The virt_use_nfs policy boolean was changed to 1 by root
+Nov 19 06:35:57 COSC419-19 setsebool: The virt_sandbox_use_all_caps policy boolean was changed to 1 by root
+Nov 19 06:36:32 COSC419-19 dbus[477]: [system] Reloaded configuration
+Nov 19 06:36:32 COSC419-19 yum[1005]: Installed: 2:container-selinux-2.68-1.el7.noarch
+Nov 19 06:36:32 COSC419-19 yum[1005]: Installed: libtool-ltdl-2.4.2-22.el7_3.x86_64
+Nov 19 06:36:35 COSC419-19 yum[1005]: Installed: 1:docker-ce-cli-18.09.0-3.el7.x86_64
+Nov 19 06:36:39 COSC419-19 systemd: Reloading.
+Nov 19 06:36:39 COSC419-19 yum[1005]: Installed: 3:docker-ce-18.09.0-3.el7.x86_64
+Nov 19 06:36:49 COSC419-19 systemd: Starting containerd container runtime...
+Nov 19 06:36:49 COSC419-19 systemd: Starting Docker Application Container Engine...
+Nov 19 06:36:50 COSC419-19 systemd: Started containerd container runtime.
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.043351748Z" level=info msg="libcontainerd: started new containerd process" pid=1105
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.060086347Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.060104955Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.060170076Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.060193982Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.060252942Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002c9d0, CONNECTING" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.192387564Z" level=info msg="starting containerd" revision=c4446665cb9c30056f4998ed953e6d4ff22c7c39 version=1.2.0
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.192841582Z" level=info msg="loading plugin "io.containerd.content.v1.content"..." type=io.containerd.content.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.198138027Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.btrfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.198412880Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.198434726Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.aufs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.203200068Z" level=info msg="starting containerd" revision=c4446665cb9c30056f4998ed953e6d4ff22c7c39 version=1.2.0
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.203867184Z" level=info msg="loading plugin "io.containerd.content.v1.content"..." type=io.containerd.content.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.211355164Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.btrfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.211654564Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.211697245Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.aufs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.218788092Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.aufs" error="modprobe aufs failed: "modprobe: FATAL: Module aufs not found.\n": exit status 1"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.218820069Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.native"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219032947Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.overlayfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219502074Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.zfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219741088Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.zfs" error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219757093Z" level=info msg="loading plugin "io.containerd.metadata.v1.bolt"..." type=io.containerd.metadata.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219829257Z" level=warning msg="could not use snapshotter zfs in metadata plugin" error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219840642Z" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.219847598Z" level=warning msg="could not use snapshotter aufs in metadata plugin" error="modprobe aufs failed: "modprobe: FATAL: Module aufs not found.\n": exit status 1"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.223382605Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.aufs" error="modprobe aufs failed: "modprobe: FATAL: Module aufs not found.\n": exit status 1"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.223411714Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.native"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.223584745Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.overlayfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.223912609Z" level=info msg="loading plugin "io.containerd.snapshotter.v1.zfs"..." type=io.containerd.snapshotter.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.224118496Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.zfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.224132270Z" level=info msg="loading plugin "io.containerd.metadata.v1.bolt"..." type=io.containerd.metadata.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.224196086Z" level=warning msg="could not use snapshotter zfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.224207167Z" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.224214509Z" level=warning msg="could not use snapshotter aufs in metadata plugin" error="modprobe aufs failed: "modprobe: FATAL: Module aufs not found.\n": exit status 1"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230783558Z" level=info msg="loading plugin "io.containerd.differ.v1.walking"..." type=io.containerd.differ.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230839918Z" level=info msg="loading plugin "io.containerd.gc.v1.scheduler"..." type=io.containerd.gc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230917880Z" level=info msg="loading plugin "io.containerd.service.v1.containers-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230947087Z" level=info msg="loading plugin "io.containerd.service.v1.content-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230972201Z" level=info msg="loading plugin "io.containerd.service.v1.diff-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.230995059Z" level=info msg="loading plugin "io.containerd.service.v1.images-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231018766Z" level=info msg="loading plugin "io.containerd.service.v1.leases-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231046700Z" level=info msg="loading plugin "io.containerd.service.v1.namespaces-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231072096Z" level=info msg="loading plugin "io.containerd.service.v1.snapshots-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231093836Z" level=info msg="loading plugin "io.containerd.runtime.v1.linux"..." type=io.containerd.runtime.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231414291Z" level=info msg="loading plugin "io.containerd.runtime.v2.task"..." type=io.containerd.runtime.v2
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.231697267Z" level=info msg="loading plugin "io.containerd.monitor.v1.cgroups"..." type=io.containerd.monitor.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232546820Z" level=info msg="loading plugin "io.containerd.service.v1.tasks-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232610785Z" level=info msg="loading plugin "io.containerd.internal.v1.restart"..." type=io.containerd.internal.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232709602Z" level=info msg="loading plugin "io.containerd.grpc.v1.containers"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232747215Z" level=info msg="loading plugin "io.containerd.grpc.v1.content"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232770327Z" level=info msg="loading plugin "io.containerd.grpc.v1.diff"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232801428Z" level=info msg="loading plugin "io.containerd.grpc.v1.events"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232827365Z" level=info msg="loading plugin "io.containerd.grpc.v1.healthcheck"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232854623Z" level=info msg="loading plugin "io.containerd.grpc.v1.images"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232876699Z" level=info msg="loading plugin "io.containerd.grpc.v1.leases"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232956586Z" level=info msg="loading plugin "io.containerd.grpc.v1.namespaces"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.232983133Z" level=info msg="loading plugin "io.containerd.internal.v1.opt"..." type=io.containerd.internal.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.233327085Z" level=info msg="loading plugin "io.containerd.grpc.v1.snapshots"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.233364953Z" level=info msg="loading plugin "io.containerd.grpc.v1.tasks"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.233394260Z" level=info msg="loading plugin "io.containerd.grpc.v1.version"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.233424251Z" level=info msg="loading plugin "io.containerd.grpc.v1.introspection"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.243945898Z" level=info msg=serving... address="/run/containerd/containerd.sock"
+Nov 19 06:36:50 COSC419-19 containerd: time="2018-11-19T06:36:50.243970039Z" level=info msg="containerd successfully booted in 0.046493s"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241787412Z" level=info msg="loading plugin "io.containerd.differ.v1.walking"..." type=io.containerd.differ.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241854119Z" level=info msg="loading plugin "io.containerd.gc.v1.scheduler"..." type=io.containerd.gc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241928013Z" level=info msg="loading plugin "io.containerd.service.v1.containers-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241947811Z" level=info msg="loading plugin "io.containerd.service.v1.content-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241964355Z" level=info msg="loading plugin "io.containerd.service.v1.diff-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241981882Z" level=info msg="loading plugin "io.containerd.service.v1.images-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.241996881Z" level=info msg="loading plugin "io.containerd.service.v1.leases-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242015913Z" level=info msg="loading plugin "io.containerd.service.v1.namespaces-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242031923Z" level=info msg="loading plugin "io.containerd.service.v1.snapshots-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242047468Z" level=info msg="loading plugin "io.containerd.runtime.v1.linux"..." type=io.containerd.runtime.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242315762Z" level=info msg="loading plugin "io.containerd.runtime.v2.task"..." type=io.containerd.runtime.v2
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242482613Z" level=info msg="loading plugin "io.containerd.monitor.v1.cgroups"..." type=io.containerd.monitor.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.242972373Z" level=info msg="loading plugin "io.containerd.service.v1.tasks-service"..." type=io.containerd.service.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243008745Z" level=info msg="loading plugin "io.containerd.internal.v1.restart"..." type=io.containerd.internal.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243059484Z" level=info msg="loading plugin "io.containerd.grpc.v1.containers"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243074890Z" level=info msg="loading plugin "io.containerd.grpc.v1.content"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243089823Z" level=info msg="loading plugin "io.containerd.grpc.v1.diff"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243102606Z" level=info msg="loading plugin "io.containerd.grpc.v1.events"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243117586Z" level=info msg="loading plugin "io.containerd.grpc.v1.healthcheck"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243129949Z" level=info msg="loading plugin "io.containerd.grpc.v1.images"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243158984Z" level=info msg="loading plugin "io.containerd.grpc.v1.leases"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243176428Z" level=info msg="loading plugin "io.containerd.grpc.v1.namespaces"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243189274Z" level=info msg="loading plugin "io.containerd.internal.v1.opt"..." type=io.containerd.internal.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243241823Z" level=info msg="loading plugin "io.containerd.grpc.v1.snapshots"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243260720Z" level=info msg="loading plugin "io.containerd.grpc.v1.tasks"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243274797Z" level=info msg="loading plugin "io.containerd.grpc.v1.version"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243288578Z" level=info msg="loading plugin "io.containerd.grpc.v1.introspection"..." type=io.containerd.grpc.v1
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243569498Z" level=info msg=serving... address="/var/run/docker/containerd/containerd-debug.sock"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243635778Z" level=info msg=serving... address="/var/run/docker/containerd/containerd.sock"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.243650384Z" level=info msg="containerd successfully booted in 0.052263s"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.256956746Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002c9d0, READY" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.283575578Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.283605998Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.283799299Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.283819859Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Nov 19 06:36:50 COSC419-19 kernel: TECH PREVIEW: Overlay filesystem may not be fully supported.#012Please review provided documentation for limitations.
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.296906982Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.296941474Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.296989349Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002db50, CONNECTING" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.297240784Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002db50, READY" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.297285567Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.297300166Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.297329178Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002de20, CONNECTING" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.297460375Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42002de20, READY" module=grpc
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.354566014Z" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.356061297Z" level=info msg="Loading containers: start."
+Nov 19 06:36:50 COSC419-19 kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Nov 19 06:36:50 COSC419-19 kernel: Bridge firewalling registered
+Nov 19 06:36:50 COSC419-19 kernel: nf_conntrack version 0.5.0 (7933 buckets, 31732 max)
+Nov 19 06:36:50 COSC419-19 kernel: Netfilter messages via NETLINK v0.30.
+Nov 19 06:36:50 COSC419-19 kernel: ctnetlink v0.93: registering with nfnetlink.
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.566171695Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Nov 19 06:36:50 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.637508204Z" level=info msg="Loading containers: done."
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.670339685Z" level=info msg="Docker daemon" commit=4d60db4 graphdriver(s)=overlay2 version=18.09.0
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.670719319Z" level=info msg="Daemon has completed initialization"
+Nov 19 06:36:50 COSC419-19 systemd: Started Docker Application Container Engine.
+Nov 19 06:36:50 COSC419-19 dockerd: time="2018-11-19T06:36:50.695513646Z" level=info msg="API listen on /var/run/docker.sock"
+Nov 19 06:37:00 COSC419-19 systemd: Reloading.
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered blocking state
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered disabled state
+Nov 19 06:37:11 COSC419-19 kernel: device veth308153f entered promiscuous mode
+Nov 19 06:37:11 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): veth308153f: link is not ready
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered blocking state
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered forwarding state
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered disabled state
+Nov 19 06:37:11 COSC419-19 dockerd: time="2018-11-19T06:37:11.428899533Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/9c83256f9dd1f774934c0804606f6ea3678154db973a1a1e8478581b5fcae69c/shim.sock" debug=false pid=1275
+Nov 19 06:37:11 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth308153f: link becomes ready
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered blocking state
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered forwarding state
+Nov 19 06:37:11 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+Nov 19 06:37:11 COSC419-19 dockerd: time="2018-11-19T06:37:11.956390016Z" level=info msg="shim reaped" id=9c83256f9dd1f774934c0804606f6ea3678154db973a1a1e8478581b5fcae69c
+Nov 19 06:37:11 COSC419-19 dockerd: time="2018-11-19T06:37:11.966252342Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 19 06:37:11 COSC419-19 kernel: docker0: port 1(veth308153f) entered disabled state
+Nov 19 06:37:12 COSC419-19 kernel: docker0: port 1(veth308153f) entered disabled state
+Nov 19 06:37:12 COSC419-19 kernel: device veth308153f left promiscuous mode
+Nov 19 06:37:12 COSC419-19 kernel: docker0: port 1(veth308153f) entered disabled state
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered blocking state
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered disabled state
+Nov 19 06:47:59 COSC419-19 kernel: device vethb67202b entered promiscuous mode
+Nov 19 06:47:59 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): vethb67202b: link is not ready
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered blocking state
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered forwarding state
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered disabled state
+Nov 19 06:47:59 COSC419-19 dockerd: time="2018-11-19T06:47:59.114052666Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/796711c9be969c87a051ccd945f7ff18b093a95a42f424d7348b1070f5ad91df/shim.sock" debug=false pid=1397
+Nov 19 06:47:59 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb67202b: link becomes ready
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered blocking state
+Nov 19 06:47:59 COSC419-19 kernel: docker0: port 1(vethb67202b) entered forwarding state
+Nov 19 06:48:05 COSC419-19 kernel: overlayfs: Warning: Copying up history-2018-10-06.sqlite-journal, but open R/O on fd 44 which will cease to be coherent [pid=1413 yum]
+Nov 19 06:48:08 COSC419-19 dockerd: time="2018-11-19T06:48:08.995438814Z" level=info msg="shim reaped" id=796711c9be969c87a051ccd945f7ff18b093a95a42f424d7348b1070f5ad91df
+Nov 19 06:48:09 COSC419-19 dockerd: time="2018-11-19T06:48:09.005507826Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 19 06:48:09 COSC419-19 kernel: docker0: port 1(vethb67202b) entered disabled state
+Nov 19 06:48:09 COSC419-19 kernel: docker0: port 1(vethb67202b) entered disabled state
+Nov 19 06:48:09 COSC419-19 kernel: device vethb67202b left promiscuous mode
+Nov 19 06:48:09 COSC419-19 kernel: docker0: port 1(vethb67202b) entered disabled state
+Nov 19 06:48:10 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered blocking state
+Nov 19 06:48:10 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered disabled state
+Nov 19 06:48:10 COSC419-19 kernel: device veth29f07e7 entered promiscuous mode
+Nov 19 06:48:10 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): veth29f07e7: link is not ready
+Nov 19 06:48:10 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered blocking state
+Nov 19 06:48:10 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered forwarding state
+Nov 19 06:48:10 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered disabled state
+Nov 19 06:48:10 COSC419-19 dockerd: time="2018-11-19T06:48:10.861032645Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/39737aa50c2852662cb142da4ec581bfa3003e038890199ce4fd922e58e0b578/shim.sock" debug=false pid=1546
+Nov 19 06:48:11 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth29f07e7: link becomes ready
+Nov 19 06:48:11 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered blocking state
+Nov 19 06:48:11 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered forwarding state
+Nov 19 06:48:12 COSC419-19 kernel: overlayfs: Warning: Copying up history-2018-10-06.sqlite-journal, but open R/O on fd 33 which will cease to be coherent [pid=1562 yum]
+Nov 19 06:48:14 COSC419-19 dockerd: time="2018-11-19T06:48:14.616836494Z" level=info msg="shim reaped" id=39737aa50c2852662cb142da4ec581bfa3003e038890199ce4fd922e58e0b578
+Nov 19 06:48:14 COSC419-19 dockerd: time="2018-11-19T06:48:14.626627153Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 19 06:48:14 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered disabled state
+Nov 19 06:48:14 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered disabled state
+Nov 19 06:48:14 COSC419-19 kernel: device veth29f07e7 left promiscuous mode
+Nov 19 06:48:14 COSC419-19 kernel: docker0: port 1(veth29f07e7) entered disabled state
+Nov 19 06:48:16 COSC419-19 dockerd: time="2018-11-19T06:48:16.297866383Z" level=info msg="Layer sha256:371f93c50a53d0b9a51a768bb2c9903bc37293130e97555e60081823aabad25c cleaned up"
+Nov 19 06:48:16 COSC419-19 dockerd: time="2018-11-19T06:48:16.422354327Z" level=info msg="Layer sha256:371f93c50a53d0b9a51a768bb2c9903bc37293130e97555e60081823aabad25c cleaned up"
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered blocking state
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered disabled state
+Nov 19 06:53:44 COSC419-19 kernel: device veth3c91989 entered promiscuous mode
+Nov 19 06:53:44 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): veth3c91989: link is not ready
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered blocking state
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered forwarding state
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered disabled state
+Nov 19 06:53:44 COSC419-19 dockerd: time="2018-11-19T06:53:44.451987875Z" level=warning msg="Failed to allocate and map port 80-80: Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use"
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered disabled state
+Nov 19 06:53:44 COSC419-19 kernel: device veth3c91989 left promiscuous mode
+Nov 19 06:53:44 COSC419-19 kernel: docker0: port 1(veth3c91989) entered disabled state
+Nov 19 06:53:44 COSC419-19 dockerd: time="2018-11-19T06:53:44.478460438Z" level=error msg="7e5aa4a5dfce9cc598f9ad1b64fbff19240dd1f32ec0f498c900f4c929523886 cleanup: failed to delete container from containerd: no such container"
+Nov 19 06:53:44 COSC419-19 dockerd: time="2018-11-19T06:53:44.478531751Z" level=error msg="Handler for POST /v1.39/containers/7e5aa4a5dfce9cc598f9ad1b64fbff19240dd1f32ec0f498c900f4c929523886/start returned error: driver failed programming external connectivity on endpoint hardcore_noyce (d0b995cb14e46e4a881b1033bb2552b1c486e4e0389bc76d8ed08b351eb60a15): Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use"
+Nov 19 06:54:04 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered blocking state
+Nov 19 06:54:04 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered disabled state
+Nov 19 06:54:04 COSC419-19 kernel: device veth1bae2cf entered promiscuous mode
+Nov 19 06:54:04 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): veth1bae2cf: link is not ready
+Nov 19 06:54:04 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered blocking state
+Nov 19 06:54:04 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered forwarding state
+Nov 19 06:54:04 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered disabled state
+Nov 19 06:54:04 COSC419-19 dockerd: time="2018-11-19T06:54:04.912972107Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/ce09c82d8240b94d0d1a3f8573463a3f100b6c87ce5a3a5064fe2117f212cc1c/shim.sock" debug=false pid=1720
+Nov 19 06:54:05 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1bae2cf: link becomes ready
+Nov 19 06:54:05 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered blocking state
+Nov 19 06:54:05 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered forwarding state
+Nov 19 06:57:30 COSC419-19 systemd-logind: Removed session 2582.
+Nov 19 06:57:30 COSC419-19 systemd-logind: Removed session 2583.
+Nov 19 06:57:30 COSC419-19 systemd: Removed slice User Slice of shane.
+Nov 19 06:57:30 COSC419-19 systemd: Stopping User Slice of shane.
+Nov 19 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 07:01:01 COSC419-19 systemd: Started Session 2659 of user root.
+Nov 19 07:01:01 COSC419-19 systemd: Starting Session 2659 of user root.
+Nov 19 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 08:01:01 COSC419-19 systemd: Started Session 2660 of user root.
+Nov 19 08:01:01 COSC419-19 systemd: Starting Session 2660 of user root.
+Nov 19 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 09:01:01 COSC419-19 systemd: Started Session 2661 of user root.
+Nov 19 09:01:01 COSC419-19 systemd: Starting Session 2661 of user root.
+Nov 19 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 10:01:01 COSC419-19 systemd: Started Session 2662 of user root.
+Nov 19 10:01:01 COSC419-19 systemd: Starting Session 2662 of user root.
+Nov 19 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 11:01:01 COSC419-19 systemd: Started Session 2663 of user root.
+Nov 19 11:01:01 COSC419-19 systemd: Starting Session 2663 of user root.
+Nov 19 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 12:01:01 COSC419-19 systemd: Started Session 2664 of user root.
+Nov 19 12:01:01 COSC419-19 systemd: Starting Session 2664 of user root.
+Nov 19 12:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 12:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 13:01:01 COSC419-19 systemd: Started Session 2665 of user root.
+Nov 19 13:01:01 COSC419-19 systemd: Starting Session 2665 of user root.
+Nov 19 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 14:01:01 COSC419-19 systemd: Started Session 2666 of user root.
+Nov 19 14:01:01 COSC419-19 systemd: Starting Session 2666 of user root.
+Nov 19 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 15:01:01 COSC419-19 systemd: Started Session 2667 of user root.
+Nov 19 15:01:01 COSC419-19 systemd: Starting Session 2667 of user root.
+Nov 19 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 16:01:01 COSC419-19 systemd: Started Session 2668 of user root.
+Nov 19 16:01:01 COSC419-19 systemd: Starting Session 2668 of user root.
+Nov 19 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 17:01:01 COSC419-19 systemd: Started Session 2669 of user root.
+Nov 19 17:01:01 COSC419-19 systemd: Starting Session 2669 of user root.
+Nov 19 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 18:01:01 COSC419-19 systemd: Started Session 2670 of user root.
+Nov 19 18:01:01 COSC419-19 systemd: Starting Session 2670 of user root.
+Nov 19 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 19:01:01 COSC419-19 systemd: Started Session 2671 of user root.
+Nov 19 19:01:01 COSC419-19 systemd: Starting Session 2671 of user root.
+Nov 19 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 20:01:01 COSC419-19 systemd: Started Session 2672 of user root.
+Nov 19 20:01:01 COSC419-19 systemd: Starting Session 2672 of user root.
+Nov 19 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 21:01:01 COSC419-19 systemd: Started Session 2673 of user root.
+Nov 19 21:01:01 COSC419-19 systemd: Starting Session 2673 of user root.
+Nov 19 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 22:01:01 COSC419-19 systemd: Started Session 2674 of user root.
+Nov 19 22:01:01 COSC419-19 systemd: Starting Session 2674 of user root.
+Nov 19 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 19 22:07:17 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 19 22:07:17 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 19 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 19 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 19 23:01:01 COSC419-19 systemd: Started Session 2675 of user root.
+Nov 19 23:01:01 COSC419-19 systemd: Starting Session 2675 of user root.
+Nov 19 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 19 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 00:01:01 COSC419-19 systemd: Started Session 2676 of user root.
+Nov 20 00:01:01 COSC419-19 systemd: Starting Session 2676 of user root.
+Nov 20 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 01:01:01 COSC419-19 systemd: Started Session 2677 of user root.
+Nov 20 01:01:01 COSC419-19 systemd: Starting Session 2677 of user root.
+Nov 20 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 02:01:01 COSC419-19 systemd: Started Session 2678 of user root.
+Nov 20 02:01:01 COSC419-19 systemd: Starting Session 2678 of user root.
+Nov 20 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 03:01:01 COSC419-19 systemd: Started Session 2679 of user root.
+Nov 20 03:01:01 COSC419-19 systemd: Starting Session 2679 of user root.
+Nov 20 03:25:03 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 03:25:03 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 04:01:01 COSC419-19 systemd: Started Session 2680 of user root.
+Nov 20 04:01:01 COSC419-19 systemd: Starting Session 2680 of user root.
+Nov 20 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 05:01:01 COSC419-19 systemd: Started Session 2681 of user root.
+Nov 20 05:01:01 COSC419-19 systemd: Starting Session 2681 of user root.
+Nov 20 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 06:01:01 COSC419-19 systemd: Started Session 2682 of user root.
+Nov 20 06:01:01 COSC419-19 systemd: Starting Session 2682 of user root.
+Nov 20 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 07:01:01 COSC419-19 systemd: Started Session 2683 of user root.
+Nov 20 07:01:01 COSC419-19 systemd: Starting Session 2683 of user root.
+Nov 20 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 08:01:01 COSC419-19 systemd: Started Session 2684 of user root.
+Nov 20 08:01:01 COSC419-19 systemd: Starting Session 2684 of user root.
+Nov 20 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 09:01:01 COSC419-19 systemd: Started Session 2685 of user root.
+Nov 20 09:01:01 COSC419-19 systemd: Starting Session 2685 of user root.
+Nov 20 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 10:01:01 COSC419-19 systemd: Started Session 2686 of user root.
+Nov 20 10:01:01 COSC419-19 systemd: Starting Session 2686 of user root.
+Nov 20 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 11:01:01 COSC419-19 systemd: Started Session 2687 of user root.
+Nov 20 11:01:01 COSC419-19 systemd: Starting Session 2687 of user root.
+Nov 20 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 12:01:01 COSC419-19 systemd: Started Session 2688 of user root.
+Nov 20 12:01:01 COSC419-19 systemd: Starting Session 2688 of user root.
+Nov 20 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 13:01:01 COSC419-19 systemd: Started Session 2689 of user root.
+Nov 20 13:01:01 COSC419-19 systemd: Starting Session 2689 of user root.
+Nov 20 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 14:01:01 COSC419-19 systemd: Started Session 2690 of user root.
+Nov 20 14:01:01 COSC419-19 systemd: Starting Session 2690 of user root.
+Nov 20 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 15:01:01 COSC419-19 systemd: Started Session 2691 of user root.
+Nov 20 15:01:01 COSC419-19 systemd: Starting Session 2691 of user root.
+Nov 20 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 16:01:01 COSC419-19 systemd: Started Session 2692 of user root.
+Nov 20 16:01:01 COSC419-19 systemd: Starting Session 2692 of user root.
+Nov 20 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 17:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 17:01:02 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 17:01:02 COSC419-19 systemd: Started Session 2693 of user root.
+Nov 20 17:01:02 COSC419-19 systemd: Starting Session 2693 of user root.
+Nov 20 17:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 17:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 18:01:01 COSC419-19 systemd: Started Session 2694 of user root.
+Nov 20 18:01:01 COSC419-19 systemd: Starting Session 2694 of user root.
+Nov 20 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 19:01:01 COSC419-19 systemd: Started Session 2695 of user root.
+Nov 20 19:01:01 COSC419-19 systemd: Starting Session 2695 of user root.
+Nov 20 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 20:01:01 COSC419-19 systemd: Started Session 2696 of user root.
+Nov 20 20:01:01 COSC419-19 systemd: Starting Session 2696 of user root.
+Nov 20 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 20:30:28 COSC419-19 systemd: Created slice User Slice of shane.
+Nov 20 20:30:28 COSC419-19 systemd: Starting User Slice of shane.
+Nov 20 20:30:28 COSC419-19 systemd: Started Session 2697 of user shane.
+Nov 20 20:30:28 COSC419-19 systemd-logind: New session 2697 of user shane.
+Nov 20 20:30:28 COSC419-19 systemd: Starting Session 2697 of user shane.
+Nov 20 20:30:29 COSC419-19 systemd: Started Session 2698 of user shane.
+Nov 20 20:30:29 COSC419-19 systemd-logind: New session 2698 of user shane.
+Nov 20 20:30:29 COSC419-19 systemd: Starting Session 2698 of user shane.
+Nov 20 20:41:38 COSC419-19 su: (to root) shane on pts/0
+Nov 20 20:50:02 COSC419-19 dockerd: time="2018-11-20T20:50:02.350976386Z" level=info msg="Container ce09c82d8240b94d0d1a3f8573463a3f100b6c87ce5a3a5064fe2117f212cc1c failed to exit within 10 seconds of signal 15 - using the force"
+Nov 20 20:50:02 COSC419-19 dockerd: time="2018-11-20T20:50:02.531507076Z" level=info msg="shim reaped" id=ce09c82d8240b94d0d1a3f8573463a3f100b6c87ce5a3a5064fe2117f212cc1c
+Nov 20 20:50:02 COSC419-19 dockerd: time="2018-11-20T20:50:02.541452696Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 20 20:50:02 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered disabled state
+Nov 20 20:50:02 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered disabled state
+Nov 20 20:50:02 COSC419-19 kernel: device veth1bae2cf left promiscuous mode
+Nov 20 20:50:02 COSC419-19 kernel: docker0: port 1(veth1bae2cf) entered disabled state
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered blocking state
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered disabled state
+Nov 20 20:50:44 COSC419-19 kernel: device veth4d14c1f entered promiscuous mode
+Nov 20 20:50:44 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): veth4d14c1f: link is not ready
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered blocking state
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered forwarding state
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered disabled state
+Nov 20 20:50:44 COSC419-19 dockerd: time="2018-11-20T20:50:44.245737528Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/6e4d439e06bdf4c6641be72feff099b82de2a2b96b12adf4b90bf31d8dbf5251/shim.sock" debug=false pid=25995
+Nov 20 20:50:44 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth4d14c1f: link becomes ready
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered blocking state
+Nov 20 20:50:44 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered forwarding state
+Nov 20 20:52:18 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 20 20:52:19 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 20 20:52:19 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 20 20:52:20 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 20 20:53:40 COSC419-19 dockerd: time="2018-11-20T20:53:40.461834432Z" level=info msg="Container 6e4d439e06bdf4c6641be72feff099b82de2a2b96b12adf4b90bf31d8dbf5251 failed to exit within 10 seconds of signal 15 - using the force"
+Nov 20 20:53:40 COSC419-19 dockerd: time="2018-11-20T20:53:40.627972217Z" level=info msg="shim reaped" id=6e4d439e06bdf4c6641be72feff099b82de2a2b96b12adf4b90bf31d8dbf5251
+Nov 20 20:53:40 COSC419-19 dockerd: time="2018-11-20T20:53:40.638096485Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 20 20:53:40 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered disabled state
+Nov 20 20:53:40 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered disabled state
+Nov 20 20:53:40 COSC419-19 kernel: device veth4d14c1f left promiscuous mode
+Nov 20 20:53:40 COSC419-19 kernel: docker0: port 1(veth4d14c1f) entered disabled state
+Nov 20 20:54:39 COSC419-19 kernel: docker0: port 1(vethcb055f8) entered blocking state
+Nov 20 20:54:39 COSC419-19 kernel: docker0: port 1(vethcb055f8) entered disabled state
+Nov 20 20:54:39 COSC419-19 kernel: device vethcb055f8 entered promiscuous mode
+Nov 20 20:54:39 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_UP): vethcb055f8: link is not ready
+Nov 20 20:54:40 COSC419-19 dockerd: time="2018-11-20T20:54:40.040767224Z" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/7336f32a060e5bf6bc2ee16622bc887a65b21a567626a068b288825a0258686c/shim.sock" debug=false pid=26339
+Nov 20 20:54:40 COSC419-19 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethcb055f8: link becomes ready
+Nov 20 20:54:40 COSC419-19 kernel: docker0: port 1(vethcb055f8) entered blocking state
+Nov 20 20:54:40 COSC419-19 kernel: docker0: port 1(vethcb055f8) entered forwarding state
+Nov 20 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 21:01:01 COSC419-19 systemd: Started Session 2699 of user root.
+Nov 20 21:01:01 COSC419-19 systemd: Starting Session 2699 of user root.
+Nov 20 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 21:18:23 COSC419-19 systemd-logind: Removed session 2697.
+Nov 20 21:18:23 COSC419-19 systemd-logind: Removed session 2698.
+Nov 20 21:18:23 COSC419-19 systemd: Removed slice User Slice of shane.
+Nov 20 21:18:23 COSC419-19 systemd: Stopping User Slice of shane.
+Nov 20 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 22:01:01 COSC419-19 systemd: Started Session 2700 of user root.
+Nov 20 22:01:01 COSC419-19 systemd: Starting Session 2700 of user root.
+Nov 20 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 20 22:07:24 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 20 22:07:24 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 20 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 20 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 20 23:01:01 COSC419-19 systemd: Started Session 2701 of user root.
+Nov 20 23:01:01 COSC419-19 systemd: Starting Session 2701 of user root.
+Nov 20 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 20 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 00:01:01 COSC419-19 systemd: Started Session 2702 of user root.
+Nov 21 00:01:01 COSC419-19 systemd: Starting Session 2702 of user root.
+Nov 21 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 01:01:01 COSC419-19 systemd: Started Session 2703 of user root.
+Nov 21 01:01:01 COSC419-19 systemd: Starting Session 2703 of user root.
+Nov 21 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 02:01:01 COSC419-19 systemd: Started Session 2704 of user root.
+Nov 21 02:01:01 COSC419-19 systemd: Starting Session 2704 of user root.
+Nov 21 03:01:01 COSC419-19 systemd: Started Session 2705 of user root.
+Nov 21 03:01:01 COSC419-19 systemd: Starting Session 2705 of user root.
+Nov 21 03:38:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 03:38:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 03:53:07 COSC419-19 systemd: Created slice User Slice of shane.
+Nov 21 03:53:07 COSC419-19 systemd: Starting User Slice of shane.
+Nov 21 03:53:07 COSC419-19 systemd: Started Session 2706 of user shane.
+Nov 21 03:53:07 COSC419-19 systemd-logind: New session 2706 of user shane.
+Nov 21 03:53:07 COSC419-19 systemd: Starting Session 2706 of user shane.
+Nov 21 03:53:08 COSC419-19 systemd: Started Session 2707 of user shane.
+Nov 21 03:53:08 COSC419-19 systemd-logind: New session 2707 of user shane.
+Nov 21 03:53:08 COSC419-19 systemd: Starting Session 2707 of user shane.
+Nov 21 03:53:15 COSC419-19 su: (to root) shane on pts/0
+Nov 21 03:56:49 COSC419-19 systemd: Started Session 2708 of user shane.
+Nov 21 03:56:49 COSC419-19 systemd-logind: New session 2708 of user shane.
+Nov 21 03:56:49 COSC419-19 systemd: Starting Session 2708 of user shane.
+Nov 21 03:56:50 COSC419-19 systemd-logind: Removed session 2708.
+Nov 21 03:58:13 COSC419-19 systemd: Started Session 2709 of user shane.
+Nov 21 03:58:13 COSC419-19 systemd-logind: New session 2709 of user shane.
+Nov 21 03:58:13 COSC419-19 systemd: Starting Session 2709 of user shane.
+Nov 21 03:58:14 COSC419-19 systemd-logind: Removed session 2709.
+Nov 21 04:00:03 COSC419-19 systemd: Started Session 2710 of user shane.
+Nov 21 04:00:03 COSC419-19 systemd-logind: New session 2710 of user shane.
+Nov 21 04:00:03 COSC419-19 systemd: Starting Session 2710 of user shane.
+Nov 21 04:00:04 COSC419-19 systemd-logind: Removed session 2710.
+Nov 21 04:00:32 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:00:33 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:00:33 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:00:33 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 04:01:02 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 04:01:02 COSC419-19 systemd: Started Session 2711 of user root.
+Nov 21 04:01:02 COSC419-19 systemd: Starting Session 2711 of user root.
+Nov 21 04:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 04:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 04:01:57 COSC419-19 systemd: Started Session 2712 of user shane.
+Nov 21 04:01:57 COSC419-19 systemd-logind: New session 2712 of user shane.
+Nov 21 04:01:57 COSC419-19 systemd: Starting Session 2712 of user shane.
+Nov 21 04:01:58 COSC419-19 systemd-logind: Removed session 2712.
+Nov 21 04:01:59 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:02:00 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:02:00 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:02:00 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:12:08 COSC419-19 systemd: Started Session 2713 of user shane.
+Nov 21 04:12:08 COSC419-19 systemd-logind: New session 2713 of user shane.
+Nov 21 04:12:08 COSC419-19 systemd: Starting Session 2713 of user shane.
+Nov 21 04:12:11 COSC419-19 systemd-logind: Removed session 2713.
+Nov 21 04:15:29 COSC419-19 systemd: Started Session 2714 of user shane.
+Nov 21 04:15:29 COSC419-19 systemd-logind: New session 2714 of user shane.
+Nov 21 04:15:29 COSC419-19 systemd: Starting Session 2714 of user shane.
+Nov 21 04:15:30 COSC419-19 systemd-logind: Removed session 2714.
+Nov 21 04:15:36 COSC419-19 systemd: Started Session 2715 of user shane.
+Nov 21 04:15:36 COSC419-19 systemd-logind: New session 2715 of user shane.
+Nov 21 04:15:36 COSC419-19 systemd: Starting Session 2715 of user shane.
+Nov 21 04:15:39 COSC419-19 systemd-logind: Removed session 2715.
+Nov 21 04:15:42 COSC419-19 systemd: Started Session 2716 of user shane.
+Nov 21 04:15:42 COSC419-19 systemd-logind: New session 2716 of user shane.
+Nov 21 04:15:42 COSC419-19 systemd: Starting Session 2716 of user shane.
+Nov 21 04:15:44 COSC419-19 systemd-logind: Removed session 2716.
+Nov 21 04:20:38 COSC419-19 systemd: Started Session 2717 of user shane.
+Nov 21 04:20:38 COSC419-19 systemd-logind: New session 2717 of user shane.
+Nov 21 04:20:38 COSC419-19 systemd: Starting Session 2717 of user shane.
+Nov 21 04:20:39 COSC419-19 systemd-logind: Removed session 2717.
+Nov 21 04:20:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:20:51 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:20:51 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:20:51 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:23:00 COSC419-19 systemd: Started Session 2718 of user shane.
+Nov 21 04:23:00 COSC419-19 systemd-logind: New session 2718 of user shane.
+Nov 21 04:23:00 COSC419-19 systemd: Starting Session 2718 of user shane.
+Nov 21 04:23:01 COSC419-19 systemd-logind: Removed session 2718.
+Nov 21 04:23:01 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:23:03 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:23:03 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:23:03 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:24:04 COSC419-19 systemd: Started Session 2719 of user shane.
+Nov 21 04:24:04 COSC419-19 systemd-logind: New session 2719 of user shane.
+Nov 21 04:24:04 COSC419-19 systemd: Starting Session 2719 of user shane.
+Nov 21 04:24:05 COSC419-19 systemd-logind: Removed session 2719.
+Nov 21 04:24:05 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:24:07 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:24:07 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:24:07 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:24:32 COSC419-19 systemd: Started Session 2720 of user shane.
+Nov 21 04:24:32 COSC419-19 systemd-logind: New session 2720 of user shane.
+Nov 21 04:24:32 COSC419-19 systemd: Starting Session 2720 of user shane.
+Nov 21 04:24:33 COSC419-19 systemd-logind: Removed session 2720.
+Nov 21 04:24:34 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:24:35 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:24:35 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:24:36 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:25:41 COSC419-19 systemd: Started Session 2721 of user shane.
+Nov 21 04:25:41 COSC419-19 systemd-logind: New session 2721 of user shane.
+Nov 21 04:25:41 COSC419-19 systemd: Starting Session 2721 of user shane.
+Nov 21 04:25:42 COSC419-19 systemd-logind: Removed session 2721.
+Nov 21 04:25:44 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:25:45 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:25:45 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:25:45 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:27:09 COSC419-19 systemd: Started Session 2722 of user shane.
+Nov 21 04:27:09 COSC419-19 systemd-logind: New session 2722 of user shane.
+Nov 21 04:27:09 COSC419-19 systemd: Starting Session 2722 of user shane.
+Nov 21 04:27:10 COSC419-19 systemd-logind: Removed session 2722.
+Nov 21 04:27:14 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:27:15 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:27:15 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:27:15 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:28:56 COSC419-19 systemd: Started Session 2723 of user shane.
+Nov 21 04:28:56 COSC419-19 systemd-logind: New session 2723 of user shane.
+Nov 21 04:28:56 COSC419-19 systemd: Starting Session 2723 of user shane.
+Nov 21 04:28:58 COSC419-19 systemd-logind: Removed session 2723.
+Nov 21 04:29:13 COSC419-19 systemd: Started Session 2724 of user shane.
+Nov 21 04:29:13 COSC419-19 systemd-logind: New session 2724 of user shane.
+Nov 21 04:29:13 COSC419-19 systemd: Starting Session 2724 of user shane.
+Nov 21 04:29:14 COSC419-19 systemd-logind: Removed session 2724.
+Nov 21 04:29:15 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:29:16 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:29:16 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:29:17 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:29:48 COSC419-19 systemd: Started Session 2725 of user shane.
+Nov 21 04:29:48 COSC419-19 systemd-logind: New session 2725 of user shane.
+Nov 21 04:29:48 COSC419-19 systemd: Starting Session 2725 of user shane.
+Nov 21 04:29:49 COSC419-19 systemd-logind: Removed session 2725.
+Nov 21 04:29:49 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:29:51 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:29:51 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:29:51 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:30:12 COSC419-19 systemd: Started Session 2726 of user shane.
+Nov 21 04:30:12 COSC419-19 systemd-logind: New session 2726 of user shane.
+Nov 21 04:30:12 COSC419-19 systemd: Starting Session 2726 of user shane.
+Nov 21 04:30:13 COSC419-19 systemd-logind: Removed session 2726.
+Nov 21 04:30:14 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:30:15 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:30:15 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:30:15 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:34:29 COSC419-19 systemd: Started Session 2727 of user shane.
+Nov 21 04:34:29 COSC419-19 systemd-logind: New session 2727 of user shane.
+Nov 21 04:34:29 COSC419-19 systemd: Starting Session 2727 of user shane.
+Nov 21 04:34:34 COSC419-19 systemd-logind: Removed session 2727.
+Nov 21 04:35:01 COSC419-19 systemd: Started Session 2728 of user shane.
+Nov 21 04:35:01 COSC419-19 systemd-logind: New session 2728 of user shane.
+Nov 21 04:35:01 COSC419-19 systemd: Starting Session 2728 of user shane.
+Nov 21 04:35:02 COSC419-19 systemd-logind: Removed session 2728.
+Nov 21 04:35:03 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:35:04 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:35:05 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:35:05 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:36:36 COSC419-19 systemd: Started Session 2729 of user shane.
+Nov 21 04:36:36 COSC419-19 systemd-logind: New session 2729 of user shane.
+Nov 21 04:36:36 COSC419-19 systemd: Starting Session 2729 of user shane.
+Nov 21 04:36:37 COSC419-19 systemd-logind: Removed session 2729.
+Nov 21 04:36:37 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:36:38 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:36:38 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:36:39 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:39:14 COSC419-19 systemd: Started Session 2730 of user shane.
+Nov 21 04:39:14 COSC419-19 systemd-logind: New session 2730 of user shane.
+Nov 21 04:39:14 COSC419-19 systemd: Starting Session 2730 of user shane.
+Nov 21 04:39:15 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:39:15 COSC419-19 systemd-logind: Removed session 2730.
+Nov 21 04:39:16 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:39:16 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:39:16 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:45:32 COSC419-19 systemd: Started Session 2731 of user shane.
+Nov 21 04:45:32 COSC419-19 systemd-logind: New session 2731 of user shane.
+Nov 21 04:45:32 COSC419-19 systemd: Starting Session 2731 of user shane.
+Nov 21 04:45:32 COSC419-19 systemd-logind: Removed session 2731.
+Nov 21 04:45:33 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:45:34 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:45:34 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:45:35 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:46:57 COSC419-19 systemd: Started Session 2732 of user shane.
+Nov 21 04:46:57 COSC419-19 systemd-logind: New session 2732 of user shane.
+Nov 21 04:46:57 COSC419-19 systemd: Starting Session 2732 of user shane.
+Nov 21 04:46:58 COSC419-19 systemd-logind: Removed session 2732.
+Nov 21 04:47:00 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:47:01 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:47:01 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:47:01 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:48:25 COSC419-19 systemd: Started Session 2733 of user shane.
+Nov 21 04:48:25 COSC419-19 systemd-logind: New session 2733 of user shane.
+Nov 21 04:48:25 COSC419-19 systemd: Starting Session 2733 of user shane.
+Nov 21 04:48:26 COSC419-19 systemd-logind: Removed session 2733.
+Nov 21 04:48:26 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:48:28 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:48:28 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:48:28 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:49:31 COSC419-19 systemd: Started Session 2734 of user shane.
+Nov 21 04:49:31 COSC419-19 systemd-logind: New session 2734 of user shane.
+Nov 21 04:49:31 COSC419-19 systemd: Starting Session 2734 of user shane.
+Nov 21 04:49:33 COSC419-19 systemd-logind: Removed session 2734.
+Nov 21 04:49:34 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:49:35 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:49:35 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:49:35 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:50:31 COSC419-19 systemd: Started Session 2735 of user shane.
+Nov 21 04:50:31 COSC419-19 systemd-logind: New session 2735 of user shane.
+Nov 21 04:50:31 COSC419-19 systemd: Starting Session 2735 of user shane.
+Nov 21 04:50:32 COSC419-19 systemd-logind: Removed session 2735.
+Nov 21 04:50:34 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:50:35 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:50:35 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:50:35 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:55:45 COSC419-19 systemd: Started Session 2736 of user shane.
+Nov 21 04:55:45 COSC419-19 systemd-logind: New session 2736 of user shane.
+Nov 21 04:55:45 COSC419-19 systemd: Starting Session 2736 of user shane.
+Nov 21 04:55:45 COSC419-19 systemd-logind: Removed session 2736.
+Nov 21 04:55:47 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:55:48 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:55:48 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:55:49 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:57:27 COSC419-19 systemd: Started Session 2737 of user shane.
+Nov 21 04:57:27 COSC419-19 systemd-logind: New session 2737 of user shane.
+Nov 21 04:57:27 COSC419-19 systemd: Starting Session 2737 of user shane.
+Nov 21 04:57:29 COSC419-19 systemd-logind: Removed session 2737.
+Nov 21 04:58:59 COSC419-19 systemd: Started Session 2738 of user shane.
+Nov 21 04:58:59 COSC419-19 systemd-logind: New session 2738 of user shane.
+Nov 21 04:58:59 COSC419-19 systemd: Starting Session 2738 of user shane.
+Nov 21 04:59:01 COSC419-19 systemd-logind: Removed session 2738.
+Nov 21 04:59:01 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 04:59:02 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 04:59:02 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 04:59:02 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 04:59:59 COSC419-19 systemd: Started Session 2739 of user shane.
+Nov 21 04:59:59 COSC419-19 systemd-logind: New session 2739 of user shane.
+Nov 21 04:59:59 COSC419-19 systemd: Starting Session 2739 of user shane.
+Nov 21 05:00:00 COSC419-19 systemd-logind: Removed session 2739.
+Nov 21 05:00:02 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 05:00:04 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 05:00:04 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 05:00:04 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 05:00:48 COSC419-19 systemd: Started Session 2740 of user shane.
+Nov 21 05:00:49 COSC419-19 systemd-logind: New session 2740 of user shane.
+Nov 21 05:00:49 COSC419-19 systemd: Starting Session 2740 of user shane.
+Nov 21 05:00:50 COSC419-19 systemd-logind: Removed session 2740.
+Nov 21 05:00:51 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 05:00:52 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 05:00:52 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 05:00:52 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 05:01:01 COSC419-19 systemd: Started Session 2741 of user root.
+Nov 21 05:01:01 COSC419-19 systemd: Starting Session 2741 of user root.
+Nov 21 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 05:01:24 COSC419-19 systemd: Started Session 2742 of user shane.
+Nov 21 05:01:24 COSC419-19 systemd-logind: New session 2742 of user shane.
+Nov 21 05:01:24 COSC419-19 systemd: Starting Session 2742 of user shane.
+Nov 21 05:01:25 COSC419-19 systemd: Stopping The Apache HTTP Server...
+Nov 21 05:01:25 COSC419-19 systemd-logind: Removed session 2742.
+Nov 21 05:01:26 COSC419-19 systemd: Starting The Apache HTTP Server...
+Nov 21 05:01:26 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 21 05:01:27 COSC419-19 systemd: Started The Apache HTTP Server.
+Nov 21 05:02:05 COSC419-19 systemd-logind: Removed session 2706.
+Nov 21 05:02:05 COSC419-19 systemd-logind: Removed session 2707.
+Nov 21 05:02:05 COSC419-19 systemd: Removed slice User Slice of shane.
+Nov 21 05:02:05 COSC419-19 systemd: Stopping User Slice of shane.
+Nov 21 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 06:01:01 COSC419-19 systemd: Started Session 2743 of user root.
+Nov 21 06:01:01 COSC419-19 systemd: Starting Session 2743 of user root.
+Nov 21 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 07:01:01 COSC419-19 systemd: Started Session 2744 of user root.
+Nov 21 07:01:01 COSC419-19 systemd: Starting Session 2744 of user root.
+Nov 21 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 08:01:01 COSC419-19 systemd: Started Session 2745 of user root.
+Nov 21 08:01:01 COSC419-19 systemd: Starting Session 2745 of user root.
+Nov 21 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 09:01:01 COSC419-19 systemd: Started Session 2746 of user root.
+Nov 21 09:01:01 COSC419-19 systemd: Starting Session 2746 of user root.
+Nov 21 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 10:01:01 COSC419-19 systemd: Started Session 2747 of user root.
+Nov 21 10:01:01 COSC419-19 systemd: Starting Session 2747 of user root.
+Nov 21 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 11:01:01 COSC419-19 systemd: Started Session 2748 of user root.
+Nov 21 11:01:01 COSC419-19 systemd: Starting Session 2748 of user root.
+Nov 21 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 12:01:01 COSC419-19 systemd: Started Session 2749 of user root.
+Nov 21 12:01:01 COSC419-19 systemd: Starting Session 2749 of user root.
+Nov 21 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 13:01:01 COSC419-19 systemd: Started Session 2750 of user root.
+Nov 21 13:01:01 COSC419-19 systemd: Starting Session 2750 of user root.
+Nov 21 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 14:01:01 COSC419-19 systemd: Started Session 2751 of user root.
+Nov 21 14:01:01 COSC419-19 systemd: Starting Session 2751 of user root.
+Nov 21 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 15:01:01 COSC419-19 systemd: Started Session 2752 of user root.
+Nov 21 15:01:01 COSC419-19 systemd: Starting Session 2752 of user root.
+Nov 21 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 16:01:01 COSC419-19 systemd: Started Session 2753 of user root.
+Nov 21 16:01:01 COSC419-19 systemd: Starting Session 2753 of user root.
+Nov 21 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 17:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 17:01:02 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 17:01:02 COSC419-19 systemd: Started Session 2754 of user root.
+Nov 21 17:01:02 COSC419-19 systemd: Starting Session 2754 of user root.
+Nov 21 17:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 17:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 18:01:01 COSC419-19 systemd: Started Session 2755 of user root.
+Nov 21 18:01:01 COSC419-19 systemd: Starting Session 2755 of user root.
+Nov 21 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 19:01:01 COSC419-19 systemd: Started Session 2756 of user root.
+Nov 21 19:01:01 COSC419-19 systemd: Starting Session 2756 of user root.
+Nov 21 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 20:01:01 COSC419-19 systemd: Started Session 2757 of user root.
+Nov 21 20:01:01 COSC419-19 systemd: Starting Session 2757 of user root.
+Nov 21 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 21:01:01 COSC419-19 systemd: Started Session 2758 of user root.
+Nov 21 21:01:01 COSC419-19 systemd: Starting Session 2758 of user root.
+Nov 21 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 22:01:01 COSC419-19 systemd: Started Session 2759 of user root.
+Nov 21 22:01:01 COSC419-19 systemd: Starting Session 2759 of user root.
+Nov 21 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 21 22:07:33 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 21 22:07:33 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 21 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 21 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 21 23:01:01 COSC419-19 systemd: Started Session 2760 of user root.
+Nov 21 23:01:01 COSC419-19 systemd: Starting Session 2760 of user root.
+Nov 21 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 21 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 00:01:01 COSC419-19 systemd: Started Session 2761 of user root.
+Nov 22 00:01:01 COSC419-19 systemd: Starting Session 2761 of user root.
+Nov 22 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 01:01:01 COSC419-19 systemd: Started Session 2762 of user root.
+Nov 22 01:01:01 COSC419-19 systemd: Starting Session 2762 of user root.
+Nov 22 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 02:01:01 COSC419-19 systemd: Started Session 2763 of user root.
+Nov 22 02:01:01 COSC419-19 systemd: Starting Session 2763 of user root.
+Nov 22 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 03:01:01 COSC419-19 systemd: Started Session 2764 of user root.
+Nov 22 03:01:01 COSC419-19 systemd: Starting Session 2764 of user root.
+Nov 22 03:34:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 03:34:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 04:01:01 COSC419-19 systemd: Started Session 2765 of user root.
+Nov 22 04:01:01 COSC419-19 systemd: Starting Session 2765 of user root.
+Nov 22 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 05:01:01 COSC419-19 systemd: Started Session 2766 of user root.
+Nov 22 05:01:01 COSC419-19 systemd: Starting Session 2766 of user root.
+Nov 22 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 06:01:01 COSC419-19 systemd: Started Session 2767 of user root.
+Nov 22 06:01:01 COSC419-19 systemd: Starting Session 2767 of user root.
+Nov 22 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 07:01:01 COSC419-19 systemd: Started Session 2768 of user root.
+Nov 22 07:01:01 COSC419-19 systemd: Starting Session 2768 of user root.
+Nov 22 07:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 07:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 08:01:01 COSC419-19 systemd: Started Session 2769 of user root.
+Nov 22 08:01:01 COSC419-19 systemd: Starting Session 2769 of user root.
+Nov 22 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 09:01:01 COSC419-19 systemd: Started Session 2770 of user root.
+Nov 22 09:01:01 COSC419-19 systemd: Starting Session 2770 of user root.
+Nov 22 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 10:01:01 COSC419-19 systemd: Started Session 2771 of user root.
+Nov 22 10:01:01 COSC419-19 systemd: Starting Session 2771 of user root.
+Nov 22 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 11:01:01 COSC419-19 systemd: Started Session 2772 of user root.
+Nov 22 11:01:01 COSC419-19 systemd: Starting Session 2772 of user root.
+Nov 22 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 12:01:01 COSC419-19 systemd: Started Session 2773 of user root.
+Nov 22 12:01:01 COSC419-19 systemd: Starting Session 2773 of user root.
+Nov 22 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 13:01:01 COSC419-19 systemd: Started Session 2774 of user root.
+Nov 22 13:01:01 COSC419-19 systemd: Starting Session 2774 of user root.
+Nov 22 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 14:01:01 COSC419-19 systemd: Started Session 2775 of user root.
+Nov 22 14:01:01 COSC419-19 systemd: Starting Session 2775 of user root.
+Nov 22 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 15:01:01 COSC419-19 systemd: Started Session 2776 of user root.
+Nov 22 15:01:01 COSC419-19 systemd: Starting Session 2776 of user root.
+Nov 22 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 16:01:01 COSC419-19 systemd: Started Session 2777 of user root.
+Nov 22 16:01:01 COSC419-19 systemd: Starting Session 2777 of user root.
+Nov 22 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 17:01:01 COSC419-19 systemd: Started Session 2778 of user root.
+Nov 22 17:01:01 COSC419-19 systemd: Starting Session 2778 of user root.
+Nov 22 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 18:01:01 COSC419-19 systemd: Started Session 2779 of user root.
+Nov 22 18:01:01 COSC419-19 systemd: Starting Session 2779 of user root.
+Nov 22 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 19:01:01 COSC419-19 systemd: Started Session 2780 of user root.
+Nov 22 19:01:01 COSC419-19 systemd: Starting Session 2780 of user root.
+Nov 22 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 20:01:01 COSC419-19 systemd: Started Session 2781 of user root.
+Nov 22 20:01:01 COSC419-19 systemd: Starting Session 2781 of user root.
+Nov 22 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 21:01:01 COSC419-19 systemd: Started Session 2782 of user root.
+Nov 22 21:01:01 COSC419-19 systemd: Starting Session 2782 of user root.
+Nov 22 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 22:01:01 COSC419-19 systemd: Started Session 2783 of user root.
+Nov 22 22:01:01 COSC419-19 systemd: Starting Session 2783 of user root.
+Nov 22 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 22 22:07:38 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 22 22:07:38 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 22 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 22 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 22 23:01:02 COSC419-19 systemd: Started Session 2784 of user root.
+Nov 22 23:01:02 COSC419-19 systemd: Starting Session 2784 of user root.
+Nov 22 23:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 22 23:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 00:01:01 COSC419-19 systemd: Started Session 2785 of user root.
+Nov 23 00:01:01 COSC419-19 systemd: Starting Session 2785 of user root.
+Nov 23 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 01:01:01 COSC419-19 systemd: Started Session 2786 of user root.
+Nov 23 01:01:01 COSC419-19 systemd: Starting Session 2786 of user root.
+Nov 23 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 02:01:01 COSC419-19 systemd: Started Session 2787 of user root.
+Nov 23 02:01:01 COSC419-19 systemd: Starting Session 2787 of user root.
+Nov 23 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 03:01:01 COSC419-19 systemd: Started Session 2788 of user root.
+Nov 23 03:01:01 COSC419-19 systemd: Starting Session 2788 of user root.
+Nov 23 03:25:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 03:25:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 04:01:01 COSC419-19 systemd: Started Session 2789 of user root.
+Nov 23 04:01:01 COSC419-19 systemd: Starting Session 2789 of user root.
+Nov 23 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 05:01:01 COSC419-19 systemd: Started Session 2790 of user root.
+Nov 23 05:01:01 COSC419-19 systemd: Starting Session 2790 of user root.
+Nov 23 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 06:01:01 COSC419-19 systemd: Started Session 2791 of user root.
+Nov 23 06:01:01 COSC419-19 systemd: Starting Session 2791 of user root.
+Nov 23 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 07:01:01 COSC419-19 systemd: Started Session 2792 of user root.
+Nov 23 07:01:01 COSC419-19 systemd: Starting Session 2792 of user root.
+Nov 23 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 08:01:01 COSC419-19 systemd: Started Session 2793 of user root.
+Nov 23 08:01:01 COSC419-19 systemd: Starting Session 2793 of user root.
+Nov 23 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 09:01:01 COSC419-19 systemd: Started Session 2794 of user root.
+Nov 23 09:01:01 COSC419-19 systemd: Starting Session 2794 of user root.
+Nov 23 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 10:01:01 COSC419-19 systemd: Started Session 2795 of user root.
+Nov 23 10:01:01 COSC419-19 systemd: Starting Session 2795 of user root.
+Nov 23 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 11:01:01 COSC419-19 systemd: Started Session 2796 of user root.
+Nov 23 11:01:01 COSC419-19 systemd: Starting Session 2796 of user root.
+Nov 23 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 12:01:01 COSC419-19 systemd: Started Session 2797 of user root.
+Nov 23 12:01:01 COSC419-19 systemd: Starting Session 2797 of user root.
+Nov 23 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 13:01:01 COSC419-19 systemd: Started Session 2798 of user root.
+Nov 23 13:01:01 COSC419-19 systemd: Starting Session 2798 of user root.
+Nov 23 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 14:01:01 COSC419-19 systemd: Started Session 2799 of user root.
+Nov 23 14:01:02 COSC419-19 systemd: Starting Session 2799 of user root.
+Nov 23 14:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 14:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 15:01:01 COSC419-19 systemd: Started Session 2800 of user root.
+Nov 23 15:01:01 COSC419-19 systemd: Starting Session 2800 of user root.
+Nov 23 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 16:01:01 COSC419-19 systemd: Started Session 2801 of user root.
+Nov 23 16:01:01 COSC419-19 systemd: Starting Session 2801 of user root.
+Nov 23 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 17:01:01 COSC419-19 systemd: Started Session 2802 of user root.
+Nov 23 17:01:01 COSC419-19 systemd: Starting Session 2802 of user root.
+Nov 23 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 18:01:01 COSC419-19 systemd: Started Session 2803 of user root.
+Nov 23 18:01:01 COSC419-19 systemd: Starting Session 2803 of user root.
+Nov 23 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 19:01:01 COSC419-19 systemd: Started Session 2804 of user root.
+Nov 23 19:01:01 COSC419-19 systemd: Starting Session 2804 of user root.
+Nov 23 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 20:01:01 COSC419-19 systemd: Started Session 2805 of user root.
+Nov 23 20:01:01 COSC419-19 systemd: Starting Session 2805 of user root.
+Nov 23 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 21:01:01 COSC419-19 systemd: Started Session 2806 of user root.
+Nov 23 21:01:01 COSC419-19 systemd: Starting Session 2806 of user root.
+Nov 23 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 22:01:01 COSC419-19 systemd: Started Session 2807 of user root.
+Nov 23 22:01:01 COSC419-19 systemd: Starting Session 2807 of user root.
+Nov 23 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 23 22:07:44 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 23 22:07:44 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 23 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 23 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 23 23:01:01 COSC419-19 systemd: Started Session 2808 of user root.
+Nov 23 23:01:01 COSC419-19 systemd: Starting Session 2808 of user root.
+Nov 23 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 23 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 00:01:01 COSC419-19 systemd: Started Session 2809 of user root.
+Nov 24 00:01:01 COSC419-19 systemd: Starting Session 2809 of user root.
+Nov 24 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 01:01:01 COSC419-19 systemd: Started Session 2810 of user root.
+Nov 24 01:01:01 COSC419-19 systemd: Starting Session 2810 of user root.
+Nov 24 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 02:01:01 COSC419-19 systemd: Started Session 2811 of user root.
+Nov 24 02:01:01 COSC419-19 systemd: Starting Session 2811 of user root.
+Nov 24 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 03:01:01 COSC419-19 systemd: Started Session 2812 of user root.
+Nov 24 03:01:01 COSC419-19 systemd: Starting Session 2812 of user root.
+Nov 24 03:29:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 03:29:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 04:01:01 COSC419-19 systemd: Started Session 2813 of user root.
+Nov 24 04:01:01 COSC419-19 systemd: Starting Session 2813 of user root.
+Nov 24 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 05:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 05:01:02 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 05:01:02 COSC419-19 systemd: Started Session 2814 of user root.
+Nov 24 05:01:02 COSC419-19 systemd: Starting Session 2814 of user root.
+Nov 24 05:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 05:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 06:01:01 COSC419-19 systemd: Started Session 2815 of user root.
+Nov 24 06:01:01 COSC419-19 systemd: Starting Session 2815 of user root.
+Nov 24 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 07:01:01 COSC419-19 systemd: Started Session 2816 of user root.
+Nov 24 07:01:01 COSC419-19 systemd: Starting Session 2816 of user root.
+Nov 24 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 08:01:01 COSC419-19 systemd: Started Session 2817 of user root.
+Nov 24 08:01:01 COSC419-19 systemd: Starting Session 2817 of user root.
+Nov 24 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 09:01:01 COSC419-19 systemd: Started Session 2818 of user root.
+Nov 24 09:01:01 COSC419-19 systemd: Starting Session 2818 of user root.
+Nov 24 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 10:01:01 COSC419-19 systemd: Started Session 2819 of user root.
+Nov 24 10:01:01 COSC419-19 systemd: Starting Session 2819 of user root.
+Nov 24 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 11:01:01 COSC419-19 systemd: Started Session 2820 of user root.
+Nov 24 11:01:01 COSC419-19 systemd: Starting Session 2820 of user root.
+Nov 24 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 12:01:01 COSC419-19 systemd: Started Session 2821 of user root.
+Nov 24 12:01:01 COSC419-19 systemd: Starting Session 2821 of user root.
+Nov 24 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 13:01:01 COSC419-19 systemd: Started Session 2822 of user root.
+Nov 24 13:01:01 COSC419-19 systemd: Starting Session 2822 of user root.
+Nov 24 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 14:01:01 COSC419-19 systemd: Started Session 2823 of user root.
+Nov 24 14:01:01 COSC419-19 systemd: Starting Session 2823 of user root.
+Nov 24 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 15:01:01 COSC419-19 systemd: Started Session 2824 of user root.
+Nov 24 15:01:01 COSC419-19 systemd: Starting Session 2824 of user root.
+Nov 24 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 16:01:01 COSC419-19 systemd: Started Session 2825 of user root.
+Nov 24 16:01:01 COSC419-19 systemd: Starting Session 2825 of user root.
+Nov 24 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 17:01:01 COSC419-19 systemd: Started Session 2826 of user root.
+Nov 24 17:01:01 COSC419-19 systemd: Starting Session 2826 of user root.
+Nov 24 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 18:01:01 COSC419-19 systemd: Started Session 2827 of user root.
+Nov 24 18:01:01 COSC419-19 systemd: Starting Session 2827 of user root.
+Nov 24 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 19:01:01 COSC419-19 systemd: Started Session 2828 of user root.
+Nov 24 19:01:01 COSC419-19 systemd: Starting Session 2828 of user root.
+Nov 24 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 20:01:01 COSC419-19 systemd: Started Session 2829 of user root.
+Nov 24 20:01:01 COSC419-19 systemd: Starting Session 2829 of user root.
+Nov 24 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 21:01:02 COSC419-19 systemd: Started Session 2830 of user root.
+Nov 24 21:01:02 COSC419-19 systemd: Starting Session 2830 of user root.
+Nov 24 21:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 21:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 22:01:01 COSC419-19 systemd: Started Session 2831 of user root.
+Nov 24 22:01:01 COSC419-19 systemd: Starting Session 2831 of user root.
+Nov 24 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 24 22:07:45 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Nov 24 22:07:45 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Nov 24 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 24 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 24 23:01:01 COSC419-19 systemd: Started Session 2832 of user root.
+Nov 24 23:01:01 COSC419-19 systemd: Starting Session 2832 of user root.
+Nov 24 23:01:01 COSC419-19 rsyslogd: imjournal: journal reloaded... [v8.24.0 try http://www.rsyslog.com/e/0 ]
+Nov 24 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 24 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 25 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 25 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 25 00:01:01 COSC419-19 systemd: Started Session 2833 of user root.
+Nov 25 00:01:01 COSC419-19 systemd: Starting Session 2833 of user root.
+Nov 25 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 25 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 25 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 25 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 25 01:01:01 COSC419-19 systemd: Started Session 2834 of user root.
+Nov 25 01:01:01 COSC419-19 systemd: Starting Session 2834 of user root.
+Nov 25 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 25 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 25 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 25 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 25 02:01:01 COSC419-19 systemd: Started Session 2835 of user root.
+Nov 25 02:01:01 COSC419-19 systemd: Starting Session 2835 of user root.
+Nov 25 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Nov 25 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Nov 25 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Nov 25 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Nov 25 03:01:01 COSC419-19 systemd: Started Session 2836 of user root.
+Nov 25 03:01:01 COSC419-19 systemd: Starting Session 2836 of user root.
+Nov 25 03:34:01 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Nov 25 03:34:01 COSC419-19 systemd: Reloaded The Apache HTTP Server.

@@ -1,0 +1,34 @@
+{% extends "template.html" %}
+{% block title %}SWC - Profile page{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+
+{% block heading1 %}
+  <h2>View Your Profile</h2>
+{% endblock %}
+
+{% block dataHeading %}  
+  {% if session['username'] %}
+     <p>{{ session['username'] }}'s Profile</p> 
+  {% else %}
+     <p>ERROR: Cannot Access SessionName</p>
+  {% endif %}
+{% endblock %}
+
+{% block data %}
+<p>Name : 
+  {% if session['username'] %}
+   {{ session['username'] }} 
+  {% else %}
+   <p>ERROR: Cannot Access Sessionname</p>
+  {% endif %}
+</p>
+
+<p>Id : varID</p>
+<p>Email : varEmail</p>
+<p>Location : varLoc</p>
+<p>Profile Pic : varPic</p>
+<a href="/logout" class="btn btn-danger btn-lg">Logout</a>
+<a href="/editprofile" class="btn btn-warning btn-lg" >Edit</a>
+{% endblock %}

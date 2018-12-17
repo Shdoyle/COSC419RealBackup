@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block title %}SWC - About Us{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+
+{% block heading1 %}About Star Wars Collecters{% endblock %}
+{% block dataHeading %}Serving the Star Wars Collecting Community{% endblock %}
+{% block data %}
+  <p>Star Wars Collectors from around the globe come together to share their collections.</p>
+  <p>Formed in 2018, Star Wars Collectors formed form a strong desire for a way to track your collection, while assessing it's value - filling checklists and meeting with fellow collectors. </p>
+  <p>We are proud to announce the launch of our website in November 2018. Account creation is live!! Create your own account and recieve access to our new collecting features.</p><br>
+  <p>~SWC</p>
+{% endblock %}

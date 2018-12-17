@@ -1,0 +1,10 @@
+{% extends "template.html" %}
+{% block title %}SWC - Logged Out{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+{% block heading1 %}You have been Logged out{% endblock %}
+{% block dataHeading %}Come back soon{% endblock %}
+{% block data %}
+  <p> Your Collection will be waiting for you to return!</p>
+{% endblock %}

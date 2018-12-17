@@ -1,0 +1,5 @@
+{"log":"Passing arguments to httpd using apachectl is no longer supported.\n","stream":"stdout","time":"2018-11-20T20:50:44.66429195Z"}
+{"log":"You can only start/stop/restart httpd using this script.\n","stream":"stdout","time":"2018-11-20T20:50:44.664365038Z"}
+{"log":"If you want to pass extra arguments to httpd, edit the\n","stream":"stdout","time":"2018-11-20T20:50:44.664370618Z"}
+{"log":"/etc/sysconfig/httpd config file.\n","stream":"stdout","time":"2018-11-20T20:50:44.664374015Z"}
+{"log":"AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message\n","stream":"stderr","time":"2018-11-20T20:50:44.76515789Z"}

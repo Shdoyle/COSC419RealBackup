@@ -1,0 +1,10 @@
+http://centos.mirror.rafal.ca/7.6.1810/os/x86_64/
+http://mirror.layeronline.com/centos/7.6.1810/os/x86_64/
+http://mirror.csclub.uwaterloo.ca/centos/7.6.1810/os/x86_64/
+http://mirror.netaddicted.ca/CentOS/7.6.1810/os/x86_64/
+http://mirror.netflash.net/centos/7.6.1810/os/x86_64/
+http://centos.mirror.globo.tech/7.6.1810/os/x86_64/
+http://mirror.calgah.com/centos/7.6.1810/os/x86_64/
+http://mirror.its.sfu.ca/mirror/CentOS/7.6.1810/os/x86_64/
+http://mirror2.evolution-host.com/centos/7.6.1810/os/x86_64/
+http://mirror.esecuredata.com/centos/7.6.1810/os/x86_64/

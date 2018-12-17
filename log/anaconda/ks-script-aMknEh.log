@@ -1,0 +1,185 @@
+Removing password for user root.
+passwd: Success
+Locking password for user root.
+passwd: Success
+Creating grub.conf for pvgrub
+Linking menu.lst to old-style grub.conf for pv-grubSetting default runlevel to multiuser text mode.
+Removing linux-firmware package.
+Loaded plugins: fastestmirror
+Resolving Dependencies
+--> Running transaction check
+---> Package linux-firmware.noarch 0:20180220-62.git6d51311.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch        Version                         Repository
+                                                                           Size
+================================================================================
+Removing:
+ linux-firmware      noarch      20180220-62.git6d51311.el7      @os      169 M
+
+Transaction Summary
+================================================================================
+Remove  1 Package
+
+Installed size: 169 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : linux-firmware-20180220-62.git6d51311.el7.noarch             1/1 
+  Verifying  : linux-firmware-20180220-62.git6d51311.el7.noarch             1/1 
+
+Removed:
+  linux-firmware.noarch 0:20180220-62.git6d51311.el7                            
+
+Complete!
+Removing firewalld.
+Loaded plugins: fastestmirror
+Resolving Dependencies
+--> Running transaction check
+---> Package firewalld.noarch 0:0.4.4.4-14.el7 will be erased
+--> Finished Dependency Resolution
+--> Finding unneeded leftover dependencies
+---> Marking ipset to be removed - no longer needed by firewalld
+---> Marking firewalld-filesystem to be removed - no longer needed by firewalld
+---> Marking ebtables to be removed - no longer needed by firewalld
+---> Marking python-firewall to be removed - no longer needed by firewalld
+---> Marking ipset-libs to be removed - no longer needed by ipset
+---> Marking python-slip-dbus to be removed - no longer needed by python-firewall
+---> Marking python-slip to be removed - no longer needed by python-slip-dbus
+Found and removing 7 unneeded dependencies
+--> Running transaction check
+---> Package ebtables.x86_64 0:2.0.10-16.el7 will be erased
+---> Package firewalld-filesystem.noarch 0:0.4.4.4-14.el7 will be erased
+---> Package ipset.x86_64 0:6.29-1.el7 will be erased
+---> Package ipset-libs.x86_64 0:6.29-1.el7 will be erased
+---> Package python-firewall.noarch 0:0.4.4.4-14.el7 will be erased
+---> Package python-slip.noarch 0:0.4.0-4.el7 will be erased
+---> Package python-slip-dbus.noarch 0:0.4.0-4.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                    Arch         Version                Repository
+                                                                           Size
+================================================================================
+Removing:
+ firewalld                  noarch       0.4.4.4-14.el7         @os       1.8 M
+Removing for dependencies:
+ ebtables                   x86_64       2.0.10-16.el7          @os       343 k
+ firewalld-filesystem       noarch       0.4.4.4-14.el7         @os       239  
+ ipset                      x86_64       6.29-1.el7             @os        74 k
+ ipset-libs                 x86_64       6.29-1.el7             @os       264 k
+ python-firewall            noarch       0.4.4.4-14.el7         @os       1.8 M
+ python-slip                noarch       0.4.0-4.el7            @os        60 k
+ python-slip-dbus           noarch       0.4.0-4.el7            @os        75 k
+
+Transaction Summary
+================================================================================
+Remove  1 Package (+7 Dependent packages)
+
+Installed size: 4.3 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : firewalld-0.4.4.4-14.el7.noarch                              1/8 
+  Erasing    : python-firewall-0.4.4.4-14.el7.noarch                        2/8 
+  Erasing    : python-slip-dbus-0.4.0-4.el7.noarch                          3/8 
+  Erasing    : ipset-6.29-1.el7.x86_64                                      4/8 
+  Erasing    : python-slip-0.4.0-4.el7.noarch                               5/8 
+  Erasing    : firewalld-filesystem-0.4.4.4-14.el7.noarch                   6/8 
+  Erasing    : ipset-libs-6.29-1.el7.x86_64                                 7/8 
+  Erasing    : ebtables-2.0.10-16.el7.x86_64                                8/8 
+  Verifying  : ipset-libs-6.29-1.el7.x86_64                                 1/8 
+  Verifying  : firewalld-filesystem-0.4.4.4-14.el7.noarch                   2/8 
+  Verifying  : python-firewall-0.4.4.4-14.el7.noarch                        3/8 
+  Verifying  : firewalld-0.4.4.4-14.el7.noarch                              4/8 
+  Verifying  : python-slip-0.4.0-4.el7.noarch                               5/8 
+  Verifying  : python-slip-dbus-0.4.0-4.el7.noarch                          6/8 
+  Verifying  : ipset-6.29-1.el7.x86_64                                      7/8 
+  Verifying  : ebtables-2.0.10-16.el7.x86_64                                8/8 
+
+Removed:
+  firewalld.noarch 0:0.4.4.4-14.el7                                             
+
+Dependency Removed:
+  ebtables.x86_64 0:2.0.10-16.el7                                               
+  firewalld-filesystem.noarch 0:0.4.4.4-14.el7                                  
+  ipset.x86_64 0:6.29-1.el7                                                     
+  ipset-libs.x86_64 0:6.29-1.el7                                                
+  python-firewall.noarch 0:0.4.4.4-14.el7                                       
+  python-slip.noarch 0:0.4.0-4.el7                                              
+  python-slip-dbus.noarch 0:0.4.0-4.el7                                         
+
+Complete!
+Removing avahi/zeroconf and NetworkManager
+Loaded plugins: fastestmirror
+No Match for argument: avahi*
+Resolving Dependencies
+--> Running transaction check
+---> Package NetworkManager.x86_64 1:1.10.2-13.el7 will be erased
+---> Package NetworkManager-libnm.x86_64 1:1.10.2-13.el7 will be erased
+---> Package NetworkManager-team.x86_64 1:1.10.2-13.el7 will be erased
+---> Package NetworkManager-tui.x86_64 1:1.10.2-13.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                    Arch         Version                Repository
+                                                                           Size
+================================================================================
+Removing:
+ NetworkManager             x86_64       1:1.10.2-13.el7        @os       5.0 M
+ NetworkManager-libnm       x86_64       1:1.10.2-13.el7        @os       6.1 M
+ NetworkManager-team        x86_64       1:1.10.2-13.el7        @os        53 k
+ NetworkManager-tui         x86_64       1:1.10.2-13.el7        @os       256 k
+
+Transaction Summary
+================================================================================
+Remove  4 Packages
+
+Installed size: 11 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : 1:NetworkManager-tui-1.10.2-13.el7.x86_64                    1/4 
+  Erasing    : 1:NetworkManager-team-1.10.2-13.el7.x86_64                   2/4 
+  Erasing    : 1:NetworkManager-1.10.2-13.el7.x86_64                        3/4 
+  Erasing    : 1:NetworkManager-libnm-1.10.2-13.el7.x86_64                  4/4 
+  Verifying  : 1:NetworkManager-team-1.10.2-13.el7.x86_64                   1/4 
+  Verifying  : 1:NetworkManager-1.10.2-13.el7.x86_64                        2/4 
+  Verifying  : 1:NetworkManager-libnm-1.10.2-13.el7.x86_64                  3/4 
+  Verifying  : 1:NetworkManager-tui-1.10.2-13.el7.x86_64                    4/4 
+
+Removed:
+  NetworkManager.x86_64 1:1.10.2-13.el7                                         
+  NetworkManager-libnm.x86_64 1:1.10.2-13.el7                                   
+  NetworkManager-team.x86_64 1:1.10.2-13.el7                                    
+  NetworkManager-tui.x86_64 1:1.10.2-13.el7                                     
+
+Complete!
+Getty fixesNetwork fixes.
+Disabling tmpfs for /tmp.
+Created symlink /etc/systemd/system/tmp.mount, pointing to /dev/null.
+Cleaning old yum repodata.
+Loaded plugins: fastestmirror
+Cleaning repos: base extras updates
+Cleaning up everything
+Maybe you want: rm -rf /var/cache/yum, to also free up space taken by orphaned data from disabled or removed repos
+set instance type markers
+Fixing SELinux contexts.
+dd: error writing '/var/tmp/zeros': No space left on device
+7300+0 records in
+7299+0 records out
+7653556224 bytes (7.7 GB) copied, 168.353 s, 45.5 MB/s
+(Don't worry -- that out-of-space error was expected.)

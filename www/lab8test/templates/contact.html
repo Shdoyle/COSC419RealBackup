@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+{% block title %}STC - Contact Us{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+
+{% block heading1 %}Contact Us{% endblock %}
+{% block dataHeading %}Star Wars Collectors - The 411{% endblock %}
+{% block data %}<h3>Mailing Address</h3>
+  <p>Star Wars Collectors</p><br>
+  <p>666 Order Ave</p>
+  <p>Coruscant City, Coruscant Province, Coruscant</p>
+  <p>Center of the Universe</p>
+  <h3>Phone Number : </h3><br>
+  <p>250-555-7954M</p>
+{% endblock %}

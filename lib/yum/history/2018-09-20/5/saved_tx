@@ -1,0 +1,12 @@
+343:c3031fe1b9f2bf7b67f7786e41c32964673068d6
+0
+1
+installed:344:7345b6e6ccad0ae9953a6773e230964d9ba50614
+1
+mbr: remi-release,noarch,0,7.5,2.el7.remi 70
+  repo: /remi-release-7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,287 @@
+Content-Type: multipart/mixed; boundary="===============8645434374073493512=="
+MIME-Version: 1.0
+
+--===============8645434374073493512==
+MIME-Version: 1.0
+Content-Type: text/cloud-config; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="cloud-config"
+
+#cloud-config
+disable_root: false
+manage_etc_hosts: true
+
+ssh_pwauth: true
+
+network:
+    config: disabled
+
+locale_configfile: /etc/sysconfig/i18n
+
+cloud_init_modules:
+ - migrator
+ - seed_random
+ - bootcmd
+ - write-files
+ - [ growpart, always ]
+ - [ resizefs, always ]
+ - set_hostname
+ - [ update_hostname, once-per-instance ]
+ - [ update_etc_hosts, once-per-instance ]
+ - ca-certs
+ - rsyslog
+ - users-groups
+ - ssh
+
+cloud_config_modules:
+ - emit_upstart
+ - disk_setup
+ - mounts
+ - ssh-import-id
+ - locale
+ - set-passwords
+ - package-update-upgrade-install
+ - landscape
+ - timezone
+ - puppet
+ - chef
+ - salt-minion
+ - mcollective
+ - disable-ec2-metadata
+ - runcmd
+ - resolv-conf
+
+cloud_final_modules:
+ - rightscale_userdata
+ - scripts-vendor
+ - scripts-per-once
+ - scripts-per-boot
+ - scripts-per-instance
+ - scripts-user
+ - ssh-authkey-fingerprints
+ - keys-to-console
+ - phone-home
+ - final-message
+ - power-state-change
+
+system_info:
+  distro: rhel
+  paths:
+    cloud_dir: /var/lib/cloud
+    templates_dir: /etc/cloud/templates
+  ssh_svcname: sshd
+
+
+--===============8645434374073493512==
+MIME-Version: 1.0
+Content-Type: text/cloud-boothook; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="entropy-seed"
+
+#!/bin/sh -x
+# DigitalOcean Entropy Seed script
+logger -t DigitalOcean 'adding random seed to /dev/urandom'
+(base64 -d <<EOE
+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
+
+EOE
+) > /dev/urandom 
+
+
+--===============8645434374073493512==
+MIME-Version: 1.0
+Content-Type: text/cloud-boothook; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="digitalocean_fixups"
+
+#!/bin/sh
+
+# Disable the locale warning: by default imported cloud-images check the default
+# local and give a warning about invalid locales. The following line disable
+# the warning.
+
+# do not assume that /etc/skel exists
+if [ -d /etc/skel ]; then
+    touch /etc/skel/.cloud-locale-test.skip
+fi
+touch /root/.cloud-locale-test.skip
+
+# Disable Ubuntu MOTD
+if [ -f /etc/default/motd-news ]; then
+    sed -e "s/ENABLED=1/ENABLED=0/g" \
+        -i /etc/default/motd-news
+fi
+
+# Fix buggy cloud-init routes for IPv6
+r6c="/etc/sysconfig/network-scripts/route6-eth0"
+if [ -f "${r6c}" ]; then
+    sed -e "s|::/::|default|g" -i "${r6c}"
+    awk '/default via/{system("ip -6 route add default via "$NF" dev eth0")}' "${r6c}"
+elif [ -d "/etc/sysconfig/network-scripts" -a -f "/etc/network/interfaces" ]; then
+    # This deals with a bug in Fedora 27 where the network interface is not set
+    # properly by Cloud-init.
+    i6gw=$(egrep -A3 'iface eth0:1 inet6 static' /etc/network/interfaces | awk '/gateway/{print$NF}')
+    if [ -n "${i6gw}" ]; then
+        ip -6 route add default via ${i6gw} dev eth0
+        cat > ${r6c} <<EOM
+# DigitalOcean: written by ConfigDrive customization.
+default via ${i6gw}
+EOM
+    fi
+fi
+
+# Fix screwy file permmissions on the system resolvers.
+chmod 0644 /etc/resolv.conf
+
+# Support automatic disk resizing per boot.
+# Only update /etc/hosts once per instance.
+mkdir -p /etc/cloud/cloud.cfg.d
+cat > /etc/cloud/cloud.cfg.d/90-digitalocean.cfg <<EOM
+####
+# DigitalOcean: this file was written via cloud-init and composed from /etc/cloud/cloud.cfg
+#               In order to support resize events, 'growpart' and 'resizefs' are run each boot.
+#               'update_etc_hosts' will be run only once per instance. To see the differences, run
+#               'diff -u /etc/cloud/cloud.cfg /etc/cloud/cloud.cfg.d/90-digitalocean.cfg'.
+#
+#               This file was written to support Droplet $(</sys/devices/virtual/dmi/id/product_serial) on $(date +%Y-%m-%d)
+####
+
+EOM
+sed -e "s/- growpart$/- [ growpart, always ]/g" \
+    -e "s/- resizefs$/- [ resizefs, always ]/g" \
+    -e "s/- update_etc_hosts$/- [ update_etc_hosts, once-per-instance ]/g" \
+    /etc/cloud/cloud.cfg >> /etc/cloud/cloud.cfg.d/90-digitalocean.cfg
+
+# Fix for machine-id's being dubiously present
+cat > /var/lib/cloud/scripts/per-instance/machine_id.sh <<EOM
+#!/bin/bash
+CT=\$(date +%s);
+FT=\$(stat /etc/machine-id -c %Y);
+DIFF=\$(expr \$CT - \$FT)
+# record timestamp on machine-id for testing
+# If /etc/machine_id is over 10m old on first-boot, delete it
+if [ -f /etc/machine-id ]; then
+    if [ \$DIFF -lt 600 ]; then
+        exit 0
+    fi
+rm -rf /etc/machine-id
+fi
+
+# systemd will use dbus uudigen if its there
+# we need to reset this for Debain 9.
+if which dbus-uuidgen &> /dev/null; then
+    rm -rf /var/lib/dbus/machine-id
+    dbus-uuidgen --ensure=/var/lib/dbus/machine-id
+fi
+
+if which systemd-machine-id-setup &> /dev/null; then
+    rm -rf /etc/machine-id
+    systemd-machine-id-setup
+fi
+EOM
+chmod 0700 /var/lib/cloud/scripts/per-instance/machine_id.sh
+
+# DigitalOcean updated the vendor-data to better support various distributions.
+# This script makes it so older snapshots will work by restoring the default behavior
+# of cloud-init.
+if [ -e /etc/cloud/cloud.cfg.disabled ]; then
+    mv /etc/cloud/cloud.cfg /etc/cloud/cloud.cfg.d/99-digitalocean.cfg
+    mv /etc/cloud/cloud.cfg.disabled /etc/cloud/cloud.cfg
+    logger -t DigitalOcean "restored default cloud-init behavior by renaming /etc/cloud/cloud.cfg.disabled to /etc/cloud/cloud.cfg"
+fi
+
+if [ -d /etc/udev/rules.d ]; then
+    # Add udev rules to automount block storage volumes.
+    cat > /etc/udev/rules.d/99-digitalocean-automount.rules <<EOM
+# Only try to automount DO block volumes.
+SUBSYSTEM!="block", GOTO="do_automount_end"
+ENV{ID_VENDOR}!="DO", GOTO="do_automount_end"
+ENV{ID_MODEL}!="Volume", GOTO="do_automount_end"
+# Only automount on the "add" action.
+ACTION!="add", GOTO="do_automount_end"
+# Only try to automount filesystems we know about.
+ENV{ID_FS_TYPE}!="ext4|xfs", GOTO="do_automount_end"
+
+# Create a temporary mountpoint and temporary location for the first-mount script.
+IMPORT{program}="/bin/sh -c 'echo TMP_MOUNT_DIR=\$(mktemp -d -p /mnt .do-first-mount-XXXXXXXXX)'"
+IMPORT{program}="/bin/sh -c 'echo TMP_SCRIPT=\$(mktemp -t .do-first-mount-XXXXXXXXX.sh)'"
+
+# Mount the volume at the temp mountpoint and copy the script off, then unmount.
+RUN{program}+="/bin/mount -o ro /dev/%k %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/sh -c '/bin/cp %E{TMP_MOUNT_DIR}/.first-mount.sh %E{TMP_SCRIPT} || exit 0'"
+RUN{program}+="/bin/umount %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/rmdir %E{TMP_MOUNT_DIR}"
+
+# Run the first-mount script. If it didn't exist this will be a no-op.
+RUN{program}+="/bin/sh %E{TMP_SCRIPT} '%E{ID_SERIAL}' '%E{ID_FS_TYPE}' '%E{ID_SERIAL_SHORT}' '%E{ID_FS_UUID}' '%E{ID_FS_LABEL}'"
+
+# Clean up.
+RUN{program}+="/bin/rm %E{TMP_SCRIPT}"
+
+# Finally, try and mount the volume. On first mount this will fail, but that's
+# OK because the volume was already mounted by the first-mount script.
+RUN{program}+="/bin/sh -c '/bin/mount /dev/%k || exit 0'"
+
+LABEL="do_automount_end"
+EOM
+    if which udevadm &> /dev/null ; then
+        udevadm control -R
+        udevadm trigger --action=add --subsystem-match=block
+    fi
+fi
+
+--===============8645434374073493512==--
+

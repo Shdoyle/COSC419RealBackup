@@ -1,0 +1,79 @@
+2018-12-16 03:17:02,055 fail2ban.server         [24095]: INFO    rollover performed on /var/log/fail2ban.log
+2018-12-16 10:53:09,932 fail2ban.server         [24095]: INFO    Stopping all jails
+2018-12-16 10:53:10,459 fail2ban.jail           [24095]: INFO    Jail 'sshd' stopped
+2018-12-16 10:53:11,457 fail2ban.jail           [24095]: INFO    Jail 'ssh-longterm' stopped
+2018-12-16 10:53:11,461 fail2ban.server         [24095]: INFO    Exiting Fail2ban
+2018-12-16 10:54:28,725 fail2ban.server         [993]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.7
+2018-12-16 10:54:28,732 fail2ban.database       [993]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2018-12-16 10:54:28,742 fail2ban.jail           [993]: INFO    Creating new jail 'sshd'
+2018-12-16 10:54:28,885 fail2ban.jail           [993]: INFO    Jail 'sshd' uses systemd {}
+2018-12-16 10:54:28,951 fail2ban.jail           [993]: INFO    Initiated 'systemd' backend
+2018-12-16 10:54:28,953 fail2ban.filter         [993]: INFO    Set maxRetry = 5
+2018-12-16 10:54:28,955 fail2ban.filter         [993]: INFO    Set jail log file encoding to UTF-8
+2018-12-16 10:54:28,955 fail2ban.actions        [993]: INFO    Set banTime = 600
+2018-12-16 10:54:28,956 fail2ban.filter         [993]: INFO    Set findtime = 300
+2018-12-16 10:54:28,957 fail2ban.filter         [993]: INFO    Set maxlines = 10
+2018-12-16 10:54:29,357 fail2ban.filtersystemd  [993]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-16 10:54:29,437 fail2ban.jail           [993]: INFO    Creating new jail 'ssh-longterm'
+2018-12-16 10:54:29,437 fail2ban.jail           [993]: INFO    Jail 'ssh-longterm' uses systemd {}
+2018-12-16 10:54:29,442 fail2ban.jail           [993]: INFO    Initiated 'systemd' backend
+2018-12-16 10:54:29,443 fail2ban.filter         [993]: INFO    Set maxRetry = 20
+2018-12-16 10:54:29,444 fail2ban.filter         [993]: INFO    Set jail log file encoding to UTF-8
+2018-12-16 10:54:29,445 fail2ban.actions        [993]: INFO    Set banTime = 604800
+2018-12-16 10:54:29,445 fail2ban.filter         [993]: INFO    Set findtime = 300
+2018-12-16 10:54:29,446 fail2ban.filter         [993]: INFO    Set maxlines = 10
+2018-12-16 10:54:29,928 fail2ban.filtersystemd  [993]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-16 10:54:29,997 fail2ban.jail           [993]: INFO    Jail 'sshd' started
+2018-12-16 10:54:30,000 fail2ban.jail           [993]: INFO    Jail 'ssh-longterm' started
+2018-12-17 00:30:51,198 fail2ban.server         [1002]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.7
+2018-12-17 00:30:51,206 fail2ban.database       [1002]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2018-12-17 00:30:51,216 fail2ban.jail           [1002]: INFO    Creating new jail 'sshd'
+2018-12-17 00:30:51,386 fail2ban.jail           [1002]: INFO    Jail 'sshd' uses systemd {}
+2018-12-17 00:30:51,497 fail2ban.jail           [1002]: INFO    Initiated 'systemd' backend
+2018-12-17 00:30:51,499 fail2ban.filter         [1002]: INFO    Set maxRetry = 5
+2018-12-17 00:30:51,500 fail2ban.filter         [1002]: INFO    Set jail log file encoding to UTF-8
+2018-12-17 00:30:51,500 fail2ban.actions        [1002]: INFO    Set banTime = 600
+2018-12-17 00:30:51,501 fail2ban.filter         [1002]: INFO    Set findtime = 300
+2018-12-17 00:30:51,501 fail2ban.filter         [1002]: INFO    Set maxlines = 10
+2018-12-17 00:30:51,925 fail2ban.filtersystemd  [1002]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-17 00:30:52,008 fail2ban.jail           [1002]: INFO    Creating new jail 'ssh-longterm'
+2018-12-17 00:30:52,008 fail2ban.jail           [1002]: INFO    Jail 'ssh-longterm' uses systemd {}
+2018-12-17 00:30:52,010 fail2ban.jail           [1002]: INFO    Initiated 'systemd' backend
+2018-12-17 00:30:52,030 fail2ban.filter         [1002]: INFO    Set maxRetry = 20
+2018-12-17 00:30:52,031 fail2ban.filter         [1002]: INFO    Set jail log file encoding to UTF-8
+2018-12-17 00:30:52,031 fail2ban.actions        [1002]: INFO    Set banTime = 604800
+2018-12-17 00:30:52,032 fail2ban.filter         [1002]: INFO    Set findtime = 300
+2018-12-17 00:30:52,033 fail2ban.filter         [1002]: INFO    Set maxlines = 10
+2018-12-17 00:30:52,532 fail2ban.filtersystemd  [1002]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-17 00:30:52,561 fail2ban.jail           [1002]: INFO    Jail 'sshd' started
+2018-12-17 00:30:52,566 fail2ban.jail           [1002]: INFO    Jail 'ssh-longterm' started
+2018-12-17 00:55:43,257 fail2ban.server         [1002]: INFO    Stopping all jails
+2018-12-17 00:55:43,782 fail2ban.jail           [1002]: INFO    Jail 'sshd' stopped
+2018-12-17 00:55:44,783 fail2ban.jail           [1002]: INFO    Jail 'ssh-longterm' stopped
+2018-12-17 00:55:44,787 fail2ban.server         [1002]: INFO    Exiting Fail2ban
+2018-12-17 00:56:42,171 fail2ban.server         [994]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.7
+2018-12-17 00:56:42,176 fail2ban.database       [994]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2018-12-17 00:56:42,183 fail2ban.jail           [994]: INFO    Creating new jail 'sshd'
+2018-12-17 00:56:42,305 fail2ban.jail           [994]: INFO    Jail 'sshd' uses systemd {}
+2018-12-17 00:56:42,383 fail2ban.jail           [994]: INFO    Initiated 'systemd' backend
+2018-12-17 00:56:42,391 fail2ban.filter         [994]: INFO    Set maxRetry = 5
+2018-12-17 00:56:42,392 fail2ban.filter         [994]: INFO    Set jail log file encoding to UTF-8
+2018-12-17 00:56:42,393 fail2ban.actions        [994]: INFO    Set banTime = 600
+2018-12-17 00:56:42,394 fail2ban.filter         [994]: INFO    Set findtime = 300
+2018-12-17 00:56:42,394 fail2ban.filter         [994]: INFO    Set maxlines = 10
+2018-12-17 00:56:42,799 fail2ban.filtersystemd  [994]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-17 00:56:42,859 fail2ban.jail           [994]: INFO    Creating new jail 'ssh-longterm'
+2018-12-17 00:56:42,859 fail2ban.jail           [994]: INFO    Jail 'ssh-longterm' uses systemd {}
+2018-12-17 00:56:42,860 fail2ban.jail           [994]: INFO    Initiated 'systemd' backend
+2018-12-17 00:56:42,865 fail2ban.filter         [994]: INFO    Set maxRetry = 20
+2018-12-17 00:56:42,866 fail2ban.filter         [994]: INFO    Set jail log file encoding to UTF-8
+2018-12-17 00:56:42,867 fail2ban.actions        [994]: INFO    Set banTime = 604800
+2018-12-17 00:56:42,868 fail2ban.filter         [994]: INFO    Set findtime = 300
+2018-12-17 00:56:42,868 fail2ban.filter         [994]: INFO    Set maxlines = 10
+2018-12-17 00:56:43,334 fail2ban.filtersystemd  [994]: INFO    Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2018-12-17 00:56:43,406 fail2ban.jail           [994]: INFO    Jail 'sshd' started
+2018-12-17 00:56:43,458 fail2ban.jail           [994]: INFO    Jail 'ssh-longterm' started
+2018-12-17 01:04:41,290 fail2ban.server         [994]: INFO    Stopping all jails
+2018-12-17 01:04:42,183 fail2ban.jail           [994]: INFO    Jail 'sshd' stopped
+2018-12-17 01:04:43,184 fail2ban.jail           [994]: INFO    Jail 'ssh-longterm' stopped
+2018-12-17 01:04:43,191 fail2ban.server         [994]: INFO    Exiting Fail2ban

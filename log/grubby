@@ -1,0 +1,46 @@
+DBG: 9110: Thu Sep 20 01:39:41 2018: command line: --grub -c /boot/grub/grub.conf --add-kernel=/boot/vmlinuz-3.10.0-862.11.6.el7.x86_64 --title=CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core) --copy-default --args=root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a  --remove-kernel=TITLE=CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core) --make-default
+DBG: Image entry succeeded: 
+DBG: title CentOS Linux 7 (3.10.0-862.2.3.el7.x86_64)
+DBG: 	root (hd0)
+DBG: 	kernel /boot/vmlinuz-3.10.0-862.2.3.el7.x86_64 ro root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a console=hvc0 LANG=en_US.UTF-8
+DBG: 	initrd /boot/initramfs-3.10.0-862.2.3.el7.x86_64.img
+DBG: 9112: Thu Sep 20 01:39:41 2018: command line: --grub2 -c /boot/grub2/grub.cfg --add-kernel=/boot/vmlinuz-3.10.0-862.11.6.el7.x86_64 --copy-default --title CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core) --args=root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a  --remove-kernel=TITLE=CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core) --make-default
+DBG: Image entry succeeded: 
+DBG: menuentry 'CentOS Linux (3.10.0-862.2.3.el7.x86_64) 7 (Core)' --class centos --class gnu-linux --class gnu --class os --unrestricted $menuentry_id_option 'gnulinux-3.10.0-862.2.3.el7.x86_64-advanced-5f1871e2-c19c-4f86-8d6c-04d5fda71a0a' { 
+DBG: 	load_video
+DBG: 	set gfxpayload=keep
+DBG: 	insmod gzio
+DBG: 	insmod part_msdos
+DBG: 	insmod xfs
+DBG: 	set root='hd0,msdos1'
+DBG: 	if [ x$feature_platform_search_hint = xy ]; then
+DBG: 	  search --no-floppy --fs-uuid --set=root --hint='hd0,msdos1'  5f1871e2-c19c-4f86-8d6c-04d5fda71a0a
+DBG: 	else
+DBG: 	  search --no-floppy --fs-uuid --set=root 5f1871e2-c19c-4f86-8d6c-04d5fda71a0a
+DBG: 	fi
+DBG: 	linux16 /boot/vmlinuz-3.10.0-862.2.3.el7.x86_64 root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a ro console=tty0 console=ttyS0,115200n8 crashkernel=auto console=ttyS0,115200 LANG=en_US.UTF-8
+DBG: 	initrd16 /boot/initramfs-3.10.0-862.2.3.el7.x86_64.img
+DBG: }
+DBG: 30443: Thu Sep 20 01:41:43 2018: command line: --grub -c /boot/grub/grub.conf --add-kernel=/boot/vmlinuz-0-rescue-23f8a37490082f9cb1a92b235ba2c3d9 --title=CentOS Linux 7 Rescue 23f8a37490082f9cb1a92b235ba2c3d9 (3.10.0-862.11.6.el7.x86_64) --copy-default --args=root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a  --remove-kernel=TITLE=CentOS Linux 7 Rescue 23f8a37490082f9cb1a92b235ba2c3d9 (3.10.0-862.11.6.el7.x86_64)
+DBG: Image entry succeeded: 
+DBG: title CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core)
+DBG: 	root (hd0)
+DBG: 	kernel /boot/vmlinuz-3.10.0-862.11.6.el7.x86_64 ro root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a console=hvc0 LANG=en_US.UTF-8
+DBG: 	initrd /boot/initramfs-3.10.0-862.11.6.el7.x86_64.img
+DBG: 30445: Thu Sep 20 01:41:43 2018: command line: --grub2 -c /boot/grub2/grub.cfg --add-kernel=/boot/vmlinuz-0-rescue-23f8a37490082f9cb1a92b235ba2c3d9 --copy-default --title CentOS Linux 7 Rescue 23f8a37490082f9cb1a92b235ba2c3d9 (3.10.0-862.11.6.el7.x86_64) --args=root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a  --remove-kernel=TITLE=CentOS Linux 7 Rescue 23f8a37490082f9cb1a92b235ba2c3d9 (3.10.0-862.11.6.el7.x86_64)
+DBG: Image entry succeeded: 
+DBG: menuentry 'CentOS Linux (3.10.0-862.11.6.el7.x86_64) 7 (Core)' --class centos --class gnu-linux --class gnu --class os --unrestricted $menuentry_id_option 'gnulinux-3.10.0-862.2.3.el7.x86_64-advanced-5f1871e2-c19c-4f86-8d6c-04d5fda71a0a' { 
+DBG: 	load_video
+DBG: 	set gfxpayload=keep
+DBG: 	insmod gzio
+DBG: 	insmod part_msdos
+DBG: 	insmod xfs
+DBG: 	set root='hd0,msdos1'
+DBG: 	if [ x$feature_platform_search_hint = xy ]; then
+DBG: 	  search --no-floppy --fs-uuid --set=root --hint='hd0,msdos1'  5f1871e2-c19c-4f86-8d6c-04d5fda71a0a
+DBG: 	else
+DBG: 	  search --no-floppy --fs-uuid --set=root 5f1871e2-c19c-4f86-8d6c-04d5fda71a0a
+DBG: 	fi
+DBG: 	linux16 /boot/vmlinuz-3.10.0-862.11.6.el7.x86_64 root=UUID=5f1871e2-c19c-4f86-8d6c-04d5fda71a0a ro console=tty0 console=ttyS0,115200n8 crashkernel=auto console=ttyS0,115200 LANG=en_US.UTF-8
+DBG: 	initrd16 /boot/initramfs-3.10.0-862.11.6.el7.x86_64.img
+DBG: }

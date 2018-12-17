@@ -1,0 +1,6 @@
+Dec 16 10:54:30 COSC419-19 postfix/postfix-script[1121]: starting the Postfix mail system
+Dec 16 10:54:30 COSC419-19 postfix/master[1129]: daemon started -- version 2.10.1, configuration /etc/postfix
+Dec 17 00:30:52 COSC419-19 postfix/postfix-script[1149]: starting the Postfix mail system
+Dec 17 00:30:53 COSC419-19 postfix/master[1155]: daemon started -- version 2.10.1, configuration /etc/postfix
+Dec 17 00:56:44 COSC419-19 postfix/postfix-script[1147]: starting the Postfix mail system
+Dec 17 00:56:44 COSC419-19 postfix/master[1151]: daemon started -- version 2.10.1, configuration /etc/postfix

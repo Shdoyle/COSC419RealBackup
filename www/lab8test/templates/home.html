@@ -1,0 +1,21 @@
+{% extends "template.html" %}
+
+{% block title %}Star Wars Collectors{% endblock %} 
+
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+
+{% block heading1 %}Welcome to Star Wars Collectors{% endblock %}
+
+{% block dataHeading %}New this week!! Collection Tracking!{% endblock %}
+
+{% block data %}
+  <p>Login to your personalized account.</p>
+  <p>Create an online representation of your collection!</p>
+  <p>You can add items, with cost, value, condition and other key values.</p>
+  </br>
+  <h1>Coming Soon!!</h1>
+  <h2>Mos Eisley Cantina</h2> 
+  <p>Trading post where you can buy/sell/trade parts of your collection with other collectors!!</p>
+{% endblock %}

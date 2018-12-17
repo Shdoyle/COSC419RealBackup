@@ -1,0 +1,1022 @@
+Dec  9 03:06:02 COSC419-19 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0" x-pid="11970" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Dec  9 03:06:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 03:06:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 04:01:01 COSC419-19 systemd: Started Session 3175 of user root.
+Dec  9 04:01:01 COSC419-19 systemd: Starting Session 3175 of user root.
+Dec  9 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 05:01:01 COSC419-19 systemd: Started Session 3176 of user root.
+Dec  9 05:01:01 COSC419-19 systemd: Starting Session 3176 of user root.
+Dec  9 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 06:01:01 COSC419-19 systemd: Started Session 3177 of user root.
+Dec  9 06:01:01 COSC419-19 systemd: Starting Session 3177 of user root.
+Dec  9 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 07:01:02 COSC419-19 systemd: Started Session 3178 of user root.
+Dec  9 07:01:02 COSC419-19 systemd: Starting Session 3178 of user root.
+Dec  9 07:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 07:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 08:01:01 COSC419-19 systemd: Started Session 3179 of user root.
+Dec  9 08:01:01 COSC419-19 systemd: Starting Session 3179 of user root.
+Dec  9 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 09:01:01 COSC419-19 systemd: Started Session 3180 of user root.
+Dec  9 09:01:01 COSC419-19 systemd: Starting Session 3180 of user root.
+Dec  9 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 10:01:01 COSC419-19 systemd: Started Session 3181 of user root.
+Dec  9 10:01:01 COSC419-19 systemd: Starting Session 3181 of user root.
+Dec  9 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 11:01:01 COSC419-19 systemd: Started Session 3182 of user root.
+Dec  9 11:01:01 COSC419-19 systemd: Starting Session 3182 of user root.
+Dec  9 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 12:01:01 COSC419-19 systemd: Started Session 3183 of user root.
+Dec  9 12:01:01 COSC419-19 systemd: Starting Session 3183 of user root.
+Dec  9 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 13:01:01 COSC419-19 systemd: Started Session 3184 of user root.
+Dec  9 13:01:01 COSC419-19 systemd: Starting Session 3184 of user root.
+Dec  9 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 14:01:01 COSC419-19 systemd: Started Session 3185 of user root.
+Dec  9 14:01:01 COSC419-19 systemd: Starting Session 3185 of user root.
+Dec  9 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 15:01:01 COSC419-19 systemd: Started Session 3186 of user root.
+Dec  9 15:01:01 COSC419-19 systemd: Starting Session 3186 of user root.
+Dec  9 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 16:01:01 COSC419-19 systemd: Started Session 3187 of user root.
+Dec  9 16:01:01 COSC419-19 systemd: Starting Session 3187 of user root.
+Dec  9 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 17:01:01 COSC419-19 systemd: Started Session 3188 of user root.
+Dec  9 17:01:01 COSC419-19 systemd: Starting Session 3188 of user root.
+Dec  9 17:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 17:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 18:01:01 COSC419-19 systemd: Started Session 3189 of user root.
+Dec  9 18:01:01 COSC419-19 systemd: Starting Session 3189 of user root.
+Dec  9 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 19:01:01 COSC419-19 systemd: Started Session 3190 of user root.
+Dec  9 19:01:01 COSC419-19 systemd: Starting Session 3190 of user root.
+Dec  9 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 20:01:01 COSC419-19 systemd: Started Session 3191 of user root.
+Dec  9 20:01:01 COSC419-19 systemd: Starting Session 3191 of user root.
+Dec  9 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 21:01:01 COSC419-19 systemd: Started Session 3192 of user root.
+Dec  9 21:01:01 COSC419-19 systemd: Starting Session 3192 of user root.
+Dec  9 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 22:01:01 COSC419-19 systemd: Started Session 3193 of user root.
+Dec  9 22:01:01 COSC419-19 systemd: Starting Session 3193 of user root.
+Dec  9 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec  9 22:08:39 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec  9 22:08:39 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec  9 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec  9 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec  9 23:01:01 COSC419-19 systemd: Started Session 3194 of user root.
+Dec  9 23:01:01 COSC419-19 systemd: Starting Session 3194 of user root.
+Dec  9 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec  9 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 00:01:01 COSC419-19 systemd: Started Session 3195 of user root.
+Dec 10 00:01:01 COSC419-19 systemd: Starting Session 3195 of user root.
+Dec 10 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 01:01:01 COSC419-19 systemd: Started Session 3196 of user root.
+Dec 10 01:01:01 COSC419-19 systemd: Starting Session 3196 of user root.
+Dec 10 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 02:01:01 COSC419-19 systemd: Started Session 3197 of user root.
+Dec 10 02:01:01 COSC419-19 systemd: Starting Session 3197 of user root.
+Dec 10 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 03:01:01 COSC419-19 systemd: Started Session 3198 of user root.
+Dec 10 03:01:01 COSC419-19 systemd: Starting Session 3198 of user root.
+Dec 10 03:43:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 03:43:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 04:01:01 COSC419-19 systemd: Started Session 3199 of user root.
+Dec 10 04:01:01 COSC419-19 systemd: Starting Session 3199 of user root.
+Dec 10 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 05:01:01 COSC419-19 systemd: Started Session 3200 of user root.
+Dec 10 05:01:01 COSC419-19 systemd: Starting Session 3200 of user root.
+Dec 10 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 06:01:01 COSC419-19 systemd: Started Session 3201 of user root.
+Dec 10 06:01:01 COSC419-19 systemd: Starting Session 3201 of user root.
+Dec 10 06:01:01 COSC419-19 rsyslogd: imjournal: journal reloaded... [v8.24.0 try http://www.rsyslog.com/e/0 ]
+Dec 10 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 07:01:01 COSC419-19 systemd: Started Session 3202 of user root.
+Dec 10 07:01:01 COSC419-19 systemd: Starting Session 3202 of user root.
+Dec 10 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 08:01:01 COSC419-19 systemd: Started Session 3203 of user root.
+Dec 10 08:01:01 COSC419-19 systemd: Starting Session 3203 of user root.
+Dec 10 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 09:01:01 COSC419-19 systemd: Started Session 3204 of user root.
+Dec 10 09:01:01 COSC419-19 systemd: Starting Session 3204 of user root.
+Dec 10 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 10:01:01 COSC419-19 systemd: Started Session 3205 of user root.
+Dec 10 10:01:01 COSC419-19 systemd: Starting Session 3205 of user root.
+Dec 10 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 11:01:01 COSC419-19 systemd: Started Session 3206 of user root.
+Dec 10 11:01:01 COSC419-19 systemd: Starting Session 3206 of user root.
+Dec 10 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 12:01:01 COSC419-19 systemd: Started Session 3207 of user root.
+Dec 10 12:01:01 COSC419-19 systemd: Starting Session 3207 of user root.
+Dec 10 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 13:01:01 COSC419-19 systemd: Started Session 3208 of user root.
+Dec 10 13:01:01 COSC419-19 systemd: Starting Session 3208 of user root.
+Dec 10 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 14:01:01 COSC419-19 systemd: Started Session 3209 of user root.
+Dec 10 14:01:01 COSC419-19 systemd: Starting Session 3209 of user root.
+Dec 10 14:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 14:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 15:01:01 COSC419-19 systemd: Started Session 3210 of user root.
+Dec 10 15:01:01 COSC419-19 systemd: Starting Session 3210 of user root.
+Dec 10 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 16:01:01 COSC419-19 systemd: Started Session 3211 of user root.
+Dec 10 16:01:01 COSC419-19 systemd: Starting Session 3211 of user root.
+Dec 10 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 17:01:01 COSC419-19 systemd: Started Session 3212 of user root.
+Dec 10 17:01:01 COSC419-19 systemd: Starting Session 3212 of user root.
+Dec 10 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 18:01:01 COSC419-19 systemd: Started Session 3213 of user root.
+Dec 10 18:01:01 COSC419-19 systemd: Starting Session 3213 of user root.
+Dec 10 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 19:01:01 COSC419-19 systemd: Started Session 3214 of user root.
+Dec 10 19:01:01 COSC419-19 systemd: Starting Session 3214 of user root.
+Dec 10 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 20:01:01 COSC419-19 systemd: Started Session 3215 of user root.
+Dec 10 20:01:01 COSC419-19 systemd: Starting Session 3215 of user root.
+Dec 10 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 21:01:01 COSC419-19 systemd: Started Session 3216 of user root.
+Dec 10 21:01:01 COSC419-19 systemd: Starting Session 3216 of user root.
+Dec 10 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 22:01:01 COSC419-19 systemd: Started Session 3217 of user root.
+Dec 10 22:01:01 COSC419-19 systemd: Starting Session 3217 of user root.
+Dec 10 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 10 22:08:40 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 10 22:08:40 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 10 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 10 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 10 23:01:01 COSC419-19 systemd: Started Session 3218 of user root.
+Dec 10 23:01:01 COSC419-19 systemd: Starting Session 3218 of user root.
+Dec 10 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 10 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 00:01:01 COSC419-19 systemd: Started Session 3219 of user root.
+Dec 11 00:01:01 COSC419-19 systemd: Starting Session 3219 of user root.
+Dec 11 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 01:01:01 COSC419-19 systemd: Started Session 3220 of user root.
+Dec 11 01:01:01 COSC419-19 systemd: Starting Session 3220 of user root.
+Dec 11 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 02:01:01 COSC419-19 systemd: Started Session 3221 of user root.
+Dec 11 02:01:01 COSC419-19 systemd: Starting Session 3221 of user root.
+Dec 11 02:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 02:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 03:01:01 COSC419-19 systemd: Started Session 3222 of user root.
+Dec 11 03:01:01 COSC419-19 systemd: Starting Session 3222 of user root.
+Dec 11 03:40:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 03:40:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 04:01:01 COSC419-19 systemd: Started Session 3223 of user root.
+Dec 11 04:01:01 COSC419-19 systemd: Starting Session 3223 of user root.
+Dec 11 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 05:01:01 COSC419-19 systemd: Started Session 3224 of user root.
+Dec 11 05:01:01 COSC419-19 systemd: Starting Session 3224 of user root.
+Dec 11 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 06:01:01 COSC419-19 systemd: Started Session 3225 of user root.
+Dec 11 06:01:01 COSC419-19 systemd: Starting Session 3225 of user root.
+Dec 11 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 07:01:01 COSC419-19 systemd: Started Session 3226 of user root.
+Dec 11 07:01:01 COSC419-19 systemd: Starting Session 3226 of user root.
+Dec 11 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 08:01:01 COSC419-19 systemd: Started Session 3227 of user root.
+Dec 11 08:01:01 COSC419-19 systemd: Starting Session 3227 of user root.
+Dec 11 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 09:01:01 COSC419-19 systemd: Started Session 3228 of user root.
+Dec 11 09:01:01 COSC419-19 systemd: Starting Session 3228 of user root.
+Dec 11 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 10:01:01 COSC419-19 systemd: Started Session 3229 of user root.
+Dec 11 10:01:01 COSC419-19 systemd: Starting Session 3229 of user root.
+Dec 11 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 11:01:01 COSC419-19 systemd: Started Session 3230 of user root.
+Dec 11 11:01:01 COSC419-19 systemd: Starting Session 3230 of user root.
+Dec 11 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 12:01:01 COSC419-19 systemd: Started Session 3231 of user root.
+Dec 11 12:01:01 COSC419-19 systemd: Starting Session 3231 of user root.
+Dec 11 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 13:01:01 COSC419-19 systemd: Started Session 3232 of user root.
+Dec 11 13:01:01 COSC419-19 systemd: Starting Session 3232 of user root.
+Dec 11 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 14:01:01 COSC419-19 systemd: Started Session 3233 of user root.
+Dec 11 14:01:01 COSC419-19 systemd: Starting Session 3233 of user root.
+Dec 11 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 15:01:01 COSC419-19 systemd: Started Session 3234 of user root.
+Dec 11 15:01:01 COSC419-19 systemd: Starting Session 3234 of user root.
+Dec 11 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 16:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 16:01:02 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 16:01:02 COSC419-19 systemd: Started Session 3235 of user root.
+Dec 11 16:01:02 COSC419-19 systemd: Starting Session 3235 of user root.
+Dec 11 16:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 16:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 17:01:01 COSC419-19 systemd: Started Session 3236 of user root.
+Dec 11 17:01:01 COSC419-19 systemd: Starting Session 3236 of user root.
+Dec 11 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 18:01:01 COSC419-19 systemd: Started Session 3237 of user root.
+Dec 11 18:01:01 COSC419-19 systemd: Starting Session 3237 of user root.
+Dec 11 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 19:01:01 COSC419-19 systemd: Started Session 3238 of user root.
+Dec 11 19:01:01 COSC419-19 systemd: Starting Session 3238 of user root.
+Dec 11 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 20:01:01 COSC419-19 systemd: Started Session 3239 of user root.
+Dec 11 20:01:01 COSC419-19 systemd: Starting Session 3239 of user root.
+Dec 11 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 21:01:01 COSC419-19 systemd: Started Session 3240 of user root.
+Dec 11 21:01:01 COSC419-19 systemd: Starting Session 3240 of user root.
+Dec 11 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 22:01:01 COSC419-19 systemd: Started Session 3241 of user root.
+Dec 11 22:01:01 COSC419-19 systemd: Starting Session 3241 of user root.
+Dec 11 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 11 22:08:40 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 11 22:08:40 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 11 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 11 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 11 23:01:01 COSC419-19 systemd: Started Session 3242 of user root.
+Dec 11 23:01:01 COSC419-19 systemd: Starting Session 3242 of user root.
+Dec 11 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 11 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 00:01:01 COSC419-19 systemd: Started Session 3243 of user root.
+Dec 12 00:01:01 COSC419-19 systemd: Starting Session 3243 of user root.
+Dec 12 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 01:01:01 COSC419-19 systemd: Started Session 3244 of user root.
+Dec 12 01:01:01 COSC419-19 systemd: Starting Session 3244 of user root.
+Dec 12 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 02:01:01 COSC419-19 systemd: Started Session 3245 of user root.
+Dec 12 02:01:01 COSC419-19 systemd: Starting Session 3245 of user root.
+Dec 12 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 03:01:01 COSC419-19 systemd: Started Session 3246 of user root.
+Dec 12 03:01:01 COSC419-19 systemd: Starting Session 3246 of user root.
+Dec 12 04:01:01 COSC419-19 systemd: Started Session 3247 of user root.
+Dec 12 04:01:01 COSC419-19 systemd: Starting Session 3247 of user root.
+Dec 12 04:05:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 04:05:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 05:01:01 COSC419-19 systemd: Started Session 3248 of user root.
+Dec 12 05:01:01 COSC419-19 systemd: Starting Session 3248 of user root.
+Dec 12 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 06:01:01 COSC419-19 systemd: Started Session 3249 of user root.
+Dec 12 06:01:01 COSC419-19 systemd: Starting Session 3249 of user root.
+Dec 12 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 07:01:01 COSC419-19 systemd: Started Session 3250 of user root.
+Dec 12 07:01:01 COSC419-19 systemd: Starting Session 3250 of user root.
+Dec 12 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 08:01:01 COSC419-19 systemd: Started Session 3251 of user root.
+Dec 12 08:01:01 COSC419-19 systemd: Starting Session 3251 of user root.
+Dec 12 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 09:01:01 COSC419-19 systemd: Started Session 3252 of user root.
+Dec 12 09:01:01 COSC419-19 systemd: Starting Session 3252 of user root.
+Dec 12 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 10:01:01 COSC419-19 systemd: Started Session 3253 of user root.
+Dec 12 10:01:01 COSC419-19 systemd: Starting Session 3253 of user root.
+Dec 12 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 11:01:01 COSC419-19 systemd: Started Session 3254 of user root.
+Dec 12 11:01:01 COSC419-19 systemd: Starting Session 3254 of user root.
+Dec 12 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 12:01:01 COSC419-19 systemd: Started Session 3255 of user root.
+Dec 12 12:01:01 COSC419-19 systemd: Starting Session 3255 of user root.
+Dec 12 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 13:01:01 COSC419-19 systemd: Started Session 3256 of user root.
+Dec 12 13:01:01 COSC419-19 systemd: Starting Session 3256 of user root.
+Dec 12 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 14:01:01 COSC419-19 systemd: Started Session 3257 of user root.
+Dec 12 14:01:01 COSC419-19 systemd: Starting Session 3257 of user root.
+Dec 12 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 15:01:01 COSC419-19 systemd: Started Session 3258 of user root.
+Dec 12 15:01:01 COSC419-19 systemd: Starting Session 3258 of user root.
+Dec 12 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 16:01:01 COSC419-19 systemd: Started Session 3259 of user root.
+Dec 12 16:01:01 COSC419-19 systemd: Starting Session 3259 of user root.
+Dec 12 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 17:01:01 COSC419-19 systemd: Started Session 3260 of user root.
+Dec 12 17:01:01 COSC419-19 systemd: Starting Session 3260 of user root.
+Dec 12 17:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 17:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 18:01:01 COSC419-19 systemd: Started Session 3261 of user root.
+Dec 12 18:01:01 COSC419-19 systemd: Starting Session 3261 of user root.
+Dec 12 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 19:01:01 COSC419-19 systemd: Started Session 3262 of user root.
+Dec 12 19:01:01 COSC419-19 systemd: Starting Session 3262 of user root.
+Dec 12 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 20:01:01 COSC419-19 systemd: Started Session 3263 of user root.
+Dec 12 20:01:01 COSC419-19 systemd: Starting Session 3263 of user root.
+Dec 12 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 21:01:01 COSC419-19 systemd: Started Session 3264 of user root.
+Dec 12 21:01:01 COSC419-19 systemd: Starting Session 3264 of user root.
+Dec 12 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 22:01:01 COSC419-19 systemd: Started Session 3265 of user root.
+Dec 12 22:01:01 COSC419-19 systemd: Starting Session 3265 of user root.
+Dec 12 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 12 22:08:40 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 12 22:08:40 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 12 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 12 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 12 23:01:01 COSC419-19 systemd: Started Session 3266 of user root.
+Dec 12 23:01:01 COSC419-19 systemd: Starting Session 3266 of user root.
+Dec 12 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 12 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 00:01:01 COSC419-19 systemd: Started Session 3267 of user root.
+Dec 13 00:01:01 COSC419-19 systemd: Starting Session 3267 of user root.
+Dec 13 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 01:01:01 COSC419-19 systemd: Started Session 3268 of user root.
+Dec 13 01:01:01 COSC419-19 systemd: Starting Session 3268 of user root.
+Dec 13 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 02:01:01 COSC419-19 systemd: Started Session 3269 of user root.
+Dec 13 02:01:01 COSC419-19 systemd: Starting Session 3269 of user root.
+Dec 13 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 03:01:01 COSC419-19 systemd: Started Session 3270 of user root.
+Dec 13 03:01:01 COSC419-19 systemd: Starting Session 3270 of user root.
+Dec 13 03:21:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 03:21:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 04:01:01 COSC419-19 systemd: Started Session 3271 of user root.
+Dec 13 04:01:01 COSC419-19 systemd: Starting Session 3271 of user root.
+Dec 13 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 05:01:01 COSC419-19 systemd: Started Session 3272 of user root.
+Dec 13 05:01:01 COSC419-19 systemd: Starting Session 3272 of user root.
+Dec 13 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 06:01:01 COSC419-19 systemd: Started Session 3273 of user root.
+Dec 13 06:01:02 COSC419-19 systemd: Starting Session 3273 of user root.
+Dec 13 06:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 06:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 07:01:01 COSC419-19 systemd: Started Session 3274 of user root.
+Dec 13 07:01:01 COSC419-19 systemd: Starting Session 3274 of user root.
+Dec 13 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 08:01:01 COSC419-19 systemd: Started Session 3275 of user root.
+Dec 13 08:01:01 COSC419-19 systemd: Starting Session 3275 of user root.
+Dec 13 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 09:01:01 COSC419-19 systemd: Started Session 3276 of user root.
+Dec 13 09:01:01 COSC419-19 systemd: Starting Session 3276 of user root.
+Dec 13 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 10:01:01 COSC419-19 systemd: Started Session 3277 of user root.
+Dec 13 10:01:01 COSC419-19 systemd: Starting Session 3277 of user root.
+Dec 13 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 11:01:01 COSC419-19 systemd: Started Session 3278 of user root.
+Dec 13 11:01:01 COSC419-19 systemd: Starting Session 3278 of user root.
+Dec 13 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 12:01:01 COSC419-19 systemd: Started Session 3279 of user root.
+Dec 13 12:01:01 COSC419-19 systemd: Starting Session 3279 of user root.
+Dec 13 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 13:01:01 COSC419-19 systemd: Started Session 3280 of user root.
+Dec 13 13:01:01 COSC419-19 systemd: Starting Session 3280 of user root.
+Dec 13 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 14:01:01 COSC419-19 systemd: Started Session 3281 of user root.
+Dec 13 14:01:01 COSC419-19 systemd: Starting Session 3281 of user root.
+Dec 13 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 15:01:01 COSC419-19 systemd: Started Session 3282 of user root.
+Dec 13 15:01:01 COSC419-19 systemd: Starting Session 3282 of user root.
+Dec 13 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 16:01:01 COSC419-19 systemd: Started Session 3283 of user root.
+Dec 13 16:01:01 COSC419-19 systemd: Starting Session 3283 of user root.
+Dec 13 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 17:01:01 COSC419-19 systemd: Started Session 3284 of user root.
+Dec 13 17:01:01 COSC419-19 systemd: Starting Session 3284 of user root.
+Dec 13 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 18:01:01 COSC419-19 systemd: Started Session 3285 of user root.
+Dec 13 18:01:01 COSC419-19 systemd: Starting Session 3285 of user root.
+Dec 13 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 19:01:01 COSC419-19 systemd: Started Session 3286 of user root.
+Dec 13 19:01:01 COSC419-19 systemd: Starting Session 3286 of user root.
+Dec 13 19:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 19:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 20:01:01 COSC419-19 systemd: Started Session 3287 of user root.
+Dec 13 20:01:01 COSC419-19 systemd: Starting Session 3287 of user root.
+Dec 13 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 21:01:01 COSC419-19 systemd: Started Session 3288 of user root.
+Dec 13 21:01:01 COSC419-19 systemd: Starting Session 3288 of user root.
+Dec 13 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 22:01:01 COSC419-19 systemd: Started Session 3289 of user root.
+Dec 13 22:01:01 COSC419-19 systemd: Starting Session 3289 of user root.
+Dec 13 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 13 22:08:41 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 13 22:08:41 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 13 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 13 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 13 23:01:01 COSC419-19 systemd: Started Session 3290 of user root.
+Dec 13 23:01:01 COSC419-19 systemd: Starting Session 3290 of user root.
+Dec 13 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 13 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 00:01:01 COSC419-19 systemd: Started Session 3291 of user root.
+Dec 14 00:01:01 COSC419-19 systemd: Starting Session 3291 of user root.
+Dec 14 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 01:01:01 COSC419-19 systemd: Started Session 3292 of user root.
+Dec 14 01:01:01 COSC419-19 systemd: Starting Session 3292 of user root.
+Dec 14 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 02:01:01 COSC419-19 systemd: Started Session 3293 of user root.
+Dec 14 02:01:01 COSC419-19 systemd: Starting Session 3293 of user root.
+Dec 14 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 03:01:01 COSC419-19 systemd: Started Session 3294 of user root.
+Dec 14 03:01:01 COSC419-19 systemd: Starting Session 3294 of user root.
+Dec 14 03:19:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 03:19:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 04:01:01 COSC419-19 systemd: Started Session 3295 of user root.
+Dec 14 04:01:01 COSC419-19 systemd: Starting Session 3295 of user root.
+Dec 14 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 05:01:01 COSC419-19 systemd: Started Session 3296 of user root.
+Dec 14 05:01:01 COSC419-19 systemd: Starting Session 3296 of user root.
+Dec 14 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 06:01:01 COSC419-19 systemd: Started Session 3297 of user root.
+Dec 14 06:01:01 COSC419-19 systemd: Starting Session 3297 of user root.
+Dec 14 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 07:01:01 COSC419-19 systemd: Started Session 3298 of user root.
+Dec 14 07:01:01 COSC419-19 systemd: Starting Session 3298 of user root.
+Dec 14 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 08:01:01 COSC419-19 systemd: Started Session 3299 of user root.
+Dec 14 08:01:01 COSC419-19 systemd: Starting Session 3299 of user root.
+Dec 14 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 09:01:02 COSC419-19 systemd: Started Session 3300 of user root.
+Dec 14 09:01:02 COSC419-19 systemd: Starting Session 3300 of user root.
+Dec 14 09:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 09:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 10:01:01 COSC419-19 systemd: Started Session 3301 of user root.
+Dec 14 10:01:01 COSC419-19 systemd: Starting Session 3301 of user root.
+Dec 14 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 11:01:01 COSC419-19 systemd: Started Session 3302 of user root.
+Dec 14 11:01:01 COSC419-19 systemd: Starting Session 3302 of user root.
+Dec 14 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 12:01:01 COSC419-19 systemd: Started Session 3303 of user root.
+Dec 14 12:01:01 COSC419-19 systemd: Starting Session 3303 of user root.
+Dec 14 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 13:01:01 COSC419-19 systemd: Started Session 3304 of user root.
+Dec 14 13:01:01 COSC419-19 systemd: Starting Session 3304 of user root.
+Dec 14 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 14:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 14:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 14:01:01 COSC419-19 systemd: Started Session 3305 of user root.
+Dec 14 14:01:01 COSC419-19 systemd: Starting Session 3305 of user root.
+Dec 14 14:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 14:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 15:01:01 COSC419-19 systemd: Started Session 3306 of user root.
+Dec 14 15:01:01 COSC419-19 systemd: Starting Session 3306 of user root.
+Dec 14 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 16:01:01 COSC419-19 systemd: Started Session 3307 of user root.
+Dec 14 16:01:01 COSC419-19 systemd: Starting Session 3307 of user root.
+Dec 14 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 17:01:01 COSC419-19 systemd: Started Session 3308 of user root.
+Dec 14 17:01:01 COSC419-19 systemd: Starting Session 3308 of user root.
+Dec 14 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 18:01:01 COSC419-19 systemd: Started Session 3309 of user root.
+Dec 14 18:01:01 COSC419-19 systemd: Starting Session 3309 of user root.
+Dec 14 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 19:01:01 COSC419-19 systemd: Started Session 3310 of user root.
+Dec 14 19:01:01 COSC419-19 systemd: Starting Session 3310 of user root.
+Dec 14 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 20:01:01 COSC419-19 systemd: Started Session 3311 of user root.
+Dec 14 20:01:01 COSC419-19 systemd: Starting Session 3311 of user root.
+Dec 14 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 21:01:01 COSC419-19 systemd: Started Session 3312 of user root.
+Dec 14 21:01:01 COSC419-19 systemd: Starting Session 3312 of user root.
+Dec 14 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 22:01:01 COSC419-19 systemd: Started Session 3313 of user root.
+Dec 14 22:01:01 COSC419-19 systemd: Starting Session 3313 of user root.
+Dec 14 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 14 22:08:41 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 14 22:08:41 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 14 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 14 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 14 23:01:01 COSC419-19 systemd: Started Session 3314 of user root.
+Dec 14 23:01:01 COSC419-19 systemd: Starting Session 3314 of user root.
+Dec 14 23:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 14 23:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 00:01:01 COSC419-19 systemd: Started Session 3315 of user root.
+Dec 15 00:01:01 COSC419-19 systemd: Starting Session 3315 of user root.
+Dec 15 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 01:01:01 COSC419-19 systemd: Started Session 3316 of user root.
+Dec 15 01:01:01 COSC419-19 systemd: Starting Session 3316 of user root.
+Dec 15 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 02:01:01 COSC419-19 systemd: Started Session 3317 of user root.
+Dec 15 02:01:01 COSC419-19 systemd: Starting Session 3317 of user root.
+Dec 15 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 03:01:01 COSC419-19 systemd: Started Session 3318 of user root.
+Dec 15 03:01:01 COSC419-19 systemd: Starting Session 3318 of user root.
+Dec 15 03:35:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 03:35:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 04:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 04:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 04:01:01 COSC419-19 systemd: Started Session 3319 of user root.
+Dec 15 04:01:01 COSC419-19 systemd: Starting Session 3319 of user root.
+Dec 15 04:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 04:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 05:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 05:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 05:01:01 COSC419-19 systemd: Started Session 3320 of user root.
+Dec 15 05:01:01 COSC419-19 systemd: Starting Session 3320 of user root.
+Dec 15 05:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 05:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 06:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 06:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 06:01:01 COSC419-19 systemd: Started Session 3321 of user root.
+Dec 15 06:01:01 COSC419-19 systemd: Starting Session 3321 of user root.
+Dec 15 06:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 06:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 07:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 07:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 07:01:01 COSC419-19 systemd: Started Session 3322 of user root.
+Dec 15 07:01:01 COSC419-19 systemd: Starting Session 3322 of user root.
+Dec 15 07:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 07:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 08:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 08:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 08:01:01 COSC419-19 systemd: Started Session 3323 of user root.
+Dec 15 08:01:01 COSC419-19 systemd: Starting Session 3323 of user root.
+Dec 15 08:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 08:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 09:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 09:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 09:01:01 COSC419-19 systemd: Started Session 3324 of user root.
+Dec 15 09:01:01 COSC419-19 systemd: Starting Session 3324 of user root.
+Dec 15 09:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 09:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 10:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 10:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 10:01:01 COSC419-19 systemd: Started Session 3325 of user root.
+Dec 15 10:01:01 COSC419-19 systemd: Starting Session 3325 of user root.
+Dec 15 10:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 10:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 11:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 11:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 11:01:01 COSC419-19 systemd: Started Session 3326 of user root.
+Dec 15 11:01:01 COSC419-19 systemd: Starting Session 3326 of user root.
+Dec 15 11:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 11:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 12:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 12:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 12:01:01 COSC419-19 systemd: Started Session 3327 of user root.
+Dec 15 12:01:01 COSC419-19 systemd: Starting Session 3327 of user root.
+Dec 15 12:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 12:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 13:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 13:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 13:01:01 COSC419-19 systemd: Started Session 3328 of user root.
+Dec 15 13:01:01 COSC419-19 systemd: Starting Session 3328 of user root.
+Dec 15 13:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 13:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 14:01:02 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 14:01:02 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 14:01:02 COSC419-19 systemd: Started Session 3329 of user root.
+Dec 15 14:01:02 COSC419-19 systemd: Starting Session 3329 of user root.
+Dec 15 14:01:02 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 14:01:02 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 15:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 15:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 15:01:01 COSC419-19 systemd: Started Session 3330 of user root.
+Dec 15 15:01:01 COSC419-19 systemd: Starting Session 3330 of user root.
+Dec 15 15:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 15:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 16:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 16:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 16:01:01 COSC419-19 systemd: Started Session 3331 of user root.
+Dec 15 16:01:01 COSC419-19 systemd: Starting Session 3331 of user root.
+Dec 15 16:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 16:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 17:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 17:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 17:01:01 COSC419-19 systemd: Started Session 3332 of user root.
+Dec 15 17:01:01 COSC419-19 systemd: Starting Session 3332 of user root.
+Dec 15 17:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 17:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 18:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 18:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 18:01:01 COSC419-19 systemd: Started Session 3333 of user root.
+Dec 15 18:01:01 COSC419-19 systemd: Starting Session 3333 of user root.
+Dec 15 18:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 18:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 19:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 19:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 19:01:01 COSC419-19 systemd: Started Session 3334 of user root.
+Dec 15 19:01:01 COSC419-19 systemd: Starting Session 3334 of user root.
+Dec 15 19:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 19:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 20:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 20:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 20:01:01 COSC419-19 systemd: Started Session 3335 of user root.
+Dec 15 20:01:01 COSC419-19 systemd: Starting Session 3335 of user root.
+Dec 15 20:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 20:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 21:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 21:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 21:01:01 COSC419-19 systemd: Started Session 3336 of user root.
+Dec 15 21:01:01 COSC419-19 systemd: Starting Session 3336 of user root.
+Dec 15 21:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 21:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 22:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 22:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 22:01:01 COSC419-19 systemd: Started Session 3337 of user root.
+Dec 15 22:01:01 COSC419-19 systemd: Starting Session 3337 of user root.
+Dec 15 22:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 22:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 15 22:08:42 COSC419-19 systemd: Starting Cleanup of Temporary Directories...
+Dec 15 22:08:42 COSC419-19 systemd: Started Cleanup of Temporary Directories.
+Dec 15 23:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 15 23:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 15 23:01:01 COSC419-19 systemd: Started Session 3338 of user root.
+Dec 15 23:01:01 COSC419-19 systemd: Starting Session 3338 of user root.
+Dec 15 23:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 15 23:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 16 00:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 16 00:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 16 00:01:01 COSC419-19 systemd: Started Session 3339 of user root.
+Dec 16 00:01:01 COSC419-19 systemd: Starting Session 3339 of user root.
+Dec 16 00:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 16 00:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 16 01:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 16 01:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 16 01:01:01 COSC419-19 systemd: Started Session 3340 of user root.
+Dec 16 01:01:01 COSC419-19 systemd: Starting Session 3340 of user root.
+Dec 16 01:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 16 01:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 16 02:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 16 02:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 16 02:01:01 COSC419-19 systemd: Started Session 3341 of user root.
+Dec 16 02:01:01 COSC419-19 systemd: Starting Session 3341 of user root.
+Dec 16 02:01:01 COSC419-19 systemd: Removed slice User Slice of root.
+Dec 16 02:01:01 COSC419-19 systemd: Stopping User Slice of root.
+Dec 16 03:01:01 COSC419-19 systemd: Created slice User Slice of root.
+Dec 16 03:01:01 COSC419-19 systemd: Starting User Slice of root.
+Dec 16 03:01:01 COSC419-19 systemd: Started Session 3342 of user root.
+Dec 16 03:01:01 COSC419-19 systemd: Starting Session 3342 of user root.
+Dec 16 03:17:02 COSC419-19 httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Dec 16 03:17:02 COSC419-19 systemd: Reloaded The Apache HTTP Server.

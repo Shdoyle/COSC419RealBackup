@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+{% block title %}SWC - Login{% endblock %} 
+{% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}" opacity=.1>
+{% endblock %}
+{% block heading1 %}Login to your Star Wars Collecting Account{% endblock %}
+{% block dataHeading %}Please enter your Login Details{% endblock %}
+{% block data %}
+  <form action="/submit" method="POST">
+    <input type="text" placeholder="Username" name="username" value="{{request.form.username }}">
+    <input type="password" placeholder="Password" name="password" value="{{request.form.password }}">
+    <input class="btn btn-default" type="submit" value="Login">
+  </form>
+  {% if error %}
+    <p class="error"><strong>Error:</strong> {{ error }}
+  {% endif %}
+{% endblock %}

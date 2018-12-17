@@ -1,0 +1,135 @@
+#!/bin/sh
+
+# Disable the locale warning: by default imported cloud-images check the default
+# local and give a warning about invalid locales. The following line disable
+# the warning.
+
+# do not assume that /etc/skel exists
+if [ -d /etc/skel ]; then
+    touch /etc/skel/.cloud-locale-test.skip
+fi
+touch /root/.cloud-locale-test.skip
+
+# Disable Ubuntu MOTD
+if [ -f /etc/default/motd-news ]; then
+    sed -e "s/ENABLED=1/ENABLED=0/g" \
+        -i /etc/default/motd-news
+fi
+
+# Fix buggy cloud-init routes for IPv6
+r6c="/etc/sysconfig/network-scripts/route6-eth0"
+if [ -f "${r6c}" ]; then
+    sed -e "s|::/::|default|g" -i "${r6c}"
+    awk '/default via/{system("ip -6 route add default via "$NF" dev eth0")}' "${r6c}"
+elif [ -d "/etc/sysconfig/network-scripts" -a -f "/etc/network/interfaces" ]; then
+    # This deals with a bug in Fedora 27 where the network interface is not set
+    # properly by Cloud-init.
+    i6gw=$(egrep -A3 'iface eth0:1 inet6 static' /etc/network/interfaces | awk '/gateway/{print$NF}')
+    if [ -n "${i6gw}" ]; then
+        ip -6 route add default via ${i6gw} dev eth0
+        cat > ${r6c} <<EOM
+# DigitalOcean: written by ConfigDrive customization.
+default via ${i6gw}
+EOM
+    fi
+fi
+
+# Fix screwy file permmissions on the system resolvers.
+chmod 0644 /etc/resolv.conf
+
+# Support automatic disk resizing per boot.
+# Only update /etc/hosts once per instance.
+mkdir -p /etc/cloud/cloud.cfg.d
+cat > /etc/cloud/cloud.cfg.d/90-digitalocean.cfg <<EOM
+####
+# DigitalOcean: this file was written via cloud-init and composed from /etc/cloud/cloud.cfg
+#               In order to support resize events, 'growpart' and 'resizefs' are run each boot.
+#               'update_etc_hosts' will be run only once per instance. To see the differences, run
+#               'diff -u /etc/cloud/cloud.cfg /etc/cloud/cloud.cfg.d/90-digitalocean.cfg'.
+#
+#               This file was written to support Droplet $(</sys/devices/virtual/dmi/id/product_serial) on $(date +%Y-%m-%d)
+####
+
+EOM
+sed -e "s/- growpart$/- [ growpart, always ]/g" \
+    -e "s/- resizefs$/- [ resizefs, always ]/g" \
+    -e "s/- update_etc_hosts$/- [ update_etc_hosts, once-per-instance ]/g" \
+    /etc/cloud/cloud.cfg >> /etc/cloud/cloud.cfg.d/90-digitalocean.cfg
+
+# Fix for machine-id's being dubiously present
+cat > /var/lib/cloud/scripts/per-instance/machine_id.sh <<EOM
+#!/bin/bash
+CT=\$(date +%s);
+FT=\$(stat /etc/machine-id -c %Y);
+DIFF=\$(expr \$CT - \$FT)
+# record timestamp on machine-id for testing
+# If /etc/machine_id is over 10m old on first-boot, delete it
+if [ -f /etc/machine-id ]; then
+    if [ \$DIFF -lt 600 ]; then
+        exit 0
+    fi
+rm -rf /etc/machine-id
+fi
+
+# systemd will use dbus uudigen if its there
+# we need to reset this for Debain 9.
+if which dbus-uuidgen &> /dev/null; then
+    rm -rf /var/lib/dbus/machine-id
+    dbus-uuidgen --ensure=/var/lib/dbus/machine-id
+fi
+
+if which systemd-machine-id-setup &> /dev/null; then
+    rm -rf /etc/machine-id
+    systemd-machine-id-setup
+fi
+EOM
+chmod 0700 /var/lib/cloud/scripts/per-instance/machine_id.sh
+
+# DigitalOcean updated the vendor-data to better support various distributions.
+# This script makes it so older snapshots will work by restoring the default behavior
+# of cloud-init.
+if [ -e /etc/cloud/cloud.cfg.disabled ]; then
+    mv /etc/cloud/cloud.cfg /etc/cloud/cloud.cfg.d/99-digitalocean.cfg
+    mv /etc/cloud/cloud.cfg.disabled /etc/cloud/cloud.cfg
+    logger -t DigitalOcean "restored default cloud-init behavior by renaming /etc/cloud/cloud.cfg.disabled to /etc/cloud/cloud.cfg"
+fi
+
+if [ -d /etc/udev/rules.d ]; then
+    # Add udev rules to automount block storage volumes.
+    cat > /etc/udev/rules.d/99-digitalocean-automount.rules <<EOM
+# Only try to automount DO block volumes.
+SUBSYSTEM!="block", GOTO="do_automount_end"
+ENV{ID_VENDOR}!="DO", GOTO="do_automount_end"
+ENV{ID_MODEL}!="Volume", GOTO="do_automount_end"
+# Only automount on the "add" action.
+ACTION!="add", GOTO="do_automount_end"
+# Only try to automount filesystems we know about.
+ENV{ID_FS_TYPE}!="ext4|xfs", GOTO="do_automount_end"
+
+# Create a temporary mountpoint and temporary location for the first-mount script.
+IMPORT{program}="/bin/sh -c 'echo TMP_MOUNT_DIR=\$(mktemp -d -p /mnt .do-first-mount-XXXXXXXXX)'"
+IMPORT{program}="/bin/sh -c 'echo TMP_SCRIPT=\$(mktemp -t .do-first-mount-XXXXXXXXX.sh)'"
+
+# Mount the volume at the temp mountpoint and copy the script off, then unmount.
+RUN{program}+="/bin/mount -o ro /dev/%k %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/sh -c '/bin/cp %E{TMP_MOUNT_DIR}/.first-mount.sh %E{TMP_SCRIPT} || exit 0'"
+RUN{program}+="/bin/umount %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/rmdir %E{TMP_MOUNT_DIR}"
+
+# Run the first-mount script. If it didn't exist this will be a no-op.
+RUN{program}+="/bin/sh %E{TMP_SCRIPT} '%E{ID_SERIAL}' '%E{ID_FS_TYPE}' '%E{ID_SERIAL_SHORT}' '%E{ID_FS_UUID}' '%E{ID_FS_LABEL}'"
+
+# Clean up.
+RUN{program}+="/bin/rm %E{TMP_SCRIPT}"
+
+# Finally, try and mount the volume. On first mount this will fail, but that's
+# OK because the volume was already mounted by the first-mount script.
+RUN{program}+="/bin/sh -c '/bin/mount /dev/%k || exit 0'"
+
+LABEL="do_automount_end"
+EOM
+    if which udevadm &> /dev/null ; then
+        udevadm control -R
+        udevadm trigger --action=add --subsystem-match=block
+    fi
+fi

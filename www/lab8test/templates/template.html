@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
+    <title> {% block title %}Template Title{% endblock %}</title> 
+  </head>
+  {% block bodyBackImg %}
+  <body background="{{url_for('static', filename='/imgs/templateBackgroundImage.jpg')}}">
+  {% endblock %}
+  		<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Star Wars Collectors</a>
+          </div>
+          <ul class="nav navbar-nav navbar-center">
+            <li class="active"><a href="/home">Home</a></li>
+            <li><a href="/page1">Page 1</a></li>
+            <li><a href="/page2">Page 2</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>                
+          </ul>
+          <ul class="nav navbar-nav navbar-right"> 
+                {% if session['username'] %}
+                   <li><a href="/logout">LogOut</a></li>
+                   <li><a href="/profile">{{ session['username'] }} - View Profile</a></li>
+                {% else %}
+                   <li><a href="/signup"><span class="glyphicon glyphicon-envelope"></span>Sign Up</a></li>
+                   <li><a href="/login">Login</a></li>
+                {% endif %}
+          </ul>
+        </div>  
+			</nav>
+
+      <div class="jumbotron text-center">
+          <div  background="{{url_for('static', filename='img/stars.png')}}">
+             <h1>{% block heading1 %}Template Heading{% endblock %}</h1>
+          </div>
+      </div>
+            
+      <div class="container">
+        <div class="panel panel-default">
+        {% with errors = get_flashed_messages() %}
+          {% if errors %}
+          <div class="flashmsg">
+            <div class="panel-heading">
+              <h3>Errors</h3>
+            </div>
+            <div class="panel-body"><div class="data">
+              {% for message in errors %}
+                  <p>{{message}}</p>
+              {% endfor %}
+            </div>
+            <p>Please Try Logging in Again</p>
+          </div>  
+          {% else %}
+            <div class="panel-heading">
+              <h3>{% block dataHeading %}Template Default H3{% endblock %}</h3>
+            </div>
+            <div class="panel-body">
+              <div class="data">
+                {% block data %}Template Default Data{% endblock %}
+              </div>  
+            </div>
+          {% endif %}
+        {% endwith %}
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="footer">
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+         <div class="container-fluid">
+           <div class="navbar-header">
+              <a class="navbar-brand" href="/">Star Wars Collectors</a>
+           </div>
+           <p class="navbar-text">&copy; Copyright 2018 by Shane Doyle - Star Wars images, themes and content used under fair non-profit use without authorization from Disney.</p>
+        </div>
+      <nav> 
+    </div>
+  </footer>
+</html>

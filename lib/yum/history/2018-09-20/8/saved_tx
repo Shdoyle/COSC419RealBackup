@@ -1,0 +1,12 @@
+356:49e406f87d53a4dac36e88cd0ca9ef83ac87791d
+0
+1
+installed:357:42d33b9dd3e5e27191d451c57ab451c1f4a9a50a
+1
+mbr: mod_security,x86_64,0,2.9.2,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

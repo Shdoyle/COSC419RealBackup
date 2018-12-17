@@ -1,0 +1,621 @@
+Nov 25 03:34:01 COSC419-19 run-parts(/etc/cron.daily)[18603]: finished logrotate
+Nov 25 03:34:01 COSC419-19 run-parts(/etc/cron.daily)[18586]: starting man-db.cron
+Nov 25 03:34:02 COSC419-19 run-parts(/etc/cron.daily)[18635]: finished man-db.cron
+Nov 25 03:34:02 COSC419-19 anacron[17784]: Job `cron.daily' terminated
+Nov 25 03:34:02 COSC419-19 anacron[17784]: Normal exit (1 job run)
+Nov 25 04:01:01 COSC419-19 CROND[18650]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18650]: starting 0anacron
+Nov 25 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18659]: finished 0anacron
+Nov 25 05:01:01 COSC419-19 CROND[19980]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19980]: starting 0anacron
+Nov 25 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19989]: finished 0anacron
+Nov 25 06:01:01 COSC419-19 CROND[21442]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21442]: starting 0anacron
+Nov 25 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21451]: finished 0anacron
+Nov 25 07:01:01 COSC419-19 CROND[22907]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22907]: starting 0anacron
+Nov 25 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22916]: finished 0anacron
+Nov 25 08:01:01 COSC419-19 CROND[24377]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24377]: starting 0anacron
+Nov 25 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24386]: finished 0anacron
+Nov 25 09:01:01 COSC419-19 CROND[25839]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25839]: starting 0anacron
+Nov 25 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25848]: finished 0anacron
+Nov 25 10:01:02 COSC419-19 CROND[27327]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 10:01:02 COSC419-19 run-parts(/etc/cron.hourly)[27327]: starting 0anacron
+Nov 25 10:01:02 COSC419-19 run-parts(/etc/cron.hourly)[27336]: finished 0anacron
+Nov 25 11:01:01 COSC419-19 CROND[28787]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28787]: starting 0anacron
+Nov 25 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28796]: finished 0anacron
+Nov 25 12:01:01 COSC419-19 CROND[30251]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30251]: starting 0anacron
+Nov 25 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30260]: finished 0anacron
+Nov 25 13:01:01 COSC419-19 CROND[31715]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31715]: starting 0anacron
+Nov 25 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31724]: finished 0anacron
+Nov 25 14:01:01 COSC419-19 CROND[731]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[731]: starting 0anacron
+Nov 25 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[740]: finished 0anacron
+Nov 25 15:01:01 COSC419-19 CROND[2231]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2231]: starting 0anacron
+Nov 25 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2240]: finished 0anacron
+Nov 25 16:01:01 COSC419-19 CROND[3693]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3693]: starting 0anacron
+Nov 25 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3702]: finished 0anacron
+Nov 25 17:01:01 COSC419-19 CROND[5160]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[5160]: starting 0anacron
+Nov 25 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[5169]: finished 0anacron
+Nov 25 18:01:01 COSC419-19 CROND[6625]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6625]: starting 0anacron
+Nov 25 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6634]: finished 0anacron
+Nov 25 19:01:01 COSC419-19 CROND[8088]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[8088]: starting 0anacron
+Nov 25 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[8097]: finished 0anacron
+Nov 25 20:01:01 COSC419-19 CROND[9552]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9552]: starting 0anacron
+Nov 25 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9561]: finished 0anacron
+Nov 25 21:01:01 COSC419-19 CROND[11015]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[11015]: starting 0anacron
+Nov 25 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[11024]: finished 0anacron
+Nov 25 22:01:01 COSC419-19 CROND[12490]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12490]: starting 0anacron
+Nov 25 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12499]: finished 0anacron
+Nov 25 23:01:01 COSC419-19 CROND[13956]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 25 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13956]: starting 0anacron
+Nov 25 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13965]: finished 0anacron
+Nov 26 00:01:01 COSC419-19 CROND[15421]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15421]: starting 0anacron
+Nov 26 00:01:01 COSC419-19 anacron[15430]: Anacron started on 2018-11-26
+Nov 26 00:01:01 COSC419-19 anacron[15430]: Normal exit (0 jobs run)
+Nov 26 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15432]: finished 0anacron
+Nov 26 01:01:02 COSC419-19 CROND[16889]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 01:01:02 COSC419-19 run-parts(/etc/cron.hourly)[16889]: starting 0anacron
+Nov 26 01:01:02 COSC419-19 anacron[16898]: Anacron started on 2018-11-26
+Nov 26 01:01:02 COSC419-19 anacron[16898]: Normal exit (0 jobs run)
+Nov 26 01:01:02 COSC419-19 run-parts(/etc/cron.hourly)[16900]: finished 0anacron
+Nov 26 02:01:01 COSC419-19 CROND[18353]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18353]: starting 0anacron
+Nov 26 02:01:01 COSC419-19 anacron[18362]: Anacron started on 2018-11-26
+Nov 26 02:01:01 COSC419-19 anacron[18362]: Normal exit (0 jobs run)
+Nov 26 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18364]: finished 0anacron
+Nov 26 03:01:01 COSC419-19 CROND[19840]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19840]: starting 0anacron
+Nov 26 03:01:01 COSC419-19 anacron[19849]: Anacron started on 2018-11-26
+Nov 26 03:01:01 COSC419-19 anacron[19849]: Will run job `cron.daily' in 13 min.
+Nov 26 03:01:01 COSC419-19 anacron[19849]: Jobs will be executed sequentially
+Nov 26 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19851]: finished 0anacron
+Nov 26 03:14:01 COSC419-19 anacron[19849]: Job `cron.daily' started
+Nov 26 03:14:01 COSC419-19 run-parts(/etc/cron.daily)[20167]: starting logrotate
+Nov 26 03:14:01 COSC419-19 run-parts(/etc/cron.daily)[20175]: finished logrotate
+Nov 26 03:14:01 COSC419-19 run-parts(/etc/cron.daily)[20167]: starting man-db.cron
+Nov 26 03:14:01 COSC419-19 run-parts(/etc/cron.daily)[20186]: finished man-db.cron
+Nov 26 03:14:01 COSC419-19 anacron[19849]: Job `cron.daily' terminated
+Nov 26 03:14:01 COSC419-19 anacron[19849]: Normal exit (1 job run)
+Nov 26 04:01:01 COSC419-19 CROND[21328]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21328]: starting 0anacron
+Nov 26 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21337]: finished 0anacron
+Nov 26 05:01:01 COSC419-19 CROND[22792]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22792]: starting 0anacron
+Nov 26 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22801]: finished 0anacron
+Nov 26 06:01:01 COSC419-19 CROND[24264]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24264]: starting 0anacron
+Nov 26 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24273]: finished 0anacron
+Nov 26 07:01:01 COSC419-19 CROND[25726]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25726]: starting 0anacron
+Nov 26 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25735]: finished 0anacron
+Nov 26 08:01:01 COSC419-19 CROND[27215]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[27215]: starting 0anacron
+Nov 26 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[27224]: finished 0anacron
+Nov 26 09:01:01 COSC419-19 CROND[28679]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28679]: starting 0anacron
+Nov 26 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28688]: finished 0anacron
+Nov 26 10:01:01 COSC419-19 CROND[30141]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30141]: starting 0anacron
+Nov 26 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30150]: finished 0anacron
+Nov 26 11:01:01 COSC419-19 CROND[31604]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31604]: starting 0anacron
+Nov 26 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31613]: finished 0anacron
+Nov 26 12:01:01 COSC419-19 CROND[619]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[619]: starting 0anacron
+Nov 26 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[628]: finished 0anacron
+Nov 26 13:01:01 COSC419-19 CROND[2119]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2119]: starting 0anacron
+Nov 26 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2128]: finished 0anacron
+Nov 26 14:01:01 COSC419-19 CROND[3583]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3583]: starting 0anacron
+Nov 26 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3592]: finished 0anacron
+Nov 26 15:01:01 COSC419-19 CROND[5047]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[5047]: starting 0anacron
+Nov 26 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[5056]: finished 0anacron
+Nov 26 16:01:02 COSC419-19 CROND[6513]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 16:01:02 COSC419-19 run-parts(/etc/cron.hourly)[6513]: starting 0anacron
+Nov 26 16:01:02 COSC419-19 run-parts(/etc/cron.hourly)[6522]: finished 0anacron
+Nov 26 17:01:01 COSC419-19 CROND[7977]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7977]: starting 0anacron
+Nov 26 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7986]: finished 0anacron
+Nov 26 18:01:01 COSC419-19 CROND[9441]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9441]: starting 0anacron
+Nov 26 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9450]: finished 0anacron
+Nov 26 19:01:01 COSC419-19 CROND[10907]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10907]: starting 0anacron
+Nov 26 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10916]: finished 0anacron
+Nov 26 20:01:01 COSC419-19 CROND[12378]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12378]: starting 0anacron
+Nov 26 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12387]: finished 0anacron
+Nov 26 21:01:01 COSC419-19 CROND[13851]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13851]: starting 0anacron
+Nov 26 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13860]: finished 0anacron
+Nov 26 22:01:01 COSC419-19 CROND[15316]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15316]: starting 0anacron
+Nov 26 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15325]: finished 0anacron
+Nov 26 23:01:01 COSC419-19 CROND[16781]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 26 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16781]: starting 0anacron
+Nov 26 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16790]: finished 0anacron
+Nov 27 00:01:01 COSC419-19 CROND[18246]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18246]: starting 0anacron
+Nov 27 00:01:01 COSC419-19 anacron[18255]: Anacron started on 2018-11-27
+Nov 27 00:01:01 COSC419-19 anacron[18255]: Normal exit (0 jobs run)
+Nov 27 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18257]: finished 0anacron
+Nov 27 01:01:01 COSC419-19 CROND[19732]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19732]: starting 0anacron
+Nov 27 01:01:01 COSC419-19 anacron[19741]: Anacron started on 2018-11-27
+Nov 27 01:01:01 COSC419-19 anacron[19741]: Normal exit (0 jobs run)
+Nov 27 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19743]: finished 0anacron
+Nov 27 02:01:01 COSC419-19 CROND[21201]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21201]: starting 0anacron
+Nov 27 02:01:01 COSC419-19 anacron[21210]: Anacron started on 2018-11-27
+Nov 27 02:01:01 COSC419-19 anacron[21210]: Normal exit (0 jobs run)
+Nov 27 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21212]: finished 0anacron
+Nov 27 03:01:01 COSC419-19 CROND[22665]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22665]: starting 0anacron
+Nov 27 03:01:01 COSC419-19 anacron[22674]: Anacron started on 2018-11-27
+Nov 27 03:01:01 COSC419-19 anacron[22674]: Will run job `cron.daily' in 48 min.
+Nov 27 03:01:01 COSC419-19 anacron[22674]: Jobs will be executed sequentially
+Nov 27 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22676]: finished 0anacron
+Nov 27 03:49:01 COSC419-19 anacron[22674]: Job `cron.daily' started
+Nov 27 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[23839]: starting logrotate
+Nov 27 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[23847]: finished logrotate
+Nov 27 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[23839]: starting man-db.cron
+Nov 27 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[23858]: finished man-db.cron
+Nov 27 03:49:01 COSC419-19 anacron[22674]: Job `cron.daily' terminated
+Nov 27 03:49:01 COSC419-19 anacron[22674]: Normal exit (1 job run)
+Nov 27 04:01:01 COSC419-19 CROND[24159]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24159]: starting 0anacron
+Nov 27 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24168]: finished 0anacron
+Nov 27 05:01:01 COSC419-19 CROND[25622]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25622]: starting 0anacron
+Nov 27 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25631]: finished 0anacron
+Nov 27 06:01:01 COSC419-19 CROND[27106]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[27106]: starting 0anacron
+Nov 27 06:01:02 COSC419-19 run-parts(/etc/cron.hourly)[27115]: finished 0anacron
+Nov 27 07:01:01 COSC419-19 CROND[28571]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28571]: starting 0anacron
+Nov 27 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28580]: finished 0anacron
+Nov 27 08:01:01 COSC419-19 CROND[30033]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30033]: starting 0anacron
+Nov 27 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30042]: finished 0anacron
+Nov 27 09:01:01 COSC419-19 CROND[31500]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31500]: starting 0anacron
+Nov 27 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31509]: finished 0anacron
+Nov 27 10:01:01 COSC419-19 CROND[516]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[516]: starting 0anacron
+Nov 27 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[525]: finished 0anacron
+Nov 27 11:01:01 COSC419-19 CROND[2012]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2012]: starting 0anacron
+Nov 27 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2021]: finished 0anacron
+Nov 27 12:01:01 COSC419-19 CROND[3477]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3477]: starting 0anacron
+Nov 27 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3486]: finished 0anacron
+Nov 27 13:01:01 COSC419-19 CROND[4941]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4941]: starting 0anacron
+Nov 27 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4950]: finished 0anacron
+Nov 27 14:01:01 COSC419-19 CROND[6403]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6403]: starting 0anacron
+Nov 27 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6412]: finished 0anacron
+Nov 27 15:01:01 COSC419-19 CROND[7869]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7869]: starting 0anacron
+Nov 27 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7878]: finished 0anacron
+Nov 27 16:01:01 COSC419-19 CROND[9332]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9332]: starting 0anacron
+Nov 27 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9341]: finished 0anacron
+Nov 27 17:01:01 COSC419-19 CROND[10800]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10800]: starting 0anacron
+Nov 27 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10809]: finished 0anacron
+Nov 27 18:01:01 COSC419-19 CROND[12272]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12272]: starting 0anacron
+Nov 27 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12281]: finished 0anacron
+Nov 27 19:01:01 COSC419-19 CROND[13744]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13744]: starting 0anacron
+Nov 27 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13753]: finished 0anacron
+Nov 27 20:01:01 COSC419-19 CROND[15209]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15209]: starting 0anacron
+Nov 27 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15218]: finished 0anacron
+Nov 27 21:01:01 COSC419-19 CROND[16669]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16669]: starting 0anacron
+Nov 27 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16678]: finished 0anacron
+Nov 27 22:01:02 COSC419-19 CROND[18135]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 22:01:02 COSC419-19 run-parts(/etc/cron.hourly)[18135]: starting 0anacron
+Nov 27 22:01:02 COSC419-19 run-parts(/etc/cron.hourly)[18144]: finished 0anacron
+Nov 27 23:01:01 COSC419-19 CROND[19621]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 27 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19621]: starting 0anacron
+Nov 27 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19630]: finished 0anacron
+Nov 28 00:01:01 COSC419-19 CROND[21087]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21087]: starting 0anacron
+Nov 28 00:01:01 COSC419-19 anacron[21096]: Anacron started on 2018-11-28
+Nov 28 00:01:01 COSC419-19 anacron[21096]: Normal exit (0 jobs run)
+Nov 28 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[21098]: finished 0anacron
+Nov 28 01:01:01 COSC419-19 CROND[22555]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22555]: starting 0anacron
+Nov 28 01:01:01 COSC419-19 anacron[22564]: Anacron started on 2018-11-28
+Nov 28 01:01:01 COSC419-19 anacron[22564]: Normal exit (0 jobs run)
+Nov 28 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22566]: finished 0anacron
+Nov 28 02:01:01 COSC419-19 CROND[24022]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24022]: starting 0anacron
+Nov 28 02:01:01 COSC419-19 anacron[24031]: Anacron started on 2018-11-28
+Nov 28 02:01:01 COSC419-19 anacron[24031]: Will run job `cron.weekly' in 69 min.
+Nov 28 02:01:01 COSC419-19 anacron[24031]: Jobs will be executed sequentially
+Nov 28 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[24033]: finished 0anacron
+Nov 28 03:01:01 COSC419-19 CROND[25492]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25492]: starting 0anacron
+Nov 28 03:01:01 COSC419-19 anacron[25501]: Anacron started on 2018-11-28
+Nov 28 03:01:01 COSC419-19 anacron[25501]: Job `cron.weekly' locked by another anacron - skipping
+Nov 28 03:01:01 COSC419-19 anacron[25501]: Will run job `cron.daily' in 9 min.
+Nov 28 03:01:01 COSC419-19 anacron[25501]: Jobs will be executed sequentially
+Nov 28 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25503]: finished 0anacron
+Nov 28 03:10:01 COSC419-19 anacron[24031]: Job `cron.weekly' started
+Nov 28 03:10:01 COSC419-19 anacron[24031]: Job `cron.weekly' terminated
+Nov 28 03:10:01 COSC419-19 anacron[24031]: Normal exit (1 job run)
+Nov 28 03:10:01 COSC419-19 anacron[25501]: Job `cron.daily' started
+Nov 28 03:10:01 COSC419-19 run-parts(/etc/cron.daily)[25725]: starting logrotate
+Nov 28 03:10:01 COSC419-19 run-parts(/etc/cron.daily)[25733]: finished logrotate
+Nov 28 03:10:01 COSC419-19 run-parts(/etc/cron.daily)[25725]: starting man-db.cron
+Nov 28 03:10:01 COSC419-19 run-parts(/etc/cron.daily)[25744]: finished man-db.cron
+Nov 28 03:10:01 COSC419-19 anacron[25501]: Job `cron.daily' terminated
+Nov 28 03:10:01 COSC419-19 anacron[25501]: Normal exit (1 job run)
+Nov 28 04:01:01 COSC419-19 CROND[27003]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[27003]: starting 0anacron
+Nov 28 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[27012]: finished 0anacron
+Nov 28 05:01:01 COSC419-19 CROND[28466]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28466]: starting 0anacron
+Nov 28 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28475]: finished 0anacron
+Nov 28 06:01:01 COSC419-19 CROND[29928]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29928]: starting 0anacron
+Nov 28 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29937]: finished 0anacron
+Nov 28 07:01:01 COSC419-19 CROND[31392]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31392]: starting 0anacron
+Nov 28 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31401]: finished 0anacron
+Nov 28 08:01:01 COSC419-19 CROND[389]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[389]: starting 0anacron
+Nov 28 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[398]: finished 0anacron
+Nov 28 09:01:01 COSC419-19 CROND[1908]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1908]: starting 0anacron
+Nov 28 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1917]: finished 0anacron
+Nov 28 10:01:01 COSC419-19 CROND[3372]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3372]: starting 0anacron
+Nov 28 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3381]: finished 0anacron
+Nov 28 11:01:01 COSC419-19 CROND[4836]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4836]: starting 0anacron
+Nov 28 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4845]: finished 0anacron
+Nov 28 12:01:01 COSC419-19 CROND[6301]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6301]: starting 0anacron
+Nov 28 12:01:02 COSC419-19 run-parts(/etc/cron.hourly)[6310]: finished 0anacron
+Nov 28 13:01:01 COSC419-19 CROND[7767]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7767]: starting 0anacron
+Nov 28 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7776]: finished 0anacron
+Nov 28 14:01:01 COSC419-19 CROND[9232]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9232]: starting 0anacron
+Nov 28 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9241]: finished 0anacron
+Nov 28 15:01:01 COSC419-19 CROND[10697]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10697]: starting 0anacron
+Nov 28 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10706]: finished 0anacron
+Nov 28 16:01:01 COSC419-19 CROND[12169]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12169]: starting 0anacron
+Nov 28 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12178]: finished 0anacron
+Nov 28 17:01:01 COSC419-19 CROND[13637]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13637]: starting 0anacron
+Nov 28 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13646]: finished 0anacron
+Nov 28 18:01:01 COSC419-19 CROND[15102]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15102]: starting 0anacron
+Nov 28 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[15111]: finished 0anacron
+Nov 28 19:01:01 COSC419-19 CROND[16564]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16564]: starting 0anacron
+Nov 28 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16573]: finished 0anacron
+Nov 28 20:01:01 COSC419-19 CROND[18027]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18027]: starting 0anacron
+Nov 28 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[18036]: finished 0anacron
+Nov 28 21:01:01 COSC419-19 CROND[19510]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19510]: starting 0anacron
+Nov 28 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19519]: finished 0anacron
+Nov 28 22:01:01 COSC419-19 CROND[20974]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20974]: starting 0anacron
+Nov 28 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20983]: finished 0anacron
+Nov 28 23:01:01 COSC419-19 CROND[22439]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 28 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22439]: starting 0anacron
+Nov 28 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22448]: finished 0anacron
+Nov 29 00:01:01 COSC419-19 CROND[23904]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23904]: starting 0anacron
+Nov 29 00:01:01 COSC419-19 anacron[23913]: Anacron started on 2018-11-29
+Nov 29 00:01:01 COSC419-19 anacron[23913]: Normal exit (0 jobs run)
+Nov 29 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23915]: finished 0anacron
+Nov 29 01:01:01 COSC419-19 CROND[25378]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25378]: starting 0anacron
+Nov 29 01:01:01 COSC419-19 anacron[25387]: Anacron started on 2018-11-29
+Nov 29 01:01:01 COSC419-19 anacron[25387]: Normal exit (0 jobs run)
+Nov 29 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25389]: finished 0anacron
+Nov 29 02:01:02 COSC419-19 CROND[26866]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 02:01:02 COSC419-19 run-parts(/etc/cron.hourly)[26866]: starting 0anacron
+Nov 29 02:01:02 COSC419-19 anacron[26875]: Anacron started on 2018-11-29
+Nov 29 02:01:02 COSC419-19 anacron[26875]: Normal exit (0 jobs run)
+Nov 29 02:01:02 COSC419-19 run-parts(/etc/cron.hourly)[26877]: finished 0anacron
+Nov 29 03:01:01 COSC419-19 CROND[28332]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28332]: starting 0anacron
+Nov 29 03:01:01 COSC419-19 anacron[28341]: Anacron started on 2018-11-29
+Nov 29 03:01:01 COSC419-19 anacron[28341]: Will run job `cron.daily' in 45 min.
+Nov 29 03:01:01 COSC419-19 anacron[28341]: Jobs will be executed sequentially
+Nov 29 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28343]: finished 0anacron
+Nov 29 03:46:01 COSC419-19 anacron[28341]: Job `cron.daily' started
+Nov 29 03:46:01 COSC419-19 run-parts(/etc/cron.daily)[29432]: starting logrotate
+Nov 29 03:46:01 COSC419-19 run-parts(/etc/cron.daily)[29440]: finished logrotate
+Nov 29 03:46:01 COSC419-19 run-parts(/etc/cron.daily)[29432]: starting man-db.cron
+Nov 29 03:46:01 COSC419-19 run-parts(/etc/cron.daily)[29451]: finished man-db.cron
+Nov 29 03:46:01 COSC419-19 anacron[28341]: Job `cron.daily' terminated
+Nov 29 03:46:01 COSC419-19 anacron[28341]: Normal exit (1 job run)
+Nov 29 04:01:01 COSC419-19 CROND[29818]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29818]: starting 0anacron
+Nov 29 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29827]: finished 0anacron
+Nov 29 05:01:01 COSC419-19 CROND[31279]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31279]: starting 0anacron
+Nov 29 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31288]: finished 0anacron
+Nov 29 06:01:01 COSC419-19 CROND[32744]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32744]: starting 0anacron
+Nov 29 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32753]: finished 0anacron
+Nov 29 07:01:01 COSC419-19 CROND[1795]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1795]: starting 0anacron
+Nov 29 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1804]: finished 0anacron
+Nov 29 08:01:01 COSC419-19 CROND[3257]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3257]: starting 0anacron
+Nov 29 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3266]: finished 0anacron
+Nov 29 09:01:01 COSC419-19 CROND[4720]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4720]: starting 0anacron
+Nov 29 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4729]: finished 0anacron
+Nov 29 10:01:01 COSC419-19 CROND[6184]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6184]: starting 0anacron
+Nov 29 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6193]: finished 0anacron
+Nov 29 11:01:01 COSC419-19 CROND[7649]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7649]: starting 0anacron
+Nov 29 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7658]: finished 0anacron
+Nov 29 12:01:01 COSC419-19 CROND[9113]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9113]: starting 0anacron
+Nov 29 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9122]: finished 0anacron
+Nov 29 13:01:01 COSC419-19 CROND[10577]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10577]: starting 0anacron
+Nov 29 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10586]: finished 0anacron
+Nov 29 14:01:01 COSC419-19 CROND[12051]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12051]: starting 0anacron
+Nov 29 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[12061]: finished 0anacron
+Nov 29 15:01:01 COSC419-19 CROND[13521]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13521]: starting 0anacron
+Nov 29 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13530]: finished 0anacron
+Nov 29 16:01:02 COSC419-19 CROND[14982]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 16:01:02 COSC419-19 run-parts(/etc/cron.hourly)[14982]: starting 0anacron
+Nov 29 16:01:02 COSC419-19 run-parts(/etc/cron.hourly)[14991]: finished 0anacron
+Nov 29 17:01:01 COSC419-19 CROND[16444]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16444]: starting 0anacron
+Nov 29 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16453]: finished 0anacron
+Nov 29 18:01:01 COSC419-19 CROND[17904]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17904]: starting 0anacron
+Nov 29 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17913]: finished 0anacron
+Nov 29 19:01:01 COSC419-19 CROND[19390]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19390]: starting 0anacron
+Nov 29 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19399]: finished 0anacron
+Nov 29 20:01:01 COSC419-19 CROND[20852]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20852]: starting 0anacron
+Nov 29 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20861]: finished 0anacron
+Nov 29 21:01:01 COSC419-19 CROND[22316]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22316]: starting 0anacron
+Nov 29 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22325]: finished 0anacron
+Nov 29 22:01:01 COSC419-19 CROND[23783]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23783]: starting 0anacron
+Nov 29 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23792]: finished 0anacron
+Nov 29 23:01:01 COSC419-19 CROND[25255]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 29 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25255]: starting 0anacron
+Nov 29 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25264]: finished 0anacron
+Nov 30 00:01:01 COSC419-19 CROND[26742]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26742]: starting 0anacron
+Nov 30 00:01:01 COSC419-19 anacron[26751]: Anacron started on 2018-11-30
+Nov 30 00:01:01 COSC419-19 anacron[26751]: Normal exit (0 jobs run)
+Nov 30 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26753]: finished 0anacron
+Nov 30 01:01:01 COSC419-19 CROND[28208]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28208]: starting 0anacron
+Nov 30 01:01:01 COSC419-19 anacron[28217]: Anacron started on 2018-11-30
+Nov 30 01:01:01 COSC419-19 anacron[28217]: Normal exit (0 jobs run)
+Nov 30 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28219]: finished 0anacron
+Nov 30 02:01:01 COSC419-19 CROND[29674]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29674]: starting 0anacron
+Nov 30 02:01:01 COSC419-19 anacron[29683]: Anacron started on 2018-11-30
+Nov 30 02:01:01 COSC419-19 anacron[29683]: Normal exit (0 jobs run)
+Nov 30 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29685]: finished 0anacron
+Nov 30 03:01:01 COSC419-19 CROND[31135]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31135]: starting 0anacron
+Nov 30 03:01:01 COSC419-19 anacron[31144]: Anacron started on 2018-11-30
+Nov 30 03:01:01 COSC419-19 anacron[31144]: Will run job `cron.daily' in 19 min.
+Nov 30 03:01:01 COSC419-19 anacron[31144]: Jobs will be executed sequentially
+Nov 30 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31146]: finished 0anacron
+Nov 30 03:20:01 COSC419-19 anacron[31144]: Job `cron.daily' started
+Nov 30 03:20:01 COSC419-19 run-parts(/etc/cron.daily)[31605]: starting logrotate
+Nov 30 03:20:01 COSC419-19 run-parts(/etc/cron.daily)[31613]: finished logrotate
+Nov 30 03:20:01 COSC419-19 run-parts(/etc/cron.daily)[31605]: starting man-db.cron
+Nov 30 03:20:02 COSC419-19 run-parts(/etc/cron.daily)[31624]: finished man-db.cron
+Nov 30 03:20:02 COSC419-19 anacron[31144]: Job `cron.daily' terminated
+Nov 30 03:20:02 COSC419-19 anacron[31144]: Normal exit (1 job run)
+Nov 30 04:01:01 COSC419-19 CROND[32621]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32621]: starting 0anacron
+Nov 30 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32630]: finished 0anacron
+Nov 30 05:01:01 COSC419-19 CROND[1674]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1674]: starting 0anacron
+Nov 30 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1683]: finished 0anacron
+Nov 30 06:01:01 COSC419-19 CROND[3137]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3137]: starting 0anacron
+Nov 30 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3146]: finished 0anacron
+Nov 30 07:01:01 COSC419-19 CROND[4600]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4600]: starting 0anacron
+Nov 30 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4609]: finished 0anacron
+Nov 30 08:01:01 COSC419-19 CROND[6066]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6066]: starting 0anacron
+Nov 30 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6075]: finished 0anacron
+Nov 30 09:01:01 COSC419-19 CROND[7530]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7530]: starting 0anacron
+Nov 30 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7539]: finished 0anacron
+Nov 30 10:01:01 COSC419-19 CROND[8994]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[8994]: starting 0anacron
+Nov 30 10:01:01 COSC419-19 run-parts(/etc/cron.hourly)[9003]: finished 0anacron
+Nov 30 11:01:01 COSC419-19 CROND[10459]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10459]: starting 0anacron
+Nov 30 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10468]: finished 0anacron
+Nov 30 12:01:01 COSC419-19 CROND[11923]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[11923]: starting 0anacron
+Nov 30 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[11933]: finished 0anacron
+Nov 30 13:01:01 COSC419-19 CROND[13400]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13400]: starting 0anacron
+Nov 30 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13409]: finished 0anacron
+Nov 30 14:01:01 COSC419-19 CROND[14863]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[14863]: starting 0anacron
+Nov 30 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[14872]: finished 0anacron
+Nov 30 15:01:01 COSC419-19 CROND[16329]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16329]: starting 0anacron
+Nov 30 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16338]: finished 0anacron
+Nov 30 16:01:01 COSC419-19 CROND[17792]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17792]: starting 0anacron
+Nov 30 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17801]: finished 0anacron
+Nov 30 17:01:01 COSC419-19 CROND[19277]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19277]: starting 0anacron
+Nov 30 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19286]: finished 0anacron
+Nov 30 18:01:01 COSC419-19 CROND[20739]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20739]: starting 0anacron
+Nov 30 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20748]: finished 0anacron
+Nov 30 19:01:01 COSC419-19 CROND[22201]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22201]: starting 0anacron
+Nov 30 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22210]: finished 0anacron
+Nov 30 20:01:01 COSC419-19 CROND[23666]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23666]: starting 0anacron
+Nov 30 20:01:02 COSC419-19 run-parts(/etc/cron.hourly)[23675]: finished 0anacron
+Nov 30 21:01:01 COSC419-19 CROND[25135]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25135]: starting 0anacron
+Nov 30 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25144]: finished 0anacron
+Nov 30 22:01:01 COSC419-19 CROND[26624]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26624]: starting 0anacron
+Nov 30 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26633]: finished 0anacron
+Nov 30 23:01:01 COSC419-19 CROND[28088]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28088]: starting 0anacron
+Nov 30 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28097]: finished 0anacron
+Dec  1 00:01:01 COSC419-19 CROND[29552]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29552]: starting 0anacron
+Dec  1 00:01:01 COSC419-19 anacron[29561]: Anacron started on 2018-12-01
+Dec  1 00:01:01 COSC419-19 anacron[29561]: Normal exit (0 jobs run)
+Dec  1 00:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29563]: finished 0anacron
+Dec  1 01:01:01 COSC419-19 CROND[31020]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31020]: starting 0anacron
+Dec  1 01:01:01 COSC419-19 anacron[31029]: Anacron started on 2018-12-01
+Dec  1 01:01:01 COSC419-19 anacron[31029]: Normal exit (0 jobs run)
+Dec  1 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[31031]: finished 0anacron
+Dec  1 02:01:01 COSC419-19 CROND[32485]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32485]: starting 0anacron
+Dec  1 02:01:01 COSC419-19 anacron[32494]: Anacron started on 2018-12-01
+Dec  1 02:01:01 COSC419-19 anacron[32494]: Normal exit (0 jobs run)
+Dec  1 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[32496]: finished 0anacron
+Dec  1 03:01:01 COSC419-19 CROND[1541]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1541]: starting 0anacron
+Dec  1 03:01:01 COSC419-19 anacron[1550]: Anacron started on 2018-12-01
+Dec  1 03:01:01 COSC419-19 anacron[1550]: Will run job `cron.daily' in 48 min.
+Dec  1 03:01:01 COSC419-19 anacron[1550]: Jobs will be executed sequentially
+Dec  1 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1552]: finished 0anacron
+Dec  1 03:49:01 COSC419-19 anacron[1550]: Job `cron.daily' started
+Dec  1 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[2715]: starting logrotate
+Dec  1 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[2723]: finished logrotate
+Dec  1 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[2715]: starting man-db.cron
+Dec  1 03:49:01 COSC419-19 run-parts(/etc/cron.daily)[2734]: finished man-db.cron
+Dec  1 03:49:01 COSC419-19 anacron[1550]: Job `cron.daily' terminated
+Dec  1 03:49:01 COSC419-19 anacron[1550]: Normal exit (1 job run)
+Dec  1 04:01:01 COSC419-19 CROND[3029]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3029]: starting 0anacron
+Dec  1 04:01:01 COSC419-19 run-parts(/etc/cron.hourly)[3038]: finished 0anacron
+Dec  1 05:01:01 COSC419-19 CROND[4492]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4492]: starting 0anacron
+Dec  1 05:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4501]: finished 0anacron
+Dec  1 06:01:01 COSC419-19 CROND[5999]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[5999]: starting 0anacron
+Dec  1 06:01:01 COSC419-19 run-parts(/etc/cron.hourly)[6008]: finished 0anacron
+Dec  1 07:01:01 COSC419-19 CROND[7464]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7464]: starting 0anacron
+Dec  1 07:01:01 COSC419-19 run-parts(/etc/cron.hourly)[7473]: finished 0anacron
+Dec  1 08:01:01 COSC419-19 CROND[8927]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[8927]: starting 0anacron
+Dec  1 08:01:01 COSC419-19 run-parts(/etc/cron.hourly)[8936]: finished 0anacron
+Dec  1 09:01:01 COSC419-19 CROND[10391]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10391]: starting 0anacron
+Dec  1 09:01:01 COSC419-19 run-parts(/etc/cron.hourly)[10400]: finished 0anacron
+Dec  1 10:01:02 COSC419-19 CROND[11855]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 10:01:02 COSC419-19 run-parts(/etc/cron.hourly)[11855]: starting 0anacron
+Dec  1 10:01:02 COSC419-19 run-parts(/etc/cron.hourly)[11864]: finished 0anacron
+Dec  1 11:01:01 COSC419-19 CROND[13333]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13333]: starting 0anacron
+Dec  1 11:01:01 COSC419-19 run-parts(/etc/cron.hourly)[13342]: finished 0anacron
+Dec  1 12:01:01 COSC419-19 CROND[14795]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[14795]: starting 0anacron
+Dec  1 12:01:01 COSC419-19 run-parts(/etc/cron.hourly)[14804]: finished 0anacron
+Dec  1 13:01:01 COSC419-19 CROND[16258]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16258]: starting 0anacron
+Dec  1 13:01:01 COSC419-19 run-parts(/etc/cron.hourly)[16267]: finished 0anacron
+Dec  1 14:01:01 COSC419-19 CROND[17719]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17719]: starting 0anacron
+Dec  1 14:01:01 COSC419-19 run-parts(/etc/cron.hourly)[17728]: finished 0anacron
+Dec  1 15:01:01 COSC419-19 CROND[19200]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19200]: starting 0anacron
+Dec  1 15:01:01 COSC419-19 run-parts(/etc/cron.hourly)[19209]: finished 0anacron
+Dec  1 16:01:01 COSC419-19 CROND[20663]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20663]: starting 0anacron
+Dec  1 16:01:01 COSC419-19 run-parts(/etc/cron.hourly)[20672]: finished 0anacron
+Dec  1 17:01:01 COSC419-19 CROND[22127]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22127]: starting 0anacron
+Dec  1 17:01:01 COSC419-19 run-parts(/etc/cron.hourly)[22136]: finished 0anacron
+Dec  1 18:01:01 COSC419-19 CROND[23592]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23592]: starting 0anacron
+Dec  1 18:01:01 COSC419-19 run-parts(/etc/cron.hourly)[23601]: finished 0anacron
+Dec  1 19:01:01 COSC419-19 CROND[25060]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25060]: starting 0anacron
+Dec  1 19:01:01 COSC419-19 run-parts(/etc/cron.hourly)[25069]: finished 0anacron
+Dec  1 20:01:01 COSC419-19 CROND[26549]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26549]: starting 0anacron
+Dec  1 20:01:01 COSC419-19 run-parts(/etc/cron.hourly)[26558]: finished 0anacron
+Dec  1 21:01:01 COSC419-19 CROND[28010]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28010]: starting 0anacron
+Dec  1 21:01:01 COSC419-19 run-parts(/etc/cron.hourly)[28019]: finished 0anacron
+Dec  1 22:01:01 COSC419-19 CROND[29474]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29474]: starting 0anacron
+Dec  1 22:01:01 COSC419-19 run-parts(/etc/cron.hourly)[29483]: finished 0anacron
+Dec  1 23:01:01 COSC419-19 CROND[30941]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  1 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30941]: starting 0anacron
+Dec  1 23:01:01 COSC419-19 run-parts(/etc/cron.hourly)[30950]: finished 0anacron
+Dec  2 00:01:02 COSC419-19 CROND[32404]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  2 00:01:02 COSC419-19 run-parts(/etc/cron.hourly)[32404]: starting 0anacron
+Dec  2 00:01:02 COSC419-19 anacron[32413]: Anacron started on 2018-12-02
+Dec  2 00:01:02 COSC419-19 anacron[32413]: Normal exit (0 jobs run)
+Dec  2 00:01:02 COSC419-19 run-parts(/etc/cron.hourly)[32415]: finished 0anacron
+Dec  2 01:01:01 COSC419-19 CROND[1460]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  2 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1460]: starting 0anacron
+Dec  2 01:01:01 COSC419-19 anacron[1469]: Anacron started on 2018-12-02
+Dec  2 01:01:01 COSC419-19 anacron[1469]: Normal exit (0 jobs run)
+Dec  2 01:01:01 COSC419-19 run-parts(/etc/cron.hourly)[1471]: finished 0anacron
+Dec  2 02:01:01 COSC419-19 CROND[2926]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  2 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2926]: starting 0anacron
+Dec  2 02:01:01 COSC419-19 anacron[2935]: Anacron started on 2018-12-02
+Dec  2 02:01:01 COSC419-19 anacron[2935]: Normal exit (0 jobs run)
+Dec  2 02:01:01 COSC419-19 run-parts(/etc/cron.hourly)[2937]: finished 0anacron
+Dec  2 03:01:01 COSC419-19 CROND[4391]: (root) CMD (run-parts /etc/cron.hourly)
+Dec  2 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4391]: starting 0anacron
+Dec  2 03:01:01 COSC419-19 anacron[4400]: Anacron started on 2018-12-02
+Dec  2 03:01:01 COSC419-19 anacron[4400]: Will run job `cron.daily' in 47 min.
+Dec  2 03:01:01 COSC419-19 anacron[4400]: Jobs will be executed sequentially
+Dec  2 03:01:01 COSC419-19 run-parts(/etc/cron.hourly)[4402]: finished 0anacron
+Dec  2 03:48:01 COSC419-19 anacron[4400]: Job `cron.daily' started
+Dec  2 03:48:01 COSC419-19 run-parts(/etc/cron.daily)[5541]: starting logrotate

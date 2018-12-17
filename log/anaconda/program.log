@@ -1,0 +1,591 @@
+20:47:06,786 INFO program: Running... losetup --list
+20:47:06,804 INFO program: Running... /sbin/auditd
+20:47:06,811 DEBUG program: Return code: 0
+20:47:06,813 INFO program: Running... udevadm control --env=ANACONDA=1
+20:47:06,827 DEBUG program: Return code: 0
+20:47:07,122 INFO program: Running... udevadm trigger --action=change --subsystem-match=block
+20:47:07,165 DEBUG program: Return code: 0
+20:47:07,166 INFO program: Running... udevadm settle --timeout=300
+20:47:07,202 DEBUG program: Return code: 0
+20:47:07,203 INFO program: Running... modprobe fcoe
+20:47:07,296 DEBUG program: Return code: 0
+20:47:07,297 INFO program: Running... /usr/libexec/fcoe/fcoe_edd.sh -i
+20:47:07,332 INFO program: No FCoE boot disk information is found in EDD!
+20:47:07,332 DEBUG program: Return code: 1
+20:47:07,335 INFO program: Running... udevadm settle --timeout=300
+20:47:07,344 DEBUG program: Return code: 0
+20:47:07,349 INFO program: Running... udevadm settle --timeout=300
+20:47:07,358 DEBUG program: Return code: 0
+20:47:07,362 INFO program: Running... udevadm settle --timeout=300
+20:47:07,370 DEBUG program: Return code: 0
+20:47:07,390 INFO program: Running... loadkeys us
+20:47:07,444 INFO program: Loading /lib/kbd/keymaps/xkb/us.map.gz
+20:47:07,444 DEBUG program: Return code: 0
+20:47:07,493 INFO program: Running... setfont latarcyrheb-sun16
+20:47:07,511 DEBUG program: Return code: 0
+20:47:08,091 INFO program: Running... losetup --list
+20:47:08,165 INFO program: Running... modprobe xfs
+20:47:08,240 DEBUG program: Return code: 0
+20:47:08,794 INFO program: Running... udevadm settle --timeout=300
+20:47:08,811 DEBUG program: Return code: 0
+20:47:08,816 INFO program: Running... udevadm settle --timeout=300
+20:47:08,824 DEBUG program: Return code: 0
+20:47:08,830 INFO program: Running... udevadm settle --timeout=300
+20:47:08,853 DEBUG program: Return code: 0
+20:47:08,853 INFO program: Running... mpathconf --find_multipaths y --user_friendly_names y --with_multipathd y
+20:47:08,985 DEBUG program: Return code: 0
+20:47:08,986 INFO program: Running... udevadm settle --timeout=300
+20:47:08,997 DEBUG program: Return code: 0
+20:47:08,998 INFO program: Running... systemctl start chronyd.service
+20:47:08,999 INFO program: Running... hwclock --hctosys --utc
+20:47:09,008 INFO program: Running... udevadm settle --timeout=300
+20:47:09,024 DEBUG program: Return code: 0
+20:47:09,027 INFO program: Running... udevadm settle --timeout=300
+20:47:09,037 DEBUG program: Return code: 0
+20:47:09,090 INFO program: Running... multipath -c /dev/vda
+20:47:09,101 INFO program: /dev/vda is not a valid multipath device path
+20:47:09,101 DEBUG program: Return code: 1
+20:47:09,117 INFO program: Running... multipath -c /dev/loop0
+20:47:09,126 INFO program: /dev/loop0 is not a valid multipath device path
+20:47:09,126 DEBUG program: Return code: 1
+20:47:09,127 DEBUG program: Return code: 0
+20:47:09,213 INFO program: Running... multipath -c /dev/loop1
+20:47:09,227 INFO program: /dev/loop1 is not a valid multipath device path
+20:47:09,228 DEBUG program: Return code: 1
+20:47:09,232 INFO program: Running... dumpe2fs -h /dev/loop1
+20:47:09,272 INFO program: dumpe2fs 1.42.9 (28-Dec-2013)
+20:47:09,272 INFO program: Filesystem volume name:   Anaconda
+20:47:09,273 INFO program: Last mounted on:          /
+20:47:09,274 INFO program: Filesystem UUID:          d9beaa77-2f65-4264-8aa4-c4f0b300688d
+20:47:09,274 INFO program: Filesystem magic number:  0xEF53
+20:47:09,275 INFO program: Filesystem revision #:    1 (dynamic)
+20:47:09,276 INFO program: Filesystem features:      has_journal ext_attr resize_inode dir_index filetype extent 64bit flex_bg sparse_super huge_file uninit_bg dir_nlink extra_isize
+20:47:09,276 INFO program: Filesystem flags:         signed_directory_hash 
+20:47:09,277 INFO program: Default mount options:    user_xattr acl
+20:47:09,277 INFO program: Filesystem state:         clean
+20:47:09,278 INFO program: Errors behavior:          Continue
+20:47:09,280 INFO program: Filesystem OS type:       Linux
+20:47:09,280 INFO program: Inode count:              131072
+20:47:09,280 INFO program: Block count:              2097152
+20:47:09,280 INFO program: Reserved block count:     0
+20:47:09,280 INFO program: Free blocks:              669545
+20:47:09,280 INFO program: Free inodes:              94617
+20:47:09,280 INFO program: First block:              1
+20:47:09,281 INFO program: Block size:               1024
+20:47:09,281 INFO program: Fragment size:            1024
+20:47:09,281 INFO program: Group descriptor size:    64
+20:47:09,281 INFO program: Reserved GDT blocks:      256
+20:47:09,281 INFO program: Blocks per group:         8192
+20:47:09,281 INFO program: Fragments per group:      8192
+20:47:09,281 INFO program: Inodes per group:         512
+20:47:09,281 INFO program: Inode blocks per group:   128
+20:47:09,282 INFO program: Flex block group size:    16
+20:47:09,282 INFO program: Filesystem created:       Thu May  3 20:31:09 2018
+20:47:09,282 INFO program: Last mount time:          Thu May  3 20:31:29 2018
+20:47:09,282 INFO program: Last write time:          Thu May  3 20:31:38 2018
+20:47:09,282 INFO program: Mount count:              2
+20:47:09,282 INFO program: Maximum mount count:      -1
+20:47:09,282 INFO program: Last checked:             Thu May  3 20:31:09 2018
+20:47:09,282 INFO program: Check interval:           0 (<none>)
+20:47:09,283 INFO program: Lifetime writes:          32 MB
+20:47:09,283 INFO program: Reserved blocks uid:      0 (user root)
+20:47:09,283 INFO program: Reserved blocks gid:      0 (group root)
+20:47:09,283 INFO program: First inode:              11
+20:47:09,283 INFO program: Inode size:	          256
+20:47:09,283 INFO program: Required extra isize:     28
+20:47:09,283 INFO program: Desired extra isize:      28
+20:47:09,283 INFO program: Journal inode:            8
+20:47:09,283 INFO program: Default directory hash:   half_md4
+20:47:09,284 INFO program: Directory Hash Seed:      c4cc5b22-a9d5-44dd-b683-a21fd061e77a
+20:47:09,284 INFO program: Journal backup:           inode blocks
+20:47:09,284 INFO program: Journal features:         journal_64bit
+20:47:09,284 INFO program: Journal size:             32M
+20:47:09,284 INFO program: Journal length:           32768
+20:47:09,284 INFO program: Journal sequence:         0x0000000a
+20:47:09,284 INFO program: Journal start:            0
+20:47:09,284 INFO program: 
+20:47:09,285 DEBUG program: Return code: 0
+20:47:09,285 INFO program: Running... resize2fs -P /dev/loop1
+20:47:09,313 INFO program: resize2fs 1.42.9 (28-Dec-2013)
+20:47:09,313 INFO program: /sbin/resize2fs: Device or resource busy while trying to open /dev/loop1
+20:47:09,313 INFO program: Couldn't find valid filesystem superblock.
+20:47:09,314 DEBUG program: Return code: 1
+20:47:09,314 INFO program: Running... e2fsck -f -p -C 0 /dev/loop1
+20:47:09,337 INFO program: /dev/loop1 is in use.
+20:47:09,338 INFO program: e2fsck: Cannot continue, aborting.
+20:47:09,339 INFO program: 
+20:47:09,339 INFO program: 
+20:47:09,340 DEBUG program: Return code: 8
+20:47:09,399 INFO program: Running... multipath -c /dev/loop2
+20:47:09,417 INFO program: /dev/loop2 is not a valid multipath device path
+20:47:09,418 DEBUG program: Return code: 1
+20:47:09,498 INFO program: Running... multipath -c /dev/mapper/live-rw
+20:47:09,513 INFO program: May 16 20:47:09 | the -c option requires a path to check
+20:47:09,514 DEBUG program: Return code: 1
+20:47:09,519 INFO program: Running... dumpe2fs -h /dev/mapper/live-rw
+20:47:09,530 INFO program: dumpe2fs 1.42.9 (28-Dec-2013)
+20:47:09,531 INFO program: Filesystem volume name:   Anaconda
+20:47:09,531 INFO program: Last mounted on:          /sysroot
+20:47:09,532 INFO program: Filesystem UUID:          d9beaa77-2f65-4264-8aa4-c4f0b300688d
+20:47:09,532 INFO program: Filesystem magic number:  0xEF53
+20:47:09,533 INFO program: Filesystem revision #:    1 (dynamic)
+20:47:09,533 INFO program: Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super huge_file uninit_bg dir_nlink extra_isize
+20:47:09,534 INFO program: Filesystem flags:         signed_directory_hash 
+20:47:09,535 INFO program: Default mount options:    user_xattr acl
+20:47:09,535 INFO program: Filesystem state:         clean
+20:47:09,536 INFO program: Errors behavior:          Continue
+20:47:09,536 INFO program: Filesystem OS type:       Linux
+20:47:09,537 INFO program: Inode count:              131072
+20:47:09,538 INFO program: Block count:              2097152
+20:47:09,538 INFO program: Reserved block count:     0
+20:47:09,539 INFO program: Free blocks:              669545
+20:47:09,539 INFO program: Free inodes:              94617
+20:47:09,540 INFO program: First block:              1
+20:47:09,541 INFO program: Block size:               1024
+20:47:09,542 INFO program: Fragment size:            1024
+20:47:09,544 INFO program: Group descriptor size:    64
+20:47:09,545 INFO program: Reserved GDT blocks:      256
+20:47:09,545 INFO program: Blocks per group:         8192
+20:47:09,546 INFO program: Fragments per group:      8192
+20:47:09,546 INFO program: Inodes per group:         512
+20:47:09,546 INFO program: Inode blocks per group:   128
+20:47:09,546 INFO program: Flex block group size:    16
+20:47:09,546 INFO program: Filesystem created:       Thu May  3 20:31:09 2018
+20:47:09,547 INFO program: Last mount time:          Wed May 16 20:46:57 2018
+20:47:09,547 INFO program: Last write time:          Wed May 16 20:46:57 2018
+20:47:09,547 INFO program: Mount count:              3
+20:47:09,547 INFO program: Maximum mount count:      -1
+20:47:09,547 INFO program: Last checked:             Thu May  3 20:31:09 2018
+20:47:09,548 INFO program: Check interval:           0 (<none>)
+20:47:09,548 INFO program: Lifetime writes:          32 MB
+20:47:09,548 INFO program: Reserved blocks uid:      0 (user root)
+20:47:09,549 INFO program: Reserved blocks gid:      0 (group root)
+20:47:09,549 INFO program: First inode:              11
+20:47:09,549 INFO program: Inode size:	          256
+20:47:09,550 INFO program: Required extra isize:     28
+20:47:09,550 INFO program: Desired extra isize:      28
+20:47:09,550 INFO program: Journal inode:            8
+20:47:09,550 INFO program: Default directory hash:   half_md4
+20:47:09,551 INFO program: Directory Hash Seed:      c4cc5b22-a9d5-44dd-b683-a21fd061e77a
+20:47:09,551 INFO program: Journal backup:           inode blocks
+20:47:09,551 INFO program: Journal features:         journal_64bit
+20:47:09,551 INFO program: Journal size:             32M
+20:47:09,552 INFO program: Journal length:           32768
+20:47:09,552 INFO program: Journal sequence:         0x0000000b
+20:47:09,552 INFO program: Journal start:            1
+20:47:09,552 INFO program: 
+20:47:09,553 DEBUG program: Return code: 0
+20:47:09,553 INFO program: Running... resize2fs -P /dev/mapper/live-rw
+20:47:09,565 INFO program: resize2fs 1.42.9 (28-Dec-2013)
+20:47:09,566 INFO program: Estimated minimum size of the filesystem: 1419568
+20:47:09,566 DEBUG program: Return code: 0
+20:47:09,700 INFO program: Running... multipath -c /dev/mapper/live-base
+20:47:09,708 INFO program: May 16 20:47:09 | the -c option requires a path to check
+20:47:09,708 DEBUG program: Return code: 1
+20:47:09,711 INFO program: Running... dumpe2fs -h /dev/mapper/live-base
+20:47:09,719 INFO program: dumpe2fs 1.42.9 (28-Dec-2013)
+20:47:09,719 INFO program: Filesystem volume name:   Anaconda
+20:47:09,720 INFO program: Last mounted on:          /
+20:47:09,720 INFO program: Filesystem UUID:          d9beaa77-2f65-4264-8aa4-c4f0b300688d
+20:47:09,720 INFO program: Filesystem magic number:  0xEF53
+20:47:09,720 INFO program: Filesystem revision #:    1 (dynamic)
+20:47:09,721 INFO program: Filesystem features:      has_journal ext_attr resize_inode dir_index filetype extent 64bit flex_bg sparse_super huge_file uninit_bg dir_nlink extra_isize
+20:47:09,721 INFO program: Filesystem flags:         signed_directory_hash 
+20:47:09,721 INFO program: Default mount options:    user_xattr acl
+20:47:09,721 INFO program: Filesystem state:         clean
+20:47:09,721 INFO program: Errors behavior:          Continue
+20:47:09,722 INFO program: Filesystem OS type:       Linux
+20:47:09,722 INFO program: Inode count:              131072
+20:47:09,722 INFO program: Block count:              2097152
+20:47:09,722 INFO program: Reserved block count:     0
+20:47:09,722 INFO program: Free blocks:              669545
+20:47:09,723 INFO program: Free inodes:              94617
+20:47:09,723 INFO program: First block:              1
+20:47:09,723 INFO program: Block size:               1024
+20:47:09,723 INFO program: Fragment size:            1024
+20:47:09,723 INFO program: Group descriptor size:    64
+20:47:09,724 INFO program: Reserved GDT blocks:      256
+20:47:09,724 INFO program: Blocks per group:         8192
+20:47:09,724 INFO program: Fragments per group:      8192
+20:47:09,724 INFO program: Inodes per group:         512
+20:47:09,724 INFO program: Inode blocks per group:   128
+20:47:09,724 INFO program: Flex block group size:    16
+20:47:09,725 INFO program: Filesystem created:       Thu May  3 20:31:09 2018
+20:47:09,725 INFO program: Last mount time:          Thu May  3 20:31:29 2018
+20:47:09,725 INFO program: Last write time:          Thu May  3 20:31:38 2018
+20:47:09,725 INFO program: Mount count:              2
+20:47:09,726 INFO program: Maximum mount count:      -1
+20:47:09,726 INFO program: Last checked:             Thu May  3 20:31:09 2018
+20:47:09,726 INFO program: Check interval:           0 (<none>)
+20:47:09,726 INFO program: Lifetime writes:          32 MB
+20:47:09,726 INFO program: Reserved blocks uid:      0 (user root)
+20:47:09,726 INFO program: Reserved blocks gid:      0 (group root)
+20:47:09,727 INFO program: First inode:              11
+20:47:09,727 INFO program: Inode size:	          256
+20:47:09,727 INFO program: Required extra isize:     28
+20:47:09,727 INFO program: Desired extra isize:      28
+20:47:09,727 INFO program: Journal inode:            8
+20:47:09,727 INFO program: Default directory hash:   half_md4
+20:47:09,727 INFO program: Directory Hash Seed:      c4cc5b22-a9d5-44dd-b683-a21fd061e77a
+20:47:09,727 INFO program: Journal backup:           inode blocks
+20:47:09,728 INFO program: Journal features:         journal_64bit
+20:47:09,728 INFO program: Journal size:             32M
+20:47:09,728 INFO program: Journal length:           32768
+20:47:09,728 INFO program: Journal sequence:         0x0000000a
+20:47:09,728 INFO program: Journal start:            0
+20:47:09,729 INFO program: 
+20:47:09,729 DEBUG program: Return code: 0
+20:47:09,729 INFO program: Running... resize2fs -P /dev/mapper/live-base
+20:47:09,739 INFO program: resize2fs 1.42.9 (28-Dec-2013)
+20:47:09,739 INFO program: /sbin/resize2fs: Operation not permitted while trying to open /dev/mapper/live-base
+20:47:09,740 INFO program: Couldn't find valid filesystem superblock.
+20:47:09,740 DEBUG program: Return code: 1
+20:47:09,740 INFO program: Running... e2fsck -f -p -C 0 /dev/mapper/live-base
+20:47:09,750 INFO program: /sbin/e2fsck: Operation not permitted while trying to open /dev/mapper/live-base
+20:47:09,750 INFO program: You must have r/w access to the filesystem or be root
+20:47:09,750 DEBUG program: Return code: 8
+20:47:09,755 INFO program: Running... udevadm settle --timeout=300
+20:47:09,765 DEBUG program: Return code: 0
+20:47:09,773 INFO program: Running... udevadm settle --timeout=300
+20:47:09,783 DEBUG program: Return code: 0
+20:47:09,790 INFO program: Running... udevadm settle --timeout=300
+20:47:09,800 DEBUG program: Return code: 0
+20:47:10,001 DEBUG program: Return code: 0
+20:44:17,269 INFO program: Running... udevadm settle --timeout=300
+20:44:17,281 DEBUG program: Return code: 0
+20:44:17,374 INFO program: Running... udevadm settle --timeout=300
+20:44:17,384 DEBUG program: Return code: 0
+20:44:17,570 INFO program: Running... hwclock --systohc --utc
+20:44:18,500 DEBUG program: Return code: 0
+20:44:18,533 INFO program: Running... udevadm settle --timeout=300
+20:44:18,544 DEBUG program: Return code: 0
+20:44:18,562 INFO program: Running... wipefs -f -a /dev/vda
+20:44:18,575 DEBUG program: Return code: 0
+20:44:18,576 INFO program: Running... udevadm settle --timeout=300
+20:44:18,590 DEBUG program: Return code: 0
+20:44:18,591 INFO program: Running... udevadm settle --timeout=300
+20:44:18,601 DEBUG program: Return code: 0
+20:44:18,764 INFO program: Running... udevadm settle --timeout=300
+20:44:18,791 DEBUG program: Return code: 0
+20:44:18,791 INFO program: Running... udevadm settle --timeout=300
+20:44:18,802 DEBUG program: Return code: 0
+20:44:18,804 INFO program: Running... udevadm settle --timeout=300
+20:44:18,814 DEBUG program: Return code: 0
+20:44:18,822 INFO program: Running... dd if=/dev/zero of=/dev/vda bs=512 seek=2048 count=2048
+20:44:18,885 INFO program: 2048+0 records in
+20:44:18,885 INFO program: 2048+0 records out
+20:44:18,885 INFO program: 1048576 bytes (1.0 MB) copied, 0.0511316 s, 20.5 MB/s
+20:44:18,885 DEBUG program: Return code: 0
+20:44:18,886 INFO program: Running... udevadm settle --timeout=300
+20:44:18,906 DEBUG program: Return code: 0
+20:44:18,938 INFO program: Running... udevadm settle --timeout=300
+20:44:18,973 DEBUG program: Return code: 0
+20:44:18,980 INFO program: Running... wipefs -f -a /dev/vda1
+20:44:19,002 DEBUG program: Return code: 0
+20:44:19,006 INFO program: Running... udevadm settle --timeout=300
+20:44:19,017 DEBUG program: Return code: 0
+20:44:19,044 INFO program: Running... udevadm settle --timeout=300
+20:44:19,054 DEBUG program: Return code: 0
+20:44:19,081 INFO program: Running... udevadm settle --timeout=300
+20:44:19,106 DEBUG program: Return code: 0
+20:44:19,112 INFO program: Running... mkfs.xfs -f /dev/vda1
+20:44:20,424 INFO program: meta-data=/dev/vda1              isize=512    agcount=4, agsize=524224 blks
+20:44:20,425 INFO program:          =                       sectsz=512   attr=2, projid32bit=1
+20:44:20,426 INFO program:          =                       crc=1        finobt=0, sparse=0
+20:44:20,426 INFO program: data     =                       bsize=4096   blocks=2096896, imaxpct=25
+20:44:20,426 INFO program:          =                       sunit=0      swidth=0 blks
+20:44:20,427 INFO program: naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+20:44:20,427 INFO program: log      =internal log           bsize=4096   blocks=2560, version=2
+20:44:20,428 INFO program:          =                       sectsz=512   sunit=0 blks, lazy-count=1
+20:44:20,428 INFO program: realtime =none                   extsz=4096   blocks=0, rtextents=0
+20:44:20,429 DEBUG program: Return code: 0
+20:44:20,432 INFO program: Running... xfs_admin -L -- /dev/vda1
+20:44:20,503 INFO program: writing all SBs
+20:44:20,503 INFO program: new label = ""
+20:44:20,503 DEBUG program: Return code: 0
+20:44:20,505 INFO program: Running... udevadm settle --timeout=300
+20:44:20,531 DEBUG program: Return code: 0
+20:44:20,532 INFO program: Running... udevadm settle --timeout=300
+20:44:20,542 DEBUG program: Return code: 0
+20:44:20,664 INFO program: Running... mount -t xfs -o defaults /dev/vda1 /mnt/sysimage
+20:44:20,727 DEBUG program: Return code: 0
+20:44:20,736 INFO program: Running... mount -t bind -o bind,defaults /dev /mnt/sysimage/dev
+20:44:20,744 DEBUG program: Return code: 0
+20:44:20,747 INFO program: Running... mount -t devpts -o gid=5,mode=620 devpts /mnt/sysimage/dev/pts
+20:44:20,754 DEBUG program: Return code: 0
+20:44:20,756 INFO program: Running... mount -t tmpfs -o defaults tmpfs /mnt/sysimage/dev/shm
+20:44:20,763 DEBUG program: Return code: 0
+20:44:20,779 INFO program: Running... mount -t proc -o defaults proc /mnt/sysimage/proc
+20:44:20,786 DEBUG program: Return code: 0
+20:44:20,862 INFO program: Running... mount -t bind -o bind,defaults /run /mnt/sysimage/run
+20:44:20,870 DEBUG program: Return code: 0
+20:44:20,875 INFO program: Running... mount -t sysfs -o defaults sysfs /mnt/sysimage/sys
+20:44:20,882 DEBUG program: Return code: 0
+20:44:20,885 INFO program: Running... mount -t selinuxfs -o defaults selinuxfs /mnt/sysimage/sys/fs/selinux
+20:44:20,892 DEBUG program: Return code: 0
+20:44:20,908 INFO program: Running... systemctl status chronyd.service
+20:44:20,954 INFO program: * chronyd.service - NTP client/server
+20:44:20,955 INFO program: Loaded: loaded (/usr/lib/systemd/system/chronyd.service; enabled; vendor preset: enabled)
+20:44:20,955 INFO program: Active: active (running) since Wed 2018-05-16 20:47:09 UTC; 2min 48s left
+20:44:20,956 INFO program: Docs: man:chronyd(8)
+20:44:20,956 INFO program: man:chrony.conf(5)
+20:44:20,957 INFO program: Process: 1693 ExecStartPost=/usr/libexec/chrony-helper update-daemon (code=exited, status=0/SUCCESS)
+20:44:20,958 INFO program: Process: 1688 ExecStart=/usr/sbin/chronyd $OPTIONS (code=exited, status=0/SUCCESS)
+20:44:20,958 INFO program: Main PID: 1690 (chronyd)
+20:44:20,959 INFO program: CGroup: /system.slice/chronyd.service
+20:44:20,959 INFO program: `-1690 /usr/sbin/chronyd
+20:44:20,960 INFO program: 
+20:44:20,960 INFO program: May 16 20:47:09 localhost.localdomain systemd[1]: Starting NTP client/server...
+20:44:20,961 INFO program: May 16 20:47:09 localhost.localdomain chronyd[1690]: chronyd version 3.2 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SECHASH +SIGND +ASYNCDNS +IPV6 +DEBUG)
+20:44:20,961 INFO program: May 16 20:47:09 localhost.localdomain systemd[1]: Started NTP client/server.
+20:44:20,962 INFO program: May 16 20:47:14 localhost.localdomain chronyd[1690]: Selected source 172.98.193.44
+20:44:20,962 INFO program: May 16 20:47:14 localhost.localdomain chronyd[1690]: System clock wrong by -184.808360 seconds, adjustment started
+20:44:20,963 INFO program: May 16 20:44:09 localhost.localdomain chronyd[1690]: System clock was stepped by -184.808360 seconds
+20:44:20,964 INFO program: May 16 20:44:10 localhost.localdomain chronyd[1690]: Selected source 45.33.48.4
+20:44:20,964 INFO program: May 16 20:44:11 localhost.localdomain chronyd[1690]: Source 45.76.244.193 replaced with 198.60.22.240
+20:44:20,965 DEBUG program: Return code: 0
+20:44:20,984 INFO program: Running... systemd-detect-virt
+20:44:20,997 INFO program: kvm
+20:44:20,997 DEBUG program: Return code: 0
+20:44:26,792 INFO program: Running... /usr/libexec/anaconda/anaconda-yum --config /tmp/anaconda-yum.conf --tsfile /mnt/sysimage/anaconda-yum.yumtx --rpmlog /tmp/rpm-script.log --installroot /mnt/sysimage --release 7 --arch x86_64 --macro __dbi_htconfig hash nofsync %{__dbi_other} %{__dbi_perms} --macro __file_context_path /etc/selinux/targeted/contexts/files/file_contexts
+20:49:57,430 INFO program: Running... xfs_freeze -f /
+20:49:59,048 DEBUG program: Return code: 0
+20:49:59,049 INFO program: Running... xfs_freeze -u /
+20:49:59,060 DEBUG program: Return code: 0
+20:49:59,063 INFO program: Running... grub2-install --no-floppy /dev/vda
+20:50:04,736 INFO program: Installing for i386-pc platform.
+20:50:04,736 INFO program: Installation finished. No error reported.
+20:50:04,736 DEBUG program: Return code: 0
+20:50:04,748 INFO program: Running... xfs_freeze -f /
+20:50:04,994 DEBUG program: Return code: 0
+20:50:04,995 INFO program: Running... xfs_freeze -u /
+20:50:05,006 DEBUG program: Return code: 0
+20:50:05,012 INFO program: Running... grub2-set-default 0
+20:50:05,102 DEBUG program: Return code: 0
+20:50:05,103 INFO program: Running... grub2-mkconfig -o /boot/grub2/grub.cfg
+20:50:05,843 INFO program: Generating grub configuration file ...
+20:50:05,844 INFO program: Found linux image: /boot/vmlinuz-3.10.0-862.2.3.el7.x86_64
+20:50:05,844 INFO program: Found initrd image: /boot/initramfs-3.10.0-862.2.3.el7.x86_64.img
+20:50:05,844 INFO program: Found linux image: /boot/vmlinuz-0-rescue-622ba110a69e24eda2dca57e4d306baa
+20:50:05,844 INFO program: Found initrd image: /boot/initramfs-0-rescue-622ba110a69e24eda2dca57e4d306baa.img
+20:50:05,844 INFO program: done
+20:50:05,844 DEBUG program: Return code: 0
+20:50:05,862 INFO program: Running... xfs_freeze -f /
+20:50:06,114 DEBUG program: Return code: 0
+20:50:06,114 INFO program: Running... xfs_freeze -u /
+20:50:06,125 DEBUG program: Return code: 0
+20:50:06,170 INFO program: Running... /usr/sbin/authconfig --update --nostart --enableshadow --passalgo=sha512
+20:50:06,931 DEBUG program: Return code: 0
+20:50:06,940 INFO program: Running... systemctl disable kdump.service
+20:50:06,960 INFO program: Removed /etc/systemd/system/multi-user.target.wants/kdump.service.
+20:50:06,961 DEBUG program: Return code: 0
+20:50:06,961 INFO program: Running... systemctl enable network.service
+20:50:06,992 INFO program: network.service is not a native service, redirecting to /sbin/chkconfig.
+20:50:06,993 INFO program: Executing /sbin/chkconfig network on
+20:50:06,994 DEBUG program: Return code: 0
+20:50:06,994 INFO program: Running... systemctl enable sshd.service
+20:50:07,003 DEBUG program: Return code: 0
+20:50:07,004 INFO program: Running... systemctl enable rsyslog.service
+20:50:07,011 DEBUG program: Return code: 0
+20:50:07,012 INFO program: Running... systemctl enable chronyd.service
+20:50:07,020 DEBUG program: Return code: 0
+20:50:07,103 INFO program: Running... /usr/bin/firewall-offline-cmd --enabled --service=ssh
+20:50:07,752 INFO program: Adding service 'ssh' to default zone.
+20:50:07,753 INFO program: ALREADY_ENABLED: ssh
+20:50:07,753 INFO program: success
+20:50:07,753 DEBUG program: Return code: 0
+20:50:08,071 INFO program: Running... systemctl enable kdump.service
+20:50:08,081 INFO program: Created symlink /etc/systemd/system/multi-user.target.wants/kdump.service, pointing to /usr/lib/systemd/system/kdump.service.
+20:50:08,082 DEBUG program: Return code: 0
+20:50:08,084 INFO program: Running... new-kernel-pkg --mkinitrd --dracut --depmod --update 3.10.0-862.2.3.el7.x86_64
+20:50:58,467 DEBUG program: Return code: 0
+20:50:58,469 INFO program: Running... /bin/sh /tmp/ks-script-aMknEh
+20:54:57,097 INFO program: Removing password for user root.
+20:54:57,098 INFO program: passwd: Success
+20:54:57,098 INFO program: Locking password for user root.
+20:54:57,098 INFO program: passwd: Success
+20:54:57,098 INFO program: Creating grub.conf for pvgrub
+20:54:57,098 INFO program: Linking menu.lst to old-style grub.conf for pv-grubSetting default runlevel to multiuser text mode.
+20:54:57,098 INFO program: Removing linux-firmware package.
+20:54:57,099 INFO program: Loaded plugins: fastestmirror
+20:54:57,099 INFO program: Resolving Dependencies
+20:54:57,099 INFO program: --> Running transaction check
+20:54:57,099 INFO program: ---> Package linux-firmware.noarch 0:20180220-62.git6d51311.el7 will be erased
+20:54:57,099 INFO program: --> Finished Dependency Resolution
+20:54:57,099 INFO program: 
+20:54:57,100 INFO program: Dependencies Resolved
+20:54:57,100 INFO program: 
+20:54:57,100 INFO program: ================================================================================
+20:54:57,100 INFO program: Package             Arch        Version                         Repository
+20:54:57,100 INFO program: Size
+20:54:57,100 INFO program: ================================================================================
+20:54:57,101 INFO program: Removing:
+20:54:57,101 INFO program: linux-firmware      noarch      20180220-62.git6d51311.el7      @os      169 M
+20:54:57,101 INFO program: 
+20:54:57,101 INFO program: Transaction Summary
+20:54:57,101 INFO program: ================================================================================
+20:54:57,101 INFO program: Remove  1 Package
+20:54:57,101 INFO program: 
+20:54:57,102 INFO program: Installed size: 169 M
+20:54:57,102 INFO program: Downloading packages:
+20:54:57,102 INFO program: Running transaction check
+20:54:57,102 INFO program: Running transaction test
+20:54:57,102 INFO program: Transaction test succeeded
+20:54:57,103 INFO program: Running transaction
+20:54:57,103 INFO program: Erasing    : linux-firmware-20180220-62.git6d51311.el7.noarch             1/1
+20:54:57,103 INFO program: Verifying  : linux-firmware-20180220-62.git6d51311.el7.noarch             1/1
+20:54:57,103 INFO program: 
+20:54:57,103 INFO program: Removed:
+20:54:57,104 INFO program: linux-firmware.noarch 0:20180220-62.git6d51311.el7
+20:54:57,104 INFO program: 
+20:54:57,104 INFO program: Complete!
+20:54:57,104 INFO program: Removing firewalld.
+20:54:57,104 INFO program: Loaded plugins: fastestmirror
+20:54:57,105 INFO program: Resolving Dependencies
+20:54:57,105 INFO program: --> Running transaction check
+20:54:57,105 INFO program: ---> Package firewalld.noarch 0:0.4.4.4-14.el7 will be erased
+20:54:57,105 INFO program: --> Finished Dependency Resolution
+20:54:57,105 INFO program: --> Finding unneeded leftover dependencies
+20:54:57,106 INFO program: ---> Marking ipset to be removed - no longer needed by firewalld
+20:54:57,106 INFO program: ---> Marking firewalld-filesystem to be removed - no longer needed by firewalld
+20:54:57,106 INFO program: ---> Marking ebtables to be removed - no longer needed by firewalld
+20:54:57,106 INFO program: ---> Marking python-firewall to be removed - no longer needed by firewalld
+20:54:57,106 INFO program: ---> Marking ipset-libs to be removed - no longer needed by ipset
+20:54:57,107 INFO program: ---> Marking python-slip-dbus to be removed - no longer needed by python-firewall
+20:54:57,107 INFO program: ---> Marking python-slip to be removed - no longer needed by python-slip-dbus
+20:54:57,107 INFO program: Found and removing 7 unneeded dependencies
+20:54:57,107 INFO program: --> Running transaction check
+20:54:57,107 INFO program: ---> Package ebtables.x86_64 0:2.0.10-16.el7 will be erased
+20:54:57,108 INFO program: ---> Package firewalld-filesystem.noarch 0:0.4.4.4-14.el7 will be erased
+20:54:57,108 INFO program: ---> Package ipset.x86_64 0:6.29-1.el7 will be erased
+20:54:57,108 INFO program: ---> Package ipset-libs.x86_64 0:6.29-1.el7 will be erased
+20:54:57,108 INFO program: ---> Package python-firewall.noarch 0:0.4.4.4-14.el7 will be erased
+20:54:57,108 INFO program: ---> Package python-slip.noarch 0:0.4.0-4.el7 will be erased
+20:54:57,109 INFO program: ---> Package python-slip-dbus.noarch 0:0.4.0-4.el7 will be erased
+20:54:57,109 INFO program: --> Finished Dependency Resolution
+20:54:57,109 INFO program: 
+20:54:57,109 INFO program: Dependencies Resolved
+20:54:57,109 INFO program: 
+20:54:57,110 INFO program: ================================================================================
+20:54:57,110 INFO program: Package                    Arch         Version                Repository
+20:54:57,110 INFO program: Size
+20:54:57,110 INFO program: ================================================================================
+20:54:57,110 INFO program: Removing:
+20:54:57,111 INFO program: firewalld                  noarch       0.4.4.4-14.el7         @os       1.8 M
+20:54:57,111 INFO program: Removing for dependencies:
+20:54:57,111 INFO program: ebtables                   x86_64       2.0.10-16.el7          @os       343 k
+20:54:57,111 INFO program: firewalld-filesystem       noarch       0.4.4.4-14.el7         @os       239
+20:54:57,111 INFO program: ipset                      x86_64       6.29-1.el7             @os        74 k
+20:54:57,112 INFO program: ipset-libs                 x86_64       6.29-1.el7             @os       264 k
+20:54:57,112 INFO program: python-firewall            noarch       0.4.4.4-14.el7         @os       1.8 M
+20:54:57,112 INFO program: python-slip                noarch       0.4.0-4.el7            @os        60 k
+20:54:57,112 INFO program: python-slip-dbus           noarch       0.4.0-4.el7            @os        75 k
+20:54:57,112 INFO program: 
+20:54:57,113 INFO program: Transaction Summary
+20:54:57,113 INFO program: ================================================================================
+20:54:57,113 INFO program: Remove  1 Package (+7 Dependent packages)
+20:54:57,113 INFO program: 
+20:54:57,113 INFO program: Installed size: 4.3 M
+20:54:57,114 INFO program: Downloading packages:
+20:54:57,114 INFO program: Running transaction check
+20:54:57,114 INFO program: Running transaction test
+20:54:57,114 INFO program: Transaction test succeeded
+20:54:57,114 INFO program: Running transaction
+20:54:57,115 INFO program: Erasing    : firewalld-0.4.4.4-14.el7.noarch                              1/8
+20:54:57,115 INFO program: Erasing    : python-firewall-0.4.4.4-14.el7.noarch                        2/8
+20:54:57,115 INFO program: Erasing    : python-slip-dbus-0.4.0-4.el7.noarch                          3/8
+20:54:57,115 INFO program: Erasing    : ipset-6.29-1.el7.x86_64                                      4/8
+20:54:57,115 INFO program: Erasing    : python-slip-0.4.0-4.el7.noarch                               5/8
+20:54:57,116 INFO program: Erasing    : firewalld-filesystem-0.4.4.4-14.el7.noarch                   6/8
+20:54:57,116 INFO program: Erasing    : ipset-libs-6.29-1.el7.x86_64                                 7/8
+20:54:57,116 INFO program: Erasing    : ebtables-2.0.10-16.el7.x86_64                                8/8
+20:54:57,116 INFO program: Verifying  : ipset-libs-6.29-1.el7.x86_64                                 1/8
+20:54:57,116 INFO program: Verifying  : firewalld-filesystem-0.4.4.4-14.el7.noarch                   2/8
+20:54:57,117 INFO program: Verifying  : python-firewall-0.4.4.4-14.el7.noarch                        3/8
+20:54:57,117 INFO program: Verifying  : firewalld-0.4.4.4-14.el7.noarch                              4/8
+20:54:57,117 INFO program: Verifying  : python-slip-0.4.0-4.el7.noarch                               5/8
+20:54:57,117 INFO program: Verifying  : python-slip-dbus-0.4.0-4.el7.noarch                          6/8
+20:54:57,117 INFO program: Verifying  : ipset-6.29-1.el7.x86_64                                      7/8
+20:54:57,118 INFO program: Verifying  : ebtables-2.0.10-16.el7.x86_64                                8/8
+20:54:57,118 INFO program: 
+20:54:57,118 INFO program: Removed:
+20:54:57,118 INFO program: firewalld.noarch 0:0.4.4.4-14.el7
+20:54:57,118 INFO program: 
+20:54:57,119 INFO program: Dependency Removed:
+20:54:57,119 INFO program: ebtables.x86_64 0:2.0.10-16.el7
+20:54:57,119 INFO program: firewalld-filesystem.noarch 0:0.4.4.4-14.el7
+20:54:57,119 INFO program: ipset.x86_64 0:6.29-1.el7
+20:54:57,119 INFO program: ipset-libs.x86_64 0:6.29-1.el7
+20:54:57,120 INFO program: python-firewall.noarch 0:0.4.4.4-14.el7
+20:54:57,120 INFO program: python-slip.noarch 0:0.4.0-4.el7
+20:54:57,120 INFO program: python-slip-dbus.noarch 0:0.4.0-4.el7
+20:54:57,120 INFO program: 
+20:54:57,120 INFO program: Complete!
+20:54:57,121 INFO program: Removing avahi/zeroconf and NetworkManager
+20:54:57,121 INFO program: Loaded plugins: fastestmirror
+20:54:57,121 INFO program: No Match for argument: avahi*
+20:54:57,121 INFO program: Resolving Dependencies
+20:54:57,121 INFO program: --> Running transaction check
+20:54:57,121 INFO program: ---> Package NetworkManager.x86_64 1:1.10.2-13.el7 will be erased
+20:54:57,122 INFO program: ---> Package NetworkManager-libnm.x86_64 1:1.10.2-13.el7 will be erased
+20:54:57,122 INFO program: ---> Package NetworkManager-team.x86_64 1:1.10.2-13.el7 will be erased
+20:54:57,122 INFO program: ---> Package NetworkManager-tui.x86_64 1:1.10.2-13.el7 will be erased
+20:54:57,122 INFO program: --> Finished Dependency Resolution
+20:54:57,122 INFO program: 
+20:54:57,123 INFO program: Dependencies Resolved
+20:54:57,123 INFO program: 
+20:54:57,123 INFO program: ================================================================================
+20:54:57,123 INFO program: Package                    Arch         Version                Repository
+20:54:57,123 INFO program: Size
+20:54:57,124 INFO program: ================================================================================
+20:54:57,124 INFO program: Removing:
+20:54:57,124 INFO program: NetworkManager             x86_64       1:1.10.2-13.el7        @os       5.0 M
+20:54:57,124 INFO program: NetworkManager-libnm       x86_64       1:1.10.2-13.el7        @os       6.1 M
+20:54:57,124 INFO program: NetworkManager-team        x86_64       1:1.10.2-13.el7        @os        53 k
+20:54:57,125 INFO program: NetworkManager-tui         x86_64       1:1.10.2-13.el7        @os       256 k
+20:54:57,125 INFO program: 
+20:54:57,125 INFO program: Transaction Summary
+20:54:57,125 INFO program: ================================================================================
+20:54:57,125 INFO program: Remove  4 Packages
+20:54:57,126 INFO program: 
+20:54:57,126 INFO program: Installed size: 11 M
+20:54:57,126 INFO program: Downloading packages:
+20:54:57,126 INFO program: Running transaction check
+20:54:57,126 INFO program: Running transaction test
+20:54:57,127 INFO program: Transaction test succeeded
+20:54:57,127 INFO program: Running transaction
+20:54:57,127 INFO program: Erasing    : 1:NetworkManager-tui-1.10.2-13.el7.x86_64                    1/4
+20:54:57,127 INFO program: Erasing    : 1:NetworkManager-team-1.10.2-13.el7.x86_64                   2/4
+20:54:57,127 INFO program: Erasing    : 1:NetworkManager-1.10.2-13.el7.x86_64                        3/4
+20:54:57,128 INFO program: Erasing    : 1:NetworkManager-libnm-1.10.2-13.el7.x86_64                  4/4
+20:54:57,128 INFO program: Verifying  : 1:NetworkManager-team-1.10.2-13.el7.x86_64                   1/4
+20:54:57,128 INFO program: Verifying  : 1:NetworkManager-1.10.2-13.el7.x86_64                        2/4
+20:54:57,128 INFO program: Verifying  : 1:NetworkManager-libnm-1.10.2-13.el7.x86_64                  3/4
+20:54:57,128 INFO program: Verifying  : 1:NetworkManager-tui-1.10.2-13.el7.x86_64                    4/4
+20:54:57,129 INFO program: 
+20:54:57,129 INFO program: Removed:
+20:54:57,129 INFO program: NetworkManager.x86_64 1:1.10.2-13.el7
+20:54:57,129 INFO program: NetworkManager-libnm.x86_64 1:1.10.2-13.el7
+20:54:57,129 INFO program: NetworkManager-team.x86_64 1:1.10.2-13.el7
+20:54:57,130 INFO program: NetworkManager-tui.x86_64 1:1.10.2-13.el7
+20:54:57,130 INFO program: 
+20:54:57,130 INFO program: Complete!
+20:54:57,130 INFO program: Getty fixesNetwork fixes.
+20:54:57,130 INFO program: Disabling tmpfs for /tmp.
+20:54:57,130 INFO program: Created symlink /etc/systemd/system/tmp.mount, pointing to /dev/null.
+20:54:57,131 INFO program: Cleaning old yum repodata.
+20:54:57,131 INFO program: Loaded plugins: fastestmirror
+20:54:57,131 INFO program: Cleaning repos: base extras updates
+20:54:57,131 INFO program: Cleaning up everything
+20:54:57,131 INFO program: Maybe you want: rm -rf /var/cache/yum, to also free up space taken by orphaned data from disabled or removed repos
+20:54:57,132 INFO program: set instance type markers
+20:54:57,132 INFO program: Fixing SELinux contexts.
+20:54:57,132 INFO program: dd: error writing '/var/tmp/zeros': No space left on device
+20:54:57,132 INFO program: 7300+0 records in
+20:54:57,132 INFO program: 7299+0 records out
+20:54:57,133 INFO program: 7653556224 bytes (7.7 GB) copied, 168.353 s, 45.5 MB/s
+20:54:57,133 INFO program: (Don't worry -- that out-of-space error was expected.)
+20:54:57,133 DEBUG program: Return code: 0
+20:54:57,134 INFO program: Running... /bin/sh /tmp/ks-script-f_9vfK
+20:54:57,142 DEBUG program: Return code: 0
+20:54:57,143 INFO program: Running... /bin/sh /tmp/ks-script-yNt5A0

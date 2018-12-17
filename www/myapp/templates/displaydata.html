@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{% block title %}Display Data{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .outputdata{ 
+      color: #336699; 
+      font-size: 200%;
+    }
+    body{
+      background-image: url("images/beach-background.jpg");
+    }
+  </style>
+{% endblock %}
+{% block heading1 %} 
+    {% if head1 %}
+      {{ head1 }}
+    {% else %}
+      Err: No Heading Received
+    {% endif %} 
+{% endblock %}
+{% block output %} 
+  {% if msg %}
+    {{ msg }}
+  {% else %}
+    Err: No OutputData Received
+  {% endif %} 
+{% endblock %} 
